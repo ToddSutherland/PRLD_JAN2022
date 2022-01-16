@@ -1,0 +1,91 @@
+<!-- the source of the images are in the folders within the HTML folder -->
+
+<!-- begin with SQUARE BRACKETS -->
+[
+	electricDreams : {
+		
+		"thumb" ; "URL", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	blueJaz : {
+		
+		"thumb" ; "value", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	notThere : {
+		
+		"thumb" ; "value", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	control : {
+		
+		"thumb" ; "value", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	SUAS : {
+		
+		"thumb" ; "value", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	devilHides : {
+		
+		"thumb" ; "value", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	huntingParty : {
+		
+		"thumb" ; "value", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+
+
+]

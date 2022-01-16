@@ -1,0 +1,52 @@
+/*BACKROUNDS*/
+/*EFFECTS*/
+/*COLORS*/
+.card {
+  overflow: hidden; }
+  .card .imgCap {
+    position: relative; }
+  .card h1,
+  .card h2,
+  .card h3 {
+    font-family: "Oswald", "Helvetica", sans-serif !important; }
+  .card .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.2); }
+    .card .card-img-overlay:hover img:hover {
+      transition: transform .4s;
+      transform: scale(1.2); }
+    .card .card-img-overlay .card-text {
+      color: white;
+      line-height: 1.1; }
+    .card .card-img-overlay button {
+      position: relative;
+      outline: none;
+      background-color: rgba(0, 0, 0, 0.3);
+      font-family: "Playfair Display", "Droid Serif", serif;
+      color: #e4efff;
+      margin-top: 0;
+      padding: .5rem .8rem;
+      border: 1px solid #fff;
+      transition: all .3s; }
+      .card .card-img-overlay button h4.card-title {
+        text-align: center;
+        color: white;
+        margin: -3px 0 0; }
+      .card .card-img-overlay button:hover {
+        background-color: #98a239; }
+      .card .card-img-overlay button:not:hover,
+      .card .card-img-overlay button:not a,
+      .card .card-img-overlay button:not a:hover {
+        background-color: rgba(0, 0, 0, 0.5); }
+  .card .card-body .closer {
+    background-color: #e6e6e6;
+    width: 24px;
+    height: 24px;
+    color: white;
+    flex-direction: column;
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    text-align: center;
+    padding: 2px 0 0;
+    transition: all .3s; }
+    .card .card-body .closer:hover {
+      background-color: #666; }

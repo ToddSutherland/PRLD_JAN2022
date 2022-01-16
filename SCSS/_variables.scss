@@ -1,0 +1,88 @@
+
+// BREAKPOINTS
+
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin mobileOnly {
+	@media (max-width: #{$tablet-width - 1px}) {
+		@content;
+	}
+}
+
+@mixin tabletOnly {
+	@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+		@content;
+	}
+}
+
+@mixin tabletUp {
+	@media (min-width: #{$tablet-width}) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media (min-width: #{$desktop-width}) {
+		@content;
+	}
+}
+
+
+// WEBFONTS
+$NAVstack: 'Oswald','Helvetica', sans-serif;
+$TEXTstack: 'Montserrat','avenir', 'noto', sans-serif;
+$INTRO-serif: 'Noto Serif', 'Droid Serif', serif;
+$HEADINGstack: 'Playfair Display', 'Droid Serif', serif;
+
+/*BACKROUNDS*/
+
+
+/*EFFECTS*/
+$txtShadow : 4px, 4px, 3px, rgb(0, 0, 0);
+
+$boxShadowReg: 5px 2px 10px #dee2e6;
+
+$boxShadowInset: inset 2px 2px 3px #666;
+
+
+/*COLORS*/
+$transBlack: rgba(0, 0, 0, .85);
+$greyDark: rgb(150, 150, 150);
+$PRLDgreen: rgb(152, 162, 57);
+$PRLDgold: rgb(213, 174, 65);
+$PRLDwhite: rgb(228, 239, 255);
+$BRITEgreen: rgb(200, 222, 109);
+$HOUZZgreen: rgb(77, 188, 21);
+$TXTrollo: rgb(97, 92, 71);
+$TXTtone: rgb(129, 125, 108);
+
+
+$NAVcolor: $PRLDgreen;
+$NAVhover: $PRLDgold;
+
+$mobiFootBG: rgba($PRLDwhite, 1.0);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

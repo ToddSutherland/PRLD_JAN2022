@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="AdaptiveCARDS.css">
+</head>
+
+<body>
+
+  <div class="container flex-wrap">
+  <!-- RESPONSIVE CARD DROPDOWN V1 -->
+  <div class="row d-flex flex-wrap justify-content-center" id="cardRow">
+    <!-- CARD 1/3 -->
+    
+      <div class="col-4 p-0">
+        <div class="card col-12 m-auto p-0">
+          <div class="imgCap col-9">
+            <img class="d-none d-sm-flex card-img-top picBig" src="https://placeimg.com/300/300/nature" alt="Card image">
+            <img class="d-flex d-sm-none card-img-top picSmall" src="https://placeimg.com/300/100/people" alt="Card image cap">
+          </div>
+          <div id="DESIGN" class="OVERLAY card-img-overlay p-1 m-0 d-flex flex-column justify-content-center">
+            <div class="d-flex-inline text-center">
+              <button>
+                <h4 class="card-title">Design</h4>
+              </button>
+            </div>
+            <div class="d-none d-flex-inline text-center">
+              <p class="card-text">More about our <br>design services</p>
+            </div>
+            <div class="d-none d-sm-flex-inline text-center"> <button type="button" class="pb-1 mt-2"><span class="small">read more...</span> </button></div>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 2/3 -->
+      <div class="col-12 col-sm-4 p-0">
+        <div class="card col m-auto p-0">
+          <img class="d-none d-sm-flex card-img-top picBig" src="https://placeimg.com/299/299/nature" alt="Card image cap">
+          <img class="d-flex d-sm-none card-img-top picSmall" src="https://placeimg.com/300/100/architecture" alt="Card image cap">
+          <div id="INSTALL" class="OVERLAY card-img-overlay p-1 m-0 d-flex flex-column justify-content-center">
+            <div class="d-flex-inline text-center">
+              <button>
+                <h4 class="card-title">Installation</h4>
+              </button>
+            </div>
+            <div class="d-none d-flex-inline text-center">
+              <p class="card-text">We handle all<br>installation details</p>
+            </div>
+            <div class="d-none d-sm-flex-inline text-center"> <button type="button" class="pb-1 mt-2"><span class="small">read more...</span> </button></div>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 3/3 -->
+      <div class="col-12 col-sm-4 p-0">
+        <div class="card col m-auto p-0">
+          <img class="d-none d-sm-flex card-img-top picBig" src="https://placeimg.com/298/298/nature" alt="Card image cap">
+          <img class="d-flex d-sm-none card-img-top picSmall" src="https://placeimg.com/300/100/nature" alt="Card image cap">
+          <div id="MAINT" class="OVERLAY card-img-overlay p-1 m-0 d-flex flex-column justify-content-center">
+            <div class="d-flex-inline text-center">
+              <button>
+                <h4 class="card-title">Maintenance</h4>
+              </button>
+            </div>
+            <div class="d-none d-flex-inline text-center">
+              <p class="card-text">we provide<br>full maintnance</p>
+            </div>
+            <div class="d-none d-sm-flex-inline text-center"> <button type="button" class="pb-1 mt-2"><span class="small">read more...</span> </button></div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF CARD -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="container">
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+
+button#sendBtn, a#sendBtn {
+	position: relative;
+	outline: none;
+	background-color: rgba($PRLDgold, 0.1);
+	font-family: "Playfair Display", "Droid Serif", serif;
+	color: $PRLDgreen;
+	margin: 30px 0 0;
+	padding: 6px 20px;
+	border: 1px solid $PRLDgold;
+	border-radius: 0;
+	transform: all .5s;
+
+	&:hover/*,
+	a:hover */{
+		background-color: rgba($PRLDgreen, .7);
+        color: white; // $PRLDgreen;
+    }
+    &:active {
+    	background-color: $PRLDgold;
+    	color: white;
+    }
+}

@@ -1,0 +1,1 @@
+$(".dropdown").on("show.bs.dropdown",(function(){$(this).find(".dropdown-menu").first().stop(!0,!0).slideDown()})),$(".dropdown").on("hide.bs.dropdown",(function(){$(this).find(".dropdown-menu").first().stop(!0,!0).slideUp()}));

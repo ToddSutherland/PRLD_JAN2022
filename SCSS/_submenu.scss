@@ -1,0 +1,172 @@
+$grid-gutter-width: 6px;
+
+.dropdown {
+	position: relative;
+	display: flex;
+	justify-content: start;
+	// left: 0;
+	// right: 0;
+
+	& a {
+		// 		position: absolute;
+		display: flex;
+		justify-content: center;
+		// 	top:48px;
+		// 	left: 0;
+		// 	right: 0;
+	}
+
+	// 		& div:hover{
+	// 			position: absolute;
+	// 	display: flex;
+	// 	justify-content: center;
+	// 	top:48px;
+	// 	left: 0;
+	// 	right: 0;
+	// }
+
+}
+
+
+
+/*SUBMENU ITEMS*/
+.subMenuItems {
+	position: absolute;
+	display: none;
+	// width: 80vw;
+	margin: 0;
+	padding: 30px;
+	box-sizing: border-box;
+	background-color: rgba($PRLDgreen, .9);
+	top: 47px;
+
+	&:hover {
+		display: grid;
+	}
+
+
+
+	&#CNTCT {
+		width: 500px;
+		right: -5vw;
+		left: auto;
+
+		&:hover {
+			display: flex;
+
+		}
+
+
+
+		form {
+
+			::placeholder {
+				color: white;
+			}
+
+			input,
+			#State,
+			textarea {
+				background-color: rgba($PRLDwhite, .15);
+				color: white;
+				border: none;
+			}
+
+			textarea {
+				max-height: 80px;
+			}
+		}
+
+		a#sendBtn {
+			position: relative;
+			outline: none;
+			background-color: darken($PRLDgreen, 10%);
+			font-family: "Playfair Display", "Droid Serif", serif;
+			color: $PRLDwhite;
+			border: 1px solid $PRLDwhite;
+			border-radius: 0;
+			transform: all .5s;
+
+			&:hover {
+				background-color: lighten($PRLDgreen, 30%);
+				color: darken($PRLDgold, 30%);
+			}
+
+			// &:active {
+			// 	background-color: $PRLDgold;
+			// 	color: white;
+			// }
+		}
+	}
+
+	&#FOLIO {
+		position: fixed;
+		right: 0;
+		left: 0;
+		top: 147px;
+
+		&:hover {
+			display: grid;
+		}
+		// &:click {
+		// 	display: grid;
+		// }
+
+
+
+		ul.figureGrid {
+			list-style: none;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(140px, auto));
+			grid-auto-flow: column;
+			justify-content: center;
+			grid-gap: 6px;
+			padding: 0;
+			// background-color: rgba(0, 0, 0, .2);
+
+			li {
+				// padding: 10px;
+				box-sizing: border-box;
+				color: $PRLDwhite !important;
+
+				&:hover {
+					color: $PRLDgold !important;
+				}
+
+
+				a {
+					// @extend .navText;
+					padding: 20px;
+					text-decoration: none;
+					font-variant-caps: normal;
+					color: $PRLDwhite; // !important;
+					background-color: rgba($PRLDwhite, .15);
+
+
+					&:hover {
+						background-color: darken($PRLDgreen, 5%);
+						color: $PRLDwhite; //!important;
+
+					}
+
+					figure {
+
+
+						img {}
+
+						figcaption {
+							color: PRLDwhite;
+							// background-color: #fff;
+
+						}
+					}
+
+				}
+
+
+			}
+		}
+	}
+
+
+}

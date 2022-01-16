@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PETER RAARUP LANDSCAPE DESIGN</title>
+	<!-- ADD MUSTACHE DEPENDENCIES -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touch/1.1.0/jquery.touch.min.js"></script>
+	<!-- FONTS -->
+	<!-- FONTAWESOME -->
+	<script src="https://kit.fontawesome.com/28a8a75410.js" crossorigin="anonymous"></script>
+	<!-- BOOTSTRAP BUNDLE -->
+	<link href="JS/MDB/css/bootstrap.css" rel="stylesheet">
+	<script type="text/javascript" src="JS/bootstrap/js/bootstrap.bundle.js"></script>
+	<script type="text/javascript" src="JS/MDB/js/popper.min.js"></script>
+	<!-- MDB for animation -->
+	<script type="text/javascript" src="JS/MDB/js/mdb.min.js"></script>
+	<!-- document styles (with overrides) -->
+	<link href="CSS/home.css" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+	<!-- ADD DEPENDENCIES FOR SLIDESHOW -->
+	<!-- LIGHTBOX JS,CSS -->
+	<link href="JS/LIGHTBOX/css/lightbox_MOD1.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="JS/LIGHTBOX/js/lightbox.js"></script>
+	<!-- VELOCITY and UI -->
+	<script type="text/javascript" src="JS/VELOCITY/velocity.min.js"></script>
+	<script type="text/javascript" src="./JS/VELOCITY/velocity.ui.min.js"></script>
+	<!-- EXTRA JS LIBS -->
+	<!-- WOW -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<!-- POPPER -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.2/umd/popper.min.js"></script>
+	<!-- USER SCRIPTS -->
+	<script type="text/javascript" src="JS/_TODDuser/_CURRENT/USER2020.js"></script>
+	<script type="text/template" id="picsTemplate">
+		{{#NEWS}}
+		<div class="row pb-5">
+			<div class="col mx-auto col-12 col-md-10 p-0 pr-md-4  blogEntries">  
+				{{!ENTRY-1}}
+				<div class="row mb-2 pb-2 border-bottom">
+					<div class="col p-1 pt-0">
+						<div class="col pl-0">
+							<div id="" class="col-4 float-left pl-0">
+								<a href="{{article}}">
+									<img src="IMG/NEWS/{{img}}" class="img-fluid" alt="{{title}}"></a>
+								</div>
+								<h4>{{title}}</h4>
+								<p>{{textContent}}</p>
+							</div>
+							<!-- this block expands to fit text -->
+						</div>
+					</div>
+				</div>
+			</div>
+			{{/NEWS}}
+		</script>
+		<!-- // GET JSON URL for two different templates -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$.getJSON('TXT/NEWS.json',
+					function(data) {
+						console.log(data);
+
+				// PORTFOLIO IMAGE AND THUMB
+				var template = $('#picsTemplate').html();
+				var info = Mustache.render(template, data);
+				$('#NewsHolder').html(info);
+			});
+			});
+		</script>
+	</head>
+
+	<body>
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top px-0" id="mainNav">
+			<div class="container">
+				<a class="navbar-brand js-scroll-trigger col-8 col-lg-8 float-left position-relative d-inline-flex" href="#page-top"></a>
+				<a href="http://www.houzz.com/pro/peterraarup/peter-raarup-landscape-design" id="houzzBtn" class="col-1 d-none d-lg-inline-flex">
+					<img src="IMG/LOGOS/HOUZZ.jpg" alt="houzz influencer" class="img-fluid">
+				</a>
+				<button class="btn-sm navbar-toggler navbar-toggler-right mr-3 my-2 p-1" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="fa fa-bars"></i>
+					<!-- <span class="navbar-toggler-icon"></span> -->
+				</button>
+				<div class="collapse navbar-collapse pl-3" id="navbarResponsive">
+					<ul class="navbar-nav justify-content-lg-end">
+						<!-- below modified from agency template -->
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="index.html#page-top">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="index.html#SERVICES">SERVICES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="index.html#PORTFOLIO">PORTFOLIO</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="index.html#COMPANY">COMPANY</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="NEWS.html">NEW &amp; NOTABLE</a>
+						</li>
+						<li class="nav-item hideMobile">
+							<a class="nav-link js-scroll-trigger" href="index.html#CONTACT">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- SHOWCASE/PORTFOLIO -->
+		<div id="news" class="wrapper">
+			<section id="PF-SHOW">
+				<article class="container">
+					<div class="col-12 col-md-10 mt-5 mx-auto px-0">
+						<h1>New and Noteworthy</h1>
+						<p class="intro">
+							Dolor enim sed non amet dolor dolore dolore ex commodo velit culpa aliquip fugiat voluptate cupidatat elit mollit dolore enim anim esse nostrud veniam excepteur sint amet sunt. Incididunt irure officia officia ex cillum incididunt nulla esse. Est fugiat adipisicing duis nulla occaecat aliqua enim aliquip duis pariatur incididunt qui deserunt officia sint consectetur labore.
+						</p>
+					</div>
+					<div id="NewsHolder">
+						<!-- HOLDING DIV FOR IMAGES -->
+					</div>
+				</article>
+				<div class="container col-11 col-md-10">
+					<div class="thanks mx-auto col-12 col-md-10 p-0 pr-md-4 ">
+						<h2>Thank you for your interest!</h2>
+						<p class="intro">Lorem ipsum irure officia quis adipisicing quis do elit enim sint ut do mollit est deserunt elit pariatur reprehenderit aute labore amet et aliquip irure velit ut magna ut aute ut nostrud consectetur ut do eiusmod enim excepteur fugiat deserunt velit reprehenderit dolore adipisicing excepteur commodo consequat dolor irure id veniam ullamco do et ad aliquip labore eiusmod quis dolore pariatur pariatur aute excepteur id nulla laborum nostrud sunt ut eiusmod amet anim nostrud nisi est eiusmod commodo enim incididunt voluptate sunt tempor sed nisi cillum cillum ut aliquip in officia reprehenderit aliquip do dolor do eu et proident mollit.</p>
+					</div>
+				</div>
+			</section>
+		</div><!-- END OF WRAPPER -->
+		<!-- MOBILE BTNS -->
+		<div class="contactBtns d-flex flex-row d-md-none p-2  justify-content-center">
+			<a class="button custom_fa" id="phone" href="tel:9172024987"><span class="d-none fas fa-phone" aria-hidden="true"> | 917.202.4987</span></a>
+			<!--  fas fa-sms -->
+			<a class="button custom_fa" id="text" href="sms:19172024987">
+				<span class="d-none fas fa-sms" aria-hidden="true"> | 917.202.4987</span>
+			</a>
+			<!-- PHONE -->
+			<a class="button custom_fa" id="mail" href="mailto:info@tsx3d.com"><span class="d-none fas fa-envelope" aria-hidden="true"> | info@tsx3d.com</span>
+			</a>
+		</div>
+		<!-- Footer -->
+		<footer id="mainFoot" class="d-none d-md-flex pb-5 pt-4 bg-dark">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="logo m-auto col col-sm-5">
+							<a href="#HOME">
+								<img src="IMG/LOGOS/PRLD2020_stakWHITE.png" alt="" class="img-fluid"></a>
+							</div>
+						</div>
+					</div>
+					<div class="row" id="tagline">
+						<h4 class="ml-auto mr-auto mt-4 pb-2 text-center text-white">
+							Peter Raarup Landscape Design, inc • 4522 Coliseum Street • New Orleans, Louisiana 70115
+						</h4>
+					</div>
+					<div class="row" id="btn">
+						<button type="button" class="big ml-auto mr-auto mt-2 mb-4 pt-1 pb-0 pb-sm-1 pl-3 pr-3 text-center text-white">
+							<a href="mailto:praarup@aol.com?body=I%27m%20interested%20in%20your%20product.%20Please%20contact%20me.">Contact Peter Raarup
+							</a>
+						</button>
+					</div>
+				</div>
+			</footer>
+		</body>
+
+		</html>

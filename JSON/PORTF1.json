@@ -1,0 +1,260 @@
+/*portfolio by property
+name of file "projects"
+
+options
+pool courtyard entry atrium commercial garden 
+
+this needs to be simplified. 
+only one image name, since dif will be based on FOLDER 
+for the LARGE and DISPLAY images
+
+there will be ONE caption per category. 
+how will this be expressed?
+
+HAVE ANOTHER JSON TEMPLATE WITH DESCRIPTIONS FOR 
+CATEGORIES and captions related to the categories*/
+
+{
+  "UpperStCharles": {
+    "title": "Upper Saint Charles Avenue",
+    "image0": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image1": {
+      "category": "entry courtyard",
+      "THUMBurl": "../IMG/THUMB/thumb1.jpg",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image2": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image3": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image4": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image5": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image6": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image7": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image8": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image9": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image10": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  }
+},
+"Mcwilliams": {
+    "title": "McWilliams-Simpson Property, Lower Garden Dist.",
+    "image0": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image1": {
+      "category": "entry courtyard",
+      "THUMBurl": "../IMG/THUMB/thumb1.jpg",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image2": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image3": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image4": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image5": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image6": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image7": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image8": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image9": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image10": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": "",
+      "": {}
+  }
+},
+"StateSt": {
+    "title": "State Street property",
+    "image0": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image1": {
+      "category": "entry courtyard",
+      "THUMBurl": "../IMG/THUMB/thumb1.jpg",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image2": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image3": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image4": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image5": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image6": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image7": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image8": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image9": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": ""
+  },
+  "image10": {
+      "category": "",
+      "THUMBurl": "../IMG/THUMB/",
+      "THUMBtitle": "",
+      "LRGurl": "../IMG/",
+      "LRGcaption": "",
+      "": {}
+  }
+}
+}

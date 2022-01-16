@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>PETER version 5</title>
+  <!-- WEBFONTS: GOOGLE 2020 -->
+  <!-- SEE SCSS _FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Noto+Serif:ital@0;1&family=Oswald:wght@300;400&family=Playfair+Display:ital,wght@1,400;1,500;1,800&display=swap" rel="stylesheet">
+
+  <!--MOBILE ICONS-->
+  <link rel="icon" href=" ">
+  <link rel="shortcut icon" href="IMAGE/_favicon/MW-favicon32.png">
+  <link rel="apple-touch-icon" href="IMAGE/_favicon/MW-favicon57.png" sizes="57x57">
+  <link rel="apple-touch-icon" href="IMAGE/_favicon/MW-favicon114.png" sizes="114x114">
+  <link rel="apple-touch-icon" href="IMAGE/_favicon/MW-favicon72.png" sizes="72x72">
+  <link rel="apple-touch-icon" sizes="80x80" href="IMAGE/_favicon/MW-favicon80.png">
+  <link rel="apple-touch-icon-precomposed" sizes="android-only" href="IMAGE/_favicon/MW-favicon57.png">
+
+  <!-- DEPENDENCIES: MUSTACHE/JQUERY CDN -->
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+  <!-- LIGHTBOX JS,CSS -->
+  <link href="JS/LIGHTBOX/css/lightbox_MOD1.css" rel="stylesheet" type="text/css">
+  <script src="JS/LIGHTBOX/js/lightbox.min.js"></script>
+  <!-- VELOCITY and UI (redundant; used in MDB script, below) -->
+  <!-- <script src="JS/VELOCITY/velocity.min.js"></script>
+    <script src="JS/VELOCITY/velocity.ui.min.js"></script> -->
+    <!-- EXTRA JS LIBS -->
+    <!-- WOW -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
+    <!-- POPPER -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.2/umd/popper.min.js"></script> -->
+
+    <!-- DATA IMPORT FOR PORTFOLIO SECTION-->
+    <!-- <script>
+      $(document).ready(function() {
+
+        // USER SCRIPTS
+        $("#contctBtns button.cntct").click(function(){
+          // alert("click target");
+          $("#mobiSplash").velocity("fadeOut", 500); 
+        });
+
+
+        // JSON QUERY FROM SERVER
+        $.getJSON('http://localhost/LSEresp2020_BS4/JSON/PORTFO_SUBNAV.json' ,
+          function(data){
+            var template = $('#dataTemplate').html();
+            var info = Mustache.to_html(template , data);
+            $('#Psubnav').html(info);
+          });
+      
+    });
+  </script> -->
+  <!-- MUSTACHE TEMPLATE -->
+  <script type="text/template" id="itemTemplate">
+    {{#PORTF2}}
+    <div class="itemTemplateWrapper">
+      {{! This is a mustache comment and it is totally ignored }}
+      <div>{{name}}</div>
+      <div>{{title}}</div>
+      <div>{{email}}</div>
+      <div>{{phone}}</div>
+    </div>
+    {{/PORTF2}}
+  </script>
+  <!-- CAROUSEL CUSTOM  -->
+ <!--  <script>
+    $('.carousel').carousel({
+      interval: 1000,
+      keyboard: true,
+    })
+  </script> -->
+
+
+  <link href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+  <!-- <script src="https://code.jquery.com/jquery-3.1.0.js"></script> -->
+  <!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <!-- POPPER -->
+  <script src="JS/MDB/js/popper.min.js"></script>
+  <!-- Bootstrap core CSS -->
+  <link href="JS/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="CSS/half-slider.css" rel="stylesheet">
+  <!-- document styles (with overrides) -->
+  <link href="CSS/home.css" rel="stylesheet">
+  <!-- MDB for animation -->
+  <script src="JS/MDB/js/mdb.min.js"></script>
+  <script src="JS/MDB/js/modules/wow.js"></script>
+  
+  <!-- SCROLLREVEAL -->
+  <!-- <script src="JS/scrollreveal/scrollreveal.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal().reveal('.revealMe', { delay: 500 });
+  </script> -->
+</head>
+
+
+<!-- END OF EAD CONTENT -->
+<!-- ///////////////////////////////////////////////////////////// -->
+<!-- BEGIN BODY TAG -->
+
+<body>
+
+  <!-- WINTOP: scroll back to top on click -->
+  <div id="winTop">
+    <h4> <span class="glyphicon glyphicon-chevron-up"></span></h4>
+  </div>
+
+
+  
+
+  <!-- //////MOBI SPLASH HIDDEN ON ALL BUT SMALL DEVICES \\\\\\\ -->
+  <id id="mobiSplash" class="d-sm-none position-fixed">
+    <div class="row align-content-center">
+      <div id="coinLogo" class="col align-content-center p-b-1">
+        <img src="IMG/LOGOS/PRLDlogoCOIN.png" alt="Peter Raarup Landscape Excellence">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col shadow">
+        <div class="col ">
+          <h1>Fine Landscape Design <br> & Architecture <br> in New Orleans, Louisiana</h1>
+        </div>
+      </div>
+    </div>
+    <div id="contctBtns" class="row align-content-center">
+      <button class="cntct col-8">Call Peter</button>
+      <button class="cntct col-8">Enter Site</button>
+    </div>
+  </id>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container-fluid">
+      <div class="col-sm-10 col-md-9">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="IMG/LOGOS/logoWIDElockup.png" class="d-none d-md-block img-fluid h-50" alt="Peter Raarup Landscape Design, inc.">
+          <img src="IMG/LOGOS/logoMOBIstacked.png" class="d-xs-block d-md-none img-fluid" alt="Peter Raarup Landscape Design, inc.">
+        </a>
+      </div>
+      <!-- added column to constrain the logo -->
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse float-right" id="navbarResponsive">
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link " href="#COMPANY">COMPANY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#PORTFOLIO">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#SERVICES">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#NEWS">NEW & NOTABLE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#CONTACT">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- STATIC FOOTER -->
+  <div id="staticFoot" class=" row position-fluid d-none d-md-flex">
+    <div class="col d-none d-sm-block">
+      <h2>Fine Landscape Design & Architecture in New Orleans, Louisiana</h2>
+    </div>
+  </div><!-- END STATIC FOOTER -->
+
+  <div id="wrapper" class="m-0 p-0 position-absolute col" data-spy="scroll" data-target="" data-offset="160">
+    <!-- ///// HERO SLIDER SHOW \\\\\\ -->
+    <header id="mainHeader">
+      <div id="carouselExampleIndicators" class="carousel slide d-none d-sm-block" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="24"></li>
+        </ol>
+        <!--//////// CAROUSEL SLIDES \\\\\\ -->
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" id="pools">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>POOLS AND RECREATIONAL AREAS</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, doloribus reiciendis aliquam delectus pariatur, deleniti deserunt incidunt saepe nisi necessitatibus.</p>
+              <button type="button" class="big">Contact Peter Raarup</button>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" id="intimate">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>INTIMATE SCALE RESIDENTIAL</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo porro, architecto tempora fugit, voluptatibus laudantium!</p>
+              <button type="button" class="big">Contact Peter Raarup</button>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" id="estate">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>URBAN ESTATE</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta deleniti, eveniet commodi tempora animi dolorem ipsam quisquam perspiciatis, obcaecati nisi odio neque.<br> <em>click to see more</em></p>
+              <button type="button" class="big">Contact Peter Raarup</button>
+            </div>
+          </div>
+          <!-- SLIDE 4 -->
+          <div class="carousel-item" id="commercial">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>COMMERCIAL TREATMENTS</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quisquam tenetur facere consequatur deleniti tempora suscipit modi incidunt.</p>
+              <button type="button" class="big">Contact Peter Raarup</button>
+            </div>
+          </div>
+          <!-- SLIDE 5 -->
+          <div class="carousel-item" id="maintenance">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>SEASONAL COLOR & PERIODIC CARE</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis assumenda ipsam qui corporis, nemo harum.</p>
+              <button type="button" class="big">Contact Peter Raarup</button>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+    <!-- ////////////// END OF MAIN HEADER \\\\\\\\\\\\\ -->
+    <!-- ----------------------------------------- -->
+    <!--///////////////// SECTION 1: SERVICES \\\\\\\\\\\\\-->
+    <section id="SERVICES" class=" py-5 position-relative">
+      <header class="d-sm-none">
+        <div class="row flex h-100 align-content-center">
+          <div class="container">
+            <div class="col-sm-9 m-auto">
+              <h2>residential and commercial landscapes
+                ranging in scale from French Quarter courtyards
+              to expansive estates and office complexes</h2>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row align-content-center">
+          <div class="col-sm-11 col-md-9 m-auto">
+            <h1>Our Services</h1>
+            <div class="row">
+              <div class="col-6 m-auto pb-3 pt-0 ">
+                <img src="IMG/LOGOS/flourish1.png" class="img-fluid" alt="">
+              </div>
+            </div>
+            <p>Peter Raarup Landscape Design is a professional practice of landscape architecture based in New Orleans, Louisiana. Since 1991, the firm has been designing and installing residential and commercial landscapes ranging in scale from French Quarter courtyards to expansive estates and office complexes.</p>
+          </div>
+                    <!-- </div>
+
+                      <div class="row justify-content-center"> -->
+                        <div class="col-sm-11 col-md-9 m-auto">
+                          <div class="row align-content-center">
+                            <!-- <div class="col-sm-4 hoverLight p-sm-1 ">
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/300" class="img-fluid"  alt="design services"></a>
+                  </div>
+                  <div class="col-sm-4 hoverLight p-1">
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/300" class="img-fluid"  alt="installation services"></a>
+                  </div>
+                  <div class="col-sm-4 hoverLight p-1">
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/300" class="img-fluid" alt="maintenance services"></a>
+                  </div> -->
+                  <!-- <div class="card-columns"> -->
+                    <div class="col-sm-4 p-0 m-0">
+                      <div class="card m-1 p-0">
+                        <img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 p-0 m-0">
+                      <div class="card m-1 p-0">
+                        <img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 p-0 m-0">
+                      <div class="card m-1 p-0">
+                        <img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- end container -->
+            </section>
+
+
+            <!-- SECTION 2: portfolio/SHOWCASE -->
+            <section id="PORTFOLIO" class=" py-5">
+              <header>
+                <div class="row flex h-100 align-content-center">
+                  <div class="container">
+                    <div class="col-sm-9 m-auto">
+                      <h2>residential and commercial landscapes
+                        ranging in scale from French Quarter courtyards
+                      to expansive estates and office complexes</h2>
+                    </div>
+                  </div>
+                </div>
+              </header>
+              <div id="SHOWCASE" class="container">
+                <div class="row align-content-center flex-row">
+                  <div class="col-sm-11 col-md-10 m-auto">
+                    <h1>A showcase of our work</h1>
+                    <div class="col-8 col-sm-6 m-auto pr-0 pl-0 pb-3 pt-0 ">
+                      <img src="IMG/LOGOS/flourish1.png" class="img-fluid" alt="">
+                    </div>
+                    <!-- ///////END OF THUMBPANEL\\\\\\\\\ -->
+                    <div class="col m-auto">
+                      <p class="text intro">Lorem autoparts dolor sit amet, consectetur adipisicing elit. Aspernatur voluptate, voluptas magni.</p>
+                      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis rem, vero harum maxime, nam repudiandae ipsa animi voluptatibus nulla iusto atque id, a laborum quos itaque sed odit obcaecati inventore. ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                </div> <!-- end of head and intro -->
+                <div class="row align-content-center flex-row">
+                  <nav class="subNav m-auto p-2">
+                    <ul class="d-block">
+                      <li id="POOL" class="d-inline-block p-2" title="Large-scale installations are our specialty Sed dolore dolor voluptate. Fugiat incididunt dolore dolor nostrud in anim sed in cupidatat nulla esse non sint eu esse ut voluptate mollit.">POOL AREAS</li>
+                      <li id="COURT" class="d-inline-block p-2" title="San Francisco tube decay knife geodesic motion rain sign. Pen sensory military-grade camera assault urban weathered ablative. Corrupted physical systemic neural military-grade boat futurity augmented reality denim. ">COURTYARDS</li>
+                      <li id="ENTRY" class="d-inline-block p-2" title="-space decay jeans stimulate physical futurity engine silent uplink office. Dissident j-pop hotdog nano-spook rain euro-pop silent. Jeans realism ablative concrete spook kanji systema. Boat range-rover corporation j-pop Tokyo San Francisco rain semiotics 3D-printed cyber-sentient nodal point bomb nano-wonton soup grenade weathered. ">ENTRIES</li>
+                      <li id="ATRIUM" class="d-inline-block p-2" title="Silent pen neon spook Tokyo tiger-team beef noodles free-market advert semiotics corrupted decay cartel papier-mache saturation point rain. Drugs cardboard media augmented reality render-farm 3D-printed math. Uplink garage bridge knife bomb assault pen into cyber-boy girl footage rebar. Katana Tokyo refrigerator RAF cyber-artisanal Legba vehicle tanto towards apophenia otaku tube woman human skyscraper.">ATRIUM AREAS</li>
+                      <li id="COMM" class="d-inline-block p-2" title="Market Shibuya knife long-chain hydrocarbons drugs Tokyo systemic uplink bridge 3D-printed physical paranoid. Grenade paranoid kanji voodoo god receding neural cardboard 8-bit beef noodles computer boy sensory sprawl bomb bicycle.">COMMERCIAL</li>
+                      <li id="GARDEN" class="d-inline-block p-2" title="Gang knife faded neural youtube camera sub-orbital marketing dolphin A.I. military-grade engine fluidity city. Kanji camera rebar render-farm engine decay otaku military-grade. Human knife plastic courier nodality artisanal hotdog-space Chiba sensory Tokyo stimulate dome. ">GARDENS</li>
+                      <li id="SHOWCASE" class="d-inline-block p-2" title="Assault pre-man alcohol sentient woman office hotdog Shibuya free-market corporation.-space apophenia systemic kanji shrine boy long-chain hydrocarbons Legba carbon marketing rain table meta. Wonton soup tiger-team footage order-flow bomb paranoid warehouse modem neural."><a href=""></a>SHOWCASE</li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="row">
+                  <div class="row align-content-center">
+                    <div class="col-sm-11 col-md-10 m-0 p-0">
+                      <div class="row">
+                        <div class="col-sm-8 p-0 thumbPanel">
+                          <div class="row">
+                            <ul id="displayBoxes" class=" d-flex flex-wrap col-sm-12">
+                              <li class="d-inline-block col-6 col-sm-4 hoverbox p-1 m-0 POOLS" title="I'M NOT THERE"><a href="IMG/PFOLIO/BURG/1.jpg" class="imgGallery" data-lightbox="posters" data-title="I'm Not There"><img src="https://via.placeholder.com/300" class="img-fluid" alt="maintenance services"></a>
+                              </li>
+                              <li class="col-6 col-sm-4 hoverbox p-1 POOLS" title="CONTROL"><a href="IIMG/PFOLIO/BURG/2.jpg" class="imgGallery" data-lightbox="posters" data-title="CONTROL"><img src="https://via.placeholder.com/300" class="img-fluid" alt="maintenance services"></a>
+                              </li>
+                              <li class="col-6 col-sm-4 hoverbox p-1 POOLS" title="BLUE JASMINE"><a href="IMG/PFOLIO/BURG/3.jpg" class="imgGallery" data-lightbox="posters" data-title="Blue Jasmine"><img src="https://via.placeholder.com/300" class="img-fluid" alt="maintenance services"></a>
+                              </li>
+                              <li class="col-6 col-sm-4 hoverbox p-1 POOLS" title="DEVIL HIDES"><a href="IMG/PFOLIO/BURG/4.jpg" class="imgGallery" data-lightbox="posters" data-title="Where the Devil Hides"><img src="https://via.placeholder.com/300" class="img-fluid" alt="maintenance services"></a>
+                              </li>
+                              <li class="col-6 col-sm-4 hoverbox p-1 POOLS" title="SHUT UP &amp; SING"><a href="IMG/PFOLIO/BURG/5.jpg" class="imgGallery" data-lightbox="posters" data-title="Shut Up and Sing"><img src="https://via.placeholder.com/300" class="img-fluid" alt="maintenance services"></a>
+                              </li>
+                              <li class="col-6 col-sm-4 hoverbox p-1 POOLS" title="WINSLOW BOY"><a href="IMG/PFOLIO/CBD/1.jpg" class="imgGallery" data-lightbox="posters" data-title="The Winsolw Boy"><img src="https://via.placeholder.com/300" class="img-fluid" alt="maintenance services"></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- </div> -->
+                    <!-- <div class="row align-content-center">
+                  <div class="col-sm-11 col-md-10 m-0 p-0">
+                    <div class="row">
+                      <div class="col-sm-8 p-0 hoverbox">
+                        <div class="row">
+                          <div class="col-6 col-sm-4 hoverbox p-1">
+                            <a href="https://placeholder.com"><img src="https://via.placeholder.com/300" class="img-fluid" alt="design services"></a>
+                          </div>
+                          <div class="col-6 col-sm-4 hoverbox p-1">
+                            <a href="https://placeholder.com"><img src="https://via.placeholder.com/300" class="img-fluid" alt="installation services"></a>
+                          </div>
+                          <div class="col-6 col-sm-4 hoverbox p-1">
+                            <a href="https://placeholder.com"><img src="https://via.placeholder.com/300" class="img-fluid" alt="maintenance services"></a>
+                          </div>
+
+                          <div class="col-6 col-sm-4 hoverbox p-1">
+                            <a href="https://placeholder.com"><img src="https://via.placeholder.com/300" class="img-fluid" alt="maintenance services"></a>
+                          </div>
+                          <div class="col-6 col-sm-4 hoverbox p-1">  
+                            <a href="https://placeholder.com"><img src="https://via.placeholder.com/300" class="img-fluid" alt="maintenance services"></a>
+                          </div>
+                          <div class="col-6 col-sm-4 hoverbox p-1">
+                            <a href="https://placeholder.com"><img src="https://via.placeholder.com/300" class="img-fluid" alt="maintenance services"></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                       <div class="">
+                        <p class="text intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur voluptate, voluptas magni.</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis rem, vero harum maxime, nam repudiandae ipsa animi voluptatibus nulla iusto atque id, a laborum quos itaque sed odit obcaecati inventore. ipsum dolor sit amet.</p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div> 
+              </div> -->
+            </div>
+          </section>
+
+
+
+          <!-- SECTION 3: COMAPANY -->
+          <section id="COMPANY" class="position-relative">
+            <!-- <section id="portfolio" class="revealMe py-5"> -->
+              <header>
+                <div class="row flex h-100 align-content-center">
+                  <div class="container">
+                    <div class="col-sm-9 m-auto">
+                      <h2>residential and commercial landscapes
+                        ranging in scale from French Quarter courtyards
+                      to expansive estates and office complexes</h2>
+                    </div>
+                  </div>
+                </div>
+              </header>
+              <div id="" class="container">
+                <div class="content">
+                  <div class="row">
+                    <div class="col-sm-9 m-auto">
+                      <h1>Our Company</h1>
+                    </div>
+                    <div class="col-11 col-sm-6 m-auto pb-4 pt-0 ">
+                      <img src="IMG/LOGOS/flourish1.png" class="img-fluid" alt="">
+                    </div>
+                  </div>
+                  <div class="row align-content-center">
+                    <div class="col-sm-10 m-auto">
+                      <div class="col-sm-4 float-left">
+                        <img src="IMG/PETERpic/PETERspotLG.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="col-sm-8 float-right">
+                        <p>Peter Raarup established Peter Raarup Landscape Design in 1991 in New Orleans, Louisiana. Peter is a licensed Landscape Architect, Horticulturist, & Landscape Contractor. Peter.graduated with a B. S. in biology from Tulane University and completed his Master of Landscape Architecture at Louisiana State University. Peter hvas completed many residential and commercial landscape projects in the Greater New Orleans area, Baton Rouge and Pensacola, Florida. He also designed and installed several of the gardens of Lazarus House, a residence for persons with AIDS, in New Orleans. Peter has been involved in the design of roof gardens, terraces, and courtyards in New Orleans and New York City. Peter has had several newspaper and magazine articles written on his knowledge in the landscape field, has appeared in two HDTV landscape design episodes, and was the subject of a major article in the “New Orleans” magazine, homes and gardens section.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+
+            <!-- SECTION 4: NEWS -->
+            <section id="NEWS" class="py-5 position-relative">
+              <header>
+                <div class="row flex h-100 align-content-center">
+                  <div class="container">
+                    <div class="col-sm-9 m-auto">
+                      <h2>residential and commercial landscapes
+                        ranging in scale from French Quarter courtyards
+                      to expansive estates and office complexes</h2>
+                    </div>
+                  </div>
+                </div>
+              </header>
+              <div class="container">
+                <!-- <div class="content"> -->
+                  <div class="col-sm-10 m-auto">
+                    <h1>New & Notable</h1>
+                    <div class="col-11 col-sm-6 m-auto pb-4 pt-0 ">
+                      <img src="IMG/LOGOS/flourish1.png" class="img-fluid" alt="">
+                    </div>
+                    <!-- </div> -->
+                    <div class="row">
+                      <div class="col-sm-8 hoverLight p-1 blogEntries">
+                        <div class="row mb-2">
+                          <div id="" class=" col-sm-4 p1">
+                            <a href="https://placeholder.com">
+                              <img src="https://via.placeholder.com/300" class="img-fluid" alt="maintenance services"></a>
+                            </div>
+                            <div class="col-sm-8 p1 pt-3">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique laborum corporis earum, vero sequi, sit quam? Temporibus velit amet esse cupiditate a rerum quo veritatis odit dolores doloribus, tenetur!</p>
+                            </div>
+                          </div>
+                          <!-- second entry -->
+                          <div class="row mb-2">
+                            <div class="col-sm-8 p1 pt-3">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique laborum corporis earum, vero sequi, sit quam? Temporibus velit amet esse cupiditate a rerum quo veritatis odit dolores doloribus, tenetur!</p>
+                            </div>
+                            <div id="" class=" col-sm-4 p1 flush-right">
+                              <a href="https://placeholder.com">
+                                <img src="https://via.placeholder.com/300" class="img-fluid" alt="maintenance services"></a>
+                              </div>
+                            </div>
+                            <!-- thrid entry -->
+                            <div class="row mb-2">
+                              <div id="" class=" col-sm-4 p1">
+                                <a href="https://placeholder.com">
+                                  <img src="https://via.placeholder.com/300" class="img-fluid" alt="maintenance services"></a>
+                                </div>
+                                <div class="col-sm-8 p1 pt-3">
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique laborum corporis earum, vero sequi, sit quam? Temporibus velit amet esse cupiditate a rerum quo veritatis odit dolores doloribus, tenetur!</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-4 p1">
+                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor adipisci ad, ullam culpa odit rerum, quisquam delectus officia itaque id!</p>
+                            </div>
+                          </div>
+                        </div> <!-- 10-COL -->
+                      </div> <!-- end container -->
+                    </section>
+
+
+                    <!-- ///////////////CONTACT PETER \\\\\\\\\\\\\\\\\ -->
+                    <section id="CONTACT" class="py-5 position-relative">
+                      <header>
+                        <div class="row flex h-100 align-content-center">
+                          <div class="container">
+                            <div class="col-sm-9 m-auto">
+                              <h2>residential and commercial landscapes
+                                ranging in scale from French Quarter courtyards
+                              to expansive estates and office complexes</h2>
+                            </div>
+                          </div>
+                        </div>
+                      </header>
+                      <div class="container">
+                        <div class="content">
+                          <h1>Contact Peter Raarup</h1>
+                          <div class="col-8 col-sm-6 m-auto pb-4 pt-0 ">
+                            <img src="IMG/LOGOS/flourish1.png" class="img-fluid" alt="">
+                          </div>
+                          <div class="col-sm-10 m-auto">
+                            <div class="row h-100 align-items-top">
+                              <div class="col-sm-6 m-auto"><img src="IMG/SPOT/CNTCTspotSQR.jpg" class="img-fluid" alt="">
+                              </div>
+                              <div class="col-sm-6 mt-4">
+                                <form>
+                                  <div class="row pb-2">
+                                    <div class="col">
+                                      <input type="text" class="form-control" placeholder="First name">
+                                    </div>
+                                    <div class="col">
+                                      <input type="text" class="form-control" placeholder="Last name">
+                                    </div>
+                                  </div>
+                                  <div class="row pb-2">
+                                    <div class="col">
+                                      <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                    <div class="col">
+                                      <input type="number" class="form-control" placeholder="Phone">
+                                    </div>
+                                  </div>
+                                  <div class="row pb-2">
+                                    <div class="col">
+                                      <input type="text" class="form-control" placeholder="city">
+                                    </div>
+                                    <div class="col">
+                                      <select id="State" placeholder="State" class="form-control">
+                                        <option value="Louisiana">LA</option>
+                                        <option value="Texas">TX</option>
+                                        <option value="Alabama">AL</option>
+                                        <option value="Florida">FL</option>
+                                      </select>
+                                    </div>
+                                    <div class="col">
+                                      <input type="text" class="form-control" placeholder="Zip">
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-12">
+                                      <textarea placeholder="Describe yourself here..." rows="5" style="width: 100%" class="form-control">
+
+                                      </textarea>
+                                    </div>
+                                    <!-- SUBMIT BUTTON -->
+                                    <div class="col-11 m-auto pt-3">
+                                      <!-- CHECKBOX -->
+                                      <div class="form-group form-check">
+                                        <label class="form-check-label">
+                                          <input class="form-check-input" type="checkbox"> Remember me
+                                        </label>
+                                      </div>
+                                      <a href="#" class="btn btn-primary btn-sm btn-block" role="button" aria-pressed="true">send it</a>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div> <!-- end container -->
+                    </section>
+                    <!-- Footer -->
+                    <footer id="mainFoot" class="pt-4 pb-6 bg-dark">
+                      <div class="container">
+                        <div class="row">
+                          <div class="logo m-auto col-5"><a href="#SERVICES">
+                            <img src="IMG/LOGOS/PRLD2020_stakWHITE.png" alt="" class="img-fluid"></a></div>
+                          </div>
+                          <!-- ROW 2 -->
+                          <div class="row" id="tagline">
+                            <h2 class="ml-auto mr-auto mt-4 mb-2 text-center text-white">
+                              Fine Landscape Design <br> & Architecture <br> in New Orleans, Louisiana
+                            </h2>
+                          </div>
+                          <div class="row" id="btn">
+                            <button type="button" class="big ml-auto mr-auto mt-2 mb-4 text-center text-white">
+                              <a href="sms://+15048101822?body=I%27m%20interested%20in%20your%20product.%20Please%20contact%20me.">Contact Peter Raarup</a></button>
+                            </div>
+                            <p id="tagline" class="m-0 text-center text-white">Peter Raarup Landscape Design, inc • 4522 Coliseum Street • New Orleans, Louisiana 70115</p>
+                          </div>
+                          <!-- /.container -->
+                        </footer>
+                      </div>
+                    </body>
+
+                    </html>

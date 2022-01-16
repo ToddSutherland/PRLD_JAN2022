@@ -1,0 +1,92 @@
+
+ // FONT STYLES
+
+
+ .headings {
+ 	font-family: $NAVstack;
+ 	color: $PRLDgreen;
+ 	line-height: 1.5;
+ }
+
+ .italHead {
+	// font-family: 
+}
+
+
+
+.leadIn {
+	font-family: $TEXTstack;
+	font-family: $TXTrollo;
+	line-height: 1.5;
+	padding-bottom: 10px;
+}
+
+h1 {
+	// @extend .headings;
+	font-size: 1.8rem;
+	color: $PRLDgreen;
+}
+
+h2 {
+	// @extend .headings;
+	font-family: $HEADINGstack;
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: $PRLDgold;
+	text-align: center;
+	display: block;
+	padding: 10px 0;
+}
+
+h3 {
+	font-family: $HEADINGstack;
+	font-size: 1.4rem;
+	color: $PRLDgreen;
+}
+
+h4 {
+	font-family: $HEADINGstack;
+	font-size: 1.2rem;
+	color: $PRLDgreen;
+
+}
+h5 {
+	font-family: $HEADINGstack;
+	font-size: .9rem;
+	color: $PRLDgreen;
+}
+
+p {
+	font-family: $TEXTstack;
+	color: $TXTtone;
+	line-height: 1.5;
+	
+	.text {
+		text-align: left;
+		font-size: .8rem;
+		weight: 300;
+	}
+	.intro {
+		font-size: 18px;
+		font-weight: 400;
+	}
+	& em {
+		font-weight: bold;
+		color: $PRLDgold;
+	}
+}
+
+
+
+.showTitle {
+	font {
+		family: $NAVstack;
+		font-size: .8rem;
+		font-weight: 400;
+	}
+	color: $PRLDwhite;
+	
+}
+.showCaption {
+
+}

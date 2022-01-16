@@ -1,0 +1,492 @@
+
+{
+	"PFOLIO": [
+		{
+			"property": "UpperStCharles",
+			"title": "Upper Saint Charles Avenue",
+			"intro" : "Incididunt ut sit ut sit reprehenderit ex tempor nisi adipisicing enim eu incididunt voluptate sit adipisicing aute eiusmod id duis in excepteur do fugiat qui ut ea cillum. Tempor minim aute ex non sed eu veniam exercitation cupidatat in eiusmod ut in reprehenderit ut magna qui aliqua enim ad proident enim occaecat incididunt velit.",
+			"images": [
+				{
+					"meta": "entry",
+					"THUMB": "UpSC/MOBI/mobi1.jpg",
+					"BIG": "UpSC/img0.jpg",
+					"descrip": "Entryway Landscaping"
+				},
+				{
+					"meta": "garden",
+					"THUMB": "UpSC/MOBI/mobi2.jpg",
+					"BIG": "UpSC/img1.jpg",
+					"descrip": "Front Yard"
+				},
+				{
+					"meta": "garden",
+					"THUMB": "UpSC/MOBI/mobi3.jpg",
+					"BIG": "UpSC/img2.jpg",
+					"descrip": "Side Yard"
+				},
+				{
+					"meta": "court garden",
+					"THUMB": "UpSC/MOBI/mobi4.jpg",
+					"BIG": "UpSC/img3.jpg",
+					"descrip": "Courtyard Detail"
+				}]
+		},
+		{
+			"property": "Mcwilliams",
+			"title": "Lower Garden District residence",
+			"intro" : "",
+			"images": [
+				{
+					"meta": "pool court garden",
+					"THUMB": "McWS/MOBI/mobi1.jpg",
+					"BIG": "McWS/img1.jpg",
+					"descrip": "Pool Image"
+				},
+				{
+					"meta": "pool court ",
+					"THUMB": "McWS/MOBI/mobi2.jpg",
+					"BIG": "McWS/img2.jpg",
+					"descrip": "poolside"
+				},
+				{
+					"meta": "pool court",
+					"THUMB": "McWS/MOBI/mobi3.jpg",
+					"BIG": "McWS/img3.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "entry atrium",
+					"THUMB": "McWS/MOBI/mobi4.jpg",
+					"BIG": "McWS/img4.jpg",
+					"descrip": "Entryway detail"
+				},
+				{
+					"meta": "pool court garden",
+					"THUMB": "McWS/MOBI/mobi5.jpg",
+					"BIG": "McWS/img6.jpg",
+					"descrip": "Pool area chairs"
+				},
+				{
+					"meta": "pool court entry",
+					"THUMB": "McWS/MOBI/mobi6.jpg",
+					"BIG": "McWS/img6.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "pool court entry garden",
+					"THUMB": "McWS/MOBI/mobi7.jpg",
+					"BIG": "McWS/img7.jpg",
+					"descrip": "Back and side courtyard"
+				},
+				{
+					"meta": "entry",
+					"THUMB": "McWS/MOBI/mobi8.jpg",
+					"BIG": "McWS/img8.jpg",
+					"descrip": "Side entryway"
+				}]
+		},
+		{
+			"property": "StateSt",
+			"title": "State Street property",
+			"intro" : "",
+			"images": [
+				{
+					"meta": "pool court entry atrium comm garden",
+					"THUMB": "STATE/MOBI/mobi1.jpg",
+					"BIG": "STATE/img1.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "pool court entry atrium comm garden",
+					"THUMB": "STATE/MOBI/mobi2.jpg",
+					"BIG": "STATE/img2.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "pool court entry atrium comm garden",
+					"THUMB": "STATE/MOBI/mobi3.jpg",
+					"BIG": "STATE/img3.jpg",
+					"descrip": "Courtyard Detail"
+				}]
+		},
+		{
+			"property": "ThirdSt",
+			"title": "Third Street property",
+			"intro" : "",
+			"images": [
+				{
+					"meta": "pool court garden",
+					"THUMB": "THIRD/MOBI/mobi1.jpg",
+					"BIG": "THIRD/img1.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "pool court",
+					"THUMB": "THIRD/MOBI/mobi2.jpg",
+					"BIG": "THIRD/img2.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "pool",
+					"THUMB": "THIRD/MOBI/mobi3.jpg",
+					"BIG": "THIRD/img3.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "pool",
+					"THUMB": "THIRD/MOBI/mobi4.jpg",
+					"BIG": "THIRD/img4.jpg",
+					"descrip": "Courtyard Detail"
+				}]
+		},
+		{
+			"property": "LowerFQ",
+			"title": "Lower french Quarter Courtyard",
+			"intro" : "",
+			"images": [
+				{
+					"meta": "court garden pot",
+					"THUMB": "LFQ/MOBI/mobi1.jpg",
+					"BIG": "LFQ/img1.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "court garden",
+					"THUMB": "LFQ/MOBI/mobi2.jpg",
+					"BIG": "LFQ/img2.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "court garden pot",
+					"THUMB": "LFQ/MOBI/mobi3.jpg",
+					"BIG": "LFQ/img3.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "court garden",
+					"THUMB": "LFQ/MOBI/mobi4.jpg",
+					"BIG": "LFQ/img4.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "court garden",
+					"THUMB": "LFQ/MOBI/mobi5.jpg",
+					"BIG": "LFQ/img5.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "court garden",
+					"THUMB": "LFQ/MOBI/mobi6.jpg",
+					"BIG": "LFQ/img6.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "court garden pot",
+					"THUMB": "LFQ/MOBI/mobi7.jpg",
+					"BIG": "LFQ/img7.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "court garden pot",
+					"THUMB": "LFQ/MOBI/mobi8.jpg",
+					"BIG": "LFQ/img8.jpg",
+					"descrip": "Courtyard Detail"
+				}]
+		},
+		{
+			"property": "ColiseumSt",
+			"title": "Tropical Back Yard installation",
+			"intro" : "",
+			"images": [
+				{
+					"meta": "entry",
+					"THUMB": "COL/MOBI/mobi1.jpg",
+					"BIG": "COL/img1.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "entry",
+					"THUMB": "COL/MOBI/mobi2.jpg",
+					"BIG": "COL/img2.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "court garden pot",
+					"THUMB": "COL/MOBI/mobi3.jpg",
+					"BIG": "COL/img3.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "court garden",
+					"THUMB": "COL/MOBI/mobi4.jpg",
+					"BIG": "COL/img4.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "court garden",
+					"THUMB": "COL/MOBI/mobi5.jpg",
+					"BIG": "COL/img5.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "court garden",
+					"THUMB": "COL/MOBI/mobi6.jpg",
+					"BIG": "COL/img6.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "court garden pot",
+					"THUMB": "COL/MOBI/mobi7.jpg",
+					"BIG": "COL/img7.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "court garden pot",
+					"THUMB": "COL/MOBI/mobi8.jpg",
+					"BIG": "COL/img8.jpg",
+					"descrip": "Courtyard Detail"
+				}]
+		},
+		{
+			"property": "IonaSt",
+			"title": "Iona Street expansive landscaping",
+			"intro" : "",
+			"images": [
+				{
+					"meta": "lawn garden drive garden",
+					"THUMB": "IONA/MOBI/mobi1.jpg",
+					"BIG": "IONA/img1.jpg",
+					"descrip": "Font Yard"
+				},
+				{
+					"meta": "lawn entry drive pool garden",
+					"THUMB": "IONA/MOBI/mobi2.jpg",
+					"BIG": "IONA/img2.jpg",
+					"descrip": "Driveway entryway"
+				},
+				{
+					"meta": "lawn",
+					"THUMB": "IONA/MOBI/mobi3.jpg",
+					"BIG": "IONA/img3.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "pool",
+					"THUMB": "IONA/MOBI/mobi4.jpg",
+					"BIG": "IONA/img4.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "pool garden",
+					"THUMB": "IONA/MOBI/mobi5.jpg",
+					"BIG": "IONA/img5.jpg",
+					"descrip": "Courtyard Detail"
+				}]
+		},
+		{
+			"property": "HectorAv",
+			"title": "Hector Avenue property",
+			"intro" : "",
+			"images": [
+				{
+					"meta": "pool garden",
+					"THUMB": "HEC/MOBI/mobi1.jpg",
+					"BIG": "HEC/img1.jpg",
+					"descrip": "Font Yard"
+				},
+				{
+					"meta": "drawing",
+					"THUMB": "HEC/MOBI/mobi2.jpg",
+					"BIG": "HEC/img2.jpg",
+					"descrip": "Driveway entryway"
+				},
+				{
+					"meta": "pool pot",
+					"THUMB": "HEC/MOBI/mobi3.jpg",
+					"BIG": "HEC/img3.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "entry detail",
+					"THUMB": "HEC/MOBI/mobi4.jpg",
+					"BIG": "HEC/img4.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "entry",
+					"THUMB": "HEC/MOBI/mobi5.jpg",
+					"BIG": "HEC/img5.jpg",
+					"descrip": "Courtyard Detail"
+				}]
+		},
+		{
+			"property": "BurgundySt",
+			"title": "Burgundy Street Property",
+			"intro" : "",
+			"images": [
+				{
+					"meta": "court",
+					"THUMB": "BURG/MOBI/mobi1.jpg",
+					"BIG": "BURG/img1.jpg",
+					"descrip": "Font Yard"
+				},
+				{
+					"meta": "court",
+					"THUMB": "BURG/MOBI/mobi2.jpg",
+					"BIG": "BURG/img2.jpg",
+					"descrip": "Driveway entryway"
+				},
+				{
+					"meta": "pool",
+					"THUMB": "BURG/MOBI/mobi3.jpg",
+					"BIG": "BURG/img3.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "pool",
+					"THUMB": "BURG/MOBI/mobi4.jpg",
+					"BIG": "BURG/img4.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "court",
+					"THUMB": "BURG/MOBI/mobi5.jpg",
+					"BIG": "BURG/img5.jpg",
+					"descrip": "Courtyard Detail"
+				}]
+		},
+		{
+			"property": "JeffersonAv",
+			"title": "Jefferson Avenue property",
+			"intro" : "",
+			"images": [
+				{
+					"meta": "court",
+					"THUMB": "JEFF/MOBI/mobi1.jpg",
+					"BIG": "JEFF/img1.jpg",
+					"descrip": "Font Yard"
+				},{
+					"meta": "court",
+					"THUMB": "JEFF/MOBI/mobi2.jpg",
+					"BIG": "JEFF/img2.jpg",
+					"descrip": "Font Yard"
+				},{
+					"meta": "court",
+					"THUMB": "JEFF/MOBI/mobi3.jpg",
+					"BIG": "JEFF/img3.jpg",
+					"descrip": "Font Yard"
+				},{
+					"meta": "court",
+					"THUMB": "JEFF/MOBI/mobi4.jpg",
+					"BIG": "JEFF/img4.jpg",
+					"descrip": "Font Yard"
+				},{
+					"meta": "court",
+					"THUMB": "JEFF/MOBI/mobi5.jpg",
+					"BIG": "JEFF/img5.jpg",
+					"descrip": "Font Yard"
+				},{
+					"meta": "court",
+					"THUMB": "JEFF/MOBI/mobi6.jpg",
+					"BIG": "JEFF/img6.jpg",
+					"descrip": "Font Yard"
+				},{
+					"meta": "court",
+					"THUMB": "JEFF/MOBI/mobi7.jpg",
+					"BIG": "JEFF/img7.jpg",
+					"descrip": "Font Yard"
+				}]
+		},
+		{
+			"property": "CommBldg",
+			"title": "Commercial Building landscaping",
+			"intro" : "",
+			"images": [
+
+				{
+					"meta": "plan drawing",
+					"THUMB": "COM/MOBI/mobi0.jpg",
+					"BIG": "COM/img5.jpg",
+					"descrip": "Porperty landscape plan"
+				},
+				{
+					"meta": "drive garden entry",
+					"THUMB": "COM/MOBI/mobi1.jpg",
+					"BIG": "COM/img1.jpg",
+					"descrip": "Driveway entryway"
+				},
+				{
+					"meta": "garden entry",
+					"THUMB": "COM/MOBI/mobi2.jpg",
+					"BIG": "COM/img2.jpg",
+					"descrip": "Front property garden"
+				},
+				{
+					"meta": "detail court",
+					"THUMB": "COM/MOBI/mobi3.jpg",
+					"BIG": "COM/img3.jpg",
+					"descrip": "Courtyard Detail"
+				},
+				{
+					"meta": "trees front garden",
+					"THUMB": "COM/MOBI/mobi4.jpg",
+					"BIG": "COM/img4.jpg",
+					"descrip": "Property front detail"
+				}]
+		},
+		{
+			"property": "EverettPl",
+			"title": "Everett Place property",
+			"intro" : "",
+			"images": [
+				{
+					"meta": "detail",
+					"THUMB": "EV/MOBI/mobi1.jpg",
+					"BIG": "EV/img1.jpg",
+					"descrip": "Driveway entryway"
+				},
+				{
+					"meta": "pool detail",
+					"THUMB": "EV/MOBI/mobi2.jpg",
+					"BIG": "EV/img2.jpg",
+					"descrip": "Front property garden"
+				}]
+		},
+		{
+			"property": "CBDroof",
+			"title": "Rooftop: CBD, New Orleans",
+			"intro" : "",
+			"images": [
+				{
+					"meta": "detail",
+					"THUMB": "CBD/MOBI/mobi1.jpg",
+					"BIG": "CBD/img1.jpg",
+					"descrip": "Driveway entryway"
+				},
+				{
+					"meta": "pool detail",
+					"THUMB": "CBD/MOBI/mobi2.jpg",
+					"BIG": "CBD/img2.jpg",
+					"descrip": "Front property garden"
+				}]
+		},
+		{
+			"property": "Jeanette",
+			"title": "Jeanette Street property",
+			"intro" : "",
+			"images": [
+				{
+					"meta": "detail",
+					"THUMB": "JEAN/MOBI/mobi1.jpg",
+					"BIG": "JEAN/img1.jpg",
+					"descrip": "Driveway entryway"
+				},
+				{
+					"meta": "pool detail",
+					"THUMB": "JEAN/MOBI/mobi2.jpg",
+					"BIG": "JEAN/img2.jpg",
+					"descrip": "Front property garden"
+				}]
+		}]
+
+}

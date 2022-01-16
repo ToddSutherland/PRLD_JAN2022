@@ -1,0 +1,144 @@
+
+// FORWARD AND BACKWARD CONTROLS
+
+.carousel-indicators li {
+	position: relative;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	margin-right: 3px;
+	margin-left: 3px;
+	text-indent: -999px;
+	background-color: $PRLDwhite;
+
+	&.active {
+		background-color: $PRLDgreen;
+	}
+}
+
+.carousel-item {
+	height: 100vh;
+	background-size: cover;
+
+	// &#estate {
+		// 	background-image: url("localhost/LSEresp2020_BS4/IMG/HEROcomp/comp1.jpg");
+		// 	background-position: center ;
+		// }
+
+		&#intimate {
+			background-image: url("../IMG/HEROcomp/comp2.jpg");
+			background-position: center ;
+		}
+
+		&#commercial {
+			background-image: url("../IMG/HEROcomp/comp3.jpg");
+			background-position: center ;
+		}
+
+		&#pools {
+			background-image: url("../IMG/HEROcomp/comp6.jpg");
+			background-position: center ;
+		}
+
+		&#maintenance {
+			background-image: url("../IMG/HEROcomp/comp5.jpg");
+			background-position: center ;
+		}
+
+		&#estate {
+			background-image: url("../IMG/HEROcomp/comp6.jpg");
+			background-position: center ;
+		}
+	}
+
+	// CAROUSEL CONTROLS
+	.carousel-control-next-icon {
+		background-image: url("../IMG/BUTTONS/foreward.png") !important;
+	}
+
+	.carousel-control-prev-icon {
+		background-image: url("../IMG/BUTTONS/backward.png") !important;
+	}
+
+	.carousel-control-prev, .carousel-control-next {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-align: center;
+		align-items: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		width: 60px;
+		color: #fff;
+		text-align: right;
+		opacity: 0.5;
+	}
+
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		display: inline-block;
+		width: 40pc;
+		height: 100%;
+		background: transparent no-repeat center center;
+		background-size: 60px 120px;
+	}
+
+
+
+	// CAROUSEL CAPTION BOX
+	.carousel-caption {
+		display: inline-block; 
+		position: absolute; 
+		right: 30%; 
+		top: 50%; 
+		left: 30%; 
+		bottom: auto;
+		// max-height: 200px; 
+		// width: 45%;
+		z-index: 10;
+		background-color: rgba(black, .15);
+		backdrop-filter: blur(10px);
+		box-shadow: 10px 10px 10px rgba(10,10,10,.03);
+		// padding: 10px;
+
+		h3 {
+			font-family: $NAVstack !important;
+			font-size: 2.2em;	
+			letter-spacing: .6;	
+			margin: 0 auto;
+			padding: 0 0 12px;
+			color: white;
+			text-shadow: $txtShadow;
+		}
+		p {
+			font-family: $TEXTstack;
+			max-width: 400px;
+			margin: 0 auto;
+			color: white;
+			line-height: 1.2;
+
+			em {
+				font-weight: 500;
+				font-variant: italic;
+			}
+		}
+
+		button {
+			position: relative;
+			outline: none;
+			background-color: rgba(0,0,0,.3);
+			font-family: $HEADINGstack;
+			color: $PRLDwhite;
+			margin: 30px 0 0;
+			padding: 12px 24px;
+			border: 1px solid #fff;
+
+			&:hover, a:hover {
+				background-color: $PRLDgreen;
+			}
+
+		}
+	}

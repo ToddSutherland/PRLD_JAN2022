@@ -1,0 +1,103 @@
+<!-- the source of the images are in the folders within the HTML folder -->
+
+<!-- begin with SQUARE BRACKETS -->
+[
+	covendium : {
+		
+		"thumb" ; "URL", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	bentoburger : {
+		
+		"thumb" ; "value", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	lunchbox : {
+		
+		"thumb" ; "value", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	imNotThere : {
+		
+		"thumb" ; "value", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	huntingParty : {
+		
+		"thumb" ; "value", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	clerks2 : {
+		
+		"thumb" ; "value", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	alliedIM : {
+		
+		"thumb" ; "value", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	redLacquer : {
+		
+		"thumb" ; "value", <!-- unless a numeric value? -->
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+
+
+]

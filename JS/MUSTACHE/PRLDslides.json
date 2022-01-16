@@ -1,0 +1,51 @@
+{"LSEshots" : [
+	// value 0
+	{"imgName" : "name_here"},
+	{"propName" : "property name"},
+	{"category" : "category Name"},
+	{"descrip" : "description"},
+	{"imgArray" : [
+		// push some values here based on the number of images?? how?
+	]},
+	// value 1
+	{"imgName" : "name_here"},
+	{"propName" : "property name"},
+	{"category" : "category Name"},
+	{"descrip" : "description"},
+	{"imgArray" : [
+		// push some values here based on the number of images?? how?
+	]},
+	// value 2
+	{"imgName" : "name_here"},
+	{"propName" : "property name"},
+	{"category" : "category Name"},
+	{"descrip" : "description"},
+	{"imgArray" : [
+		// push some values here based on the number of images?? how?
+	]},
+	// value 3
+	{"imgName" : "name_here"},
+	{"propName" : "property name"},
+	{"category" : "category Name"},
+	{"descrip" : "description"},
+	{"imgArray" : [
+		// push some values here based on the number of images?? how?
+	]},
+	// value 4
+	{"imgName" : "name_here"},
+	{"propName" : "property name"},
+	{"category" : "category Name"},
+	{"descrip" : "description"},
+	{"imgArray" : [
+		// push some values here based on the number of images?? how?
+	]},
+	// value 5
+	{"imgName" : "name_here"},
+	{"propName" : "property name"},
+	{"category" : "category Name"},
+	{"descrip" : "description"},
+	{"imgArray" : [
+		// push some values here based on the number of images?? how?
+	]},
+]
+}

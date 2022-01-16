@@ -1,0 +1,113 @@
+
+[
+	covendium : {
+		
+		"thumb" ; "URL", 
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	bentoburger : {
+		
+		"thumb" ; "value", 
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	lunchbox : {
+		
+		"thumb" ; "value", 
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	imNotThere : {
+		
+		"thumb" ; "value", 
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	huntingParty : {
+		
+		"thumb" ; "value",
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	clerks2 : {
+		
+		"thumb" ; "value",
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	alliedIM : {
+		
+		"thumb" ; "value",
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	redLacquer : {
+		
+		"thumb" ; "value",
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	},
+	harris : {
+		
+		"thumb" ; "value",
+		"large" ; {"URL", "URL","URL","URL","URL","URL"},
+		"title" ; "value",
+		"subtitle" ; "{8:value}",
+		"client" ; "{8:value}",
+		"year" ; "{8:value}",
+		"directive" ; "{8:value}",
+		"description" ; "{8:value}",
+
+	}
+
+
+]

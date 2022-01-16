@@ -1,0 +1,37 @@
+
+@import "http://fonts.fontstorage.com/import/acme.css";
+/*
+	Acme, 400
+	*/
+
+
+
+	section {
+		/*position: relative;*/
+		/*display: block;*/
+		/*width: 70vw;*/
+		/*margin: 10px auto;*/
+		background-color: #dedede;
+		min-height: 600px;
+	}
+	article {
+		position: relative;
+		display: block;
+		width: inherit -20px;
+		margin: 10px auto;
+		background-color: #999
+	}
+
+	img {
+		position: relative;
+		width: 20%;
+		height: auto;
+		margin: 10px 4px;
+	}
+
+
+	h1,h2,h3, p, div {
+		font-family: Acme, Arial, Helvetica, sans-serif;
+		color: #666;
+
+	}

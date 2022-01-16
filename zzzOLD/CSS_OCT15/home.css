@@ -1,0 +1,380 @@
+/*IMPORT VARIABLES*/
+/*BACKROUNDS*/
+/*EFFECTS*/
+/*COLORS*/
+.headings, h1 {
+  font-family: "Oswald", "Helvetica", sans-serif;
+  color: #98a239;
+  line-height: 1.5; }
+
+.textFont, p {
+  font-family: "Montserrat", "avenir", "noto", sans-serif;
+  color: #817d6c;
+  line-height: 1.7; }
+
+.leadIn {
+  font-family: "Montserrat", "avenir", "noto", sans-serif;
+  font-family: #615c47;
+  line-height: 1.5;
+  padding-bottom: 10px; }
+
+h1 {
+  font-size: 2rem; }
+
+h2 {
+  font-family: "Playfair Display", "Droid Serif", serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 10px 0; }
+
+h3 {
+  font-family: "Playfair Display", "Droid Serif", serif;
+  font-size: 1.4rem;
+  color: #98a239; }
+
+h4 {
+  font-family: "Playfair Display", "Droid Serif", serif;
+  font-size: 1.2rem;
+  color: #98a239; }
+
+h5 {
+  font-family: "Playfair Display", "Droid Serif", serif;
+  font-size: .9rem;
+  color: #98a239; }
+
+p .text {
+  text-align: left;
+  font-size: .8rem;
+  weight: 300; }
+p .intro {
+  font-size: 18px;
+  font-weight: 400; }
+
+.showTitle {
+  color: #e4efff; }
+  .showTitle font {
+    family: "Oswald", "Helvetica", sans-serif;
+    font-size: .8rem;
+    font-weight: 400; }
+
+.navText {
+  color: #817d6c; }
+  .navText font {
+    family: "Oswald", "Helvetica", sans-serif;
+    weight: 400; }
+  .navText.a {
+    color: #615c47; }
+  .navText.a:hover {
+    color: #c8de6d; }
+
+.navbar {
+  background-color: white;
+  box-shadow: 5px 2px 10px #000000;
+  height: 100px; }
+  .navbar .container {
+    height: inherit; }
+  .navbar li a {
+    font-family: "Oswald", "Helvetica", sans-serif;
+    color: #98a239; }
+    .navbar li a:hover {
+      color: #d5ae41; }
+
+#navbarResponsive {
+  /*.collapse.navbar-collapse*/ }
+  #navbarResponsive .navbar-nav {
+    margin-right: 15%; }
+    #navbarResponsive .navbar-nav .nav-item .nav-link {
+      color: #d5ae41; }
+      #navbarResponsive .navbar-nav .nav-item .nav-link:hover {
+        color: #98a239; }
+      #navbarResponsive .navbar-nav .nav-item .nav-link:active {
+        color: #e4efff; }
+
+@media (min-width: 1024px) {
+  #navbarResponsive {
+    /*.collapse.navbar-collapse*/
+    position: absolute;
+    bottom: -40px;
+    background-color: rgba(0, 0, 0, 0.85);
+    left: 0;
+    right: 0;
+    box-sizing: border-box; }
+    #navbarResponsive .navbar-nav {
+      margin-right: 15%;
+      flex-wrap: nowrap;
+      width: 100%; }
+      #navbarResponsive .navbar-nav .nav-item .nav-link {
+        color: #d5ae41; }
+        #navbarResponsive .navbar-nav .nav-item .nav-link:hover {
+          color: #98a239; }
+        #navbarResponsive .navbar-nav .nav-item .nav-link:active {
+          color: #e4efff; } }
+#MDblackbar {
+  position: absolute;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.85);
+  bottom: -40px;
+  left: 0;
+  right: 0; }
+
+#brand-container {
+  height: inherit; }
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.0rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  max-height: inherit; }
+  .navbar-brand img {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap; }
+    .navbar-brand img#urn {
+      padding: 6px 0 0;
+      width: 90px;
+      margin-bottom: 0; }
+    .navbar-brand img #PRLDlogo {
+      background-color: black; }
+
+#staticFoot {
+  position: fixed;
+  z-index: 100;
+  padding: 6px 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85); }
+  #staticFoot h2 {
+    padding: 0;
+    margin: 0 auto 6px; }
+
+body {
+  background-image: url("../IMG/BG/laidPaper.png"); }
+
+button {
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: "Playfair Display", "Droid Serif", serif;
+  color: #e4efff;
+  box-sizing: border-box;
+  border: 1px solid #fff; }
+  button a, button a:hover {
+    color: inherit;
+    text-decoration: none;
+    outline: none; }
+  button:hover, button a:hover {
+    background-color: #98a239; }
+
+#mobiSplash {
+  background-image: url("../IMG/BG/BOXWOObgMOB1.jpg");
+  background-size: 70%;
+  z-index: 1200;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  padding: 60px 0;
+  box-sizing: border-box;
+  border: 12px solid white; }
+  #mobiSplash #coinLogo {
+    box-sizing: border-box; }
+    #mobiSplash #coinLogo img {
+      width: 220px;
+      height: auto; }
+  #mobiSplash h1 {
+    display: block;
+    padding: 10px 60px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 1.3em;
+    color: #e4efff;
+    text-shadow: 4px, 4px, 3px, black; }
+
+.row {
+  box-sizing: border-box;
+  margin-right: 0;
+  margin-left: 0; }
+
+#HOUZZlogo {
+  position: absolute;
+  top: 30px;
+  right: 0; }
+  #HOUZZlogo img {
+    width: 80px;
+    height: auto; }
+
+#mainHeader {
+  top: 135px; }
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 60%;
+  z-index: 150;
+  display: flex;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none; }
+
+.carousel-item {
+  height: 100vh;
+  background-size: cover; }
+  .carousel-item#intimate {
+    background-image: url("../IMG/HEROcomp/comp2.jpg");
+    background-position: center; }
+  .carousel-item#commercial {
+    background-image: url("../IMG/HEROcomp/comp3.jpg");
+    background-position: center; }
+  .carousel-item#pools {
+    background-image: url("../IMG/HEROcomp/comp6.jpg");
+    background-position: center; }
+  .carousel-item#maintenance {
+    background-image: url("../IMG/HEROcomp/comp5.jpg");
+    background-position: center; }
+  .carousel-item#estate {
+    background-image: url("../IMG/HEROcomp/comp6.jpg");
+    background-position: center; }
+
+.carousel-control-next-icon {
+  background-image: url("../IMG/BUTTONS/foreward.png") !important; }
+
+.carousel-control-prev-icon {
+  background-image: url("../IMG/BUTTONS/backward.png") !important; }
+
+.carousel-control-prev, .carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 60px;
+  color: #fff;
+  text-align: right;
+  opacity: 0.5; }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  display: inline-block;
+  width: 40pc;
+  height: 100%;
+  background: transparent no-repeat center center;
+  background-size: 60px 120px; }
+
+section {
+  position: relative;
+  min-height: 60vh;
+  padding-top: 0; }
+  section .container {
+    padding: 40px 0; }
+  section header {
+    height: 20vh;
+    background-image: url(../IMG/BG/BOXWOObgDRKmobi.jpg);
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 3px #666;
+    margin: 0 0 30px 0; }
+    section header:nth-of-type(2) {
+      background-image: none; }
+  section#SERVICES {
+    display: relative;
+    box-sizing: border-box; }
+  section .hoverbox {
+    min-height: 120px;
+    text-align: center; }
+  section h1 {
+    position: relative;
+    font-family: "Playfair Display", "Droid Serif", serif;
+    display: block;
+    text-align: center; }
+  section#PORTFOLIO .subNav {
+    font-family: "Oswald", "Helvetica", sans-serif; }
+    section#PORTFOLIO .subNav ul {
+      display: block;
+      list-style-type: none;
+      margin: auto;
+      padding-left: 0; }
+      section#PORTFOLIO .subNav ul li {
+        color: #98a239; }
+        section#PORTFOLIO .subNav ul li:hover {
+          color: #615c47; }
+  section#PORTFOLIO .thumbPanel ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  section#services {
+    border-top: 1px solid #969696; }
+  section#companyBio p {
+    column-count: 1; }
+  section#NEWS .blogEntries {
+    border-right: 1px solid #969696; }
+  section#NEWS .hoverbox {
+    text-align: left; }
+
+footer#mainFoot {
+  background-image: url("../IMG/BG/BOXWOObgDRKmobi.jpg");
+  background-size: 60% auto;
+  background-position: center center;
+  color: #e4efff; }
+
+.carousel-indicators li {
+  position: relative;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  background-color: #98a239; }
+
+.carousel-caption {
+  display: inline-block;
+  position: absolute;
+  right: 30%;
+  top: 50%;
+  left: 30%;
+  bottom: auto;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.15); }
+  .carousel-caption h3 {
+    font-family: "Oswald", "Helvetica", sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: .6;
+    margin: 0 auto;
+    color: white;
+    text-shadow: 4px, 4px, 3px, black; }
+  .carousel-caption p {
+    font-family: "Montserrat", "avenir", "noto", sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+    line-height: 1.2; }
+    .carousel-caption p em {
+      font-weight: 500;
+      font-variant: italic; }
+  .carousel-caption button {
+    position: relative;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: "Playfair Display", "Droid Serif", serif;
+    color: #e4efff;
+    margin: 30px 0 0;
+    padding: 6px 20px;
+    border: 1px solid #fff; }
+    .carousel-caption button:hover, .carousel-caption button a:hover {
+      background-color: #98a239; }

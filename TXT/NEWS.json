@@ -1,0 +1,53 @@
+{
+	"NEWS": [
+
+		{
+			"img": "accent0.jpg",
+			"date" : "december 10, 2020",
+			"headline": "Article One",
+			"article" : "expand",
+			"slideTitle": "Pool and Recreational Areas",
+			"textContent": "San Francisco tube decay knife geodesic motion rain sign. Pen sensory military-grade camera assault urban weathered ablative. Corrupted physical systemic neural military-grade boat futurity augmented reality denim."
+		},
+		{
+			"img": "accent2.jpg",
+			"date" : "december 10, 2020",
+			"headline": "Another Article",
+			"article" : "expand",
+			"slideTitle": "Pool and Recreational Areas",
+			"textContent": "San Francisco tube decay knife geodesic motion rain sign. Pen sensory military-grade camera assault urban weathered ablative. Corrupted physical systemic neural military-grade boat futurity augmented reality denim."
+		},
+		{
+			"img": "entry2.jpg",
+			"date" : "december 10, 2020",
+			"headline": "Home Soiré",
+			"article" : "expand",
+			"slideTitle": "Pool and Recreational Areas",
+			"textContent": "San Francisco tube decay knife geodesic motion rain sign. Pen sensory military-grade camera assault urban weathered ablative. Corrupted physical systemic neural military-grade boat futurity augmented reality denim."
+		},
+		{
+			"img": "entry4.jpg",
+			"date" : "december 10, 2020",
+			"headline": "New Magazine article",
+			"article" : "expand",
+			"slideTitle": "Pool and Recreational Areas",
+			"textContent": "San Francisco tube decay knife geodesic motion rain sign. Pen sensory military-grade camera assault urban weathered ablative. Corrupted physical systemic neural military-grade boat futurity augmented reality denim."
+		},
+		{
+			"img": "garden3.jpg",
+			"date" : "december 10, 2020",
+			"headline": "Pool on St Charles",
+			"article" : "expand",
+			"slideTitle": "Pool and Recreational Areas",
+			"textContent": "San Francisco tube decay knife geodesic motion rain sign. Pen sensory military-grade camera assault urban weathered ablative. Corrupted physical systemic neural military-grade boat futurity augmented reality denim."
+		},
+		{
+			"img": "garden0.jpg",
+			"date" : "december 10, 2020",
+			"headline": "New Orleans Magazine",
+			"article" : "expand",
+			"slideTitle": "Pool and Recreational Areas",
+			"textContent": "San Francisco tube decay knife geodesic motion rain sign. Pen sensory military-grade camera assault urban weathered ablative. Corrupted physical systemic neural military-grade boat futurity augmented reality denim."
+		}
+	]
+}

@@ -1,0 +1,572 @@
+/*portfolio by property
+name of file "projects"
+
+options
+pool courtyard entry atrium commercial garden 
+
+this needs to be simplified. 
+only one image name, since dif will be based on FOLDER 
+for the LARGE and DISPLAY images
+
+there will be ONE caption per category. 
+how will this be expressed?
+
+HAVE ANOTHER JSON TEMPLATE WITH DESCRIPTIONS FOR 
+CATEGORIES and captions related to the categories*/
+
+/*URL FOR THUMB OR LARGE IMG WILL HAVE DIRECTORY HARD-SET IN TEMPLATE*/
+/*URL SIZES WILL HAVE THE SAME FILE NAME, DIRECTORIES WILL BE SPECIFIC*/
+
+{
+  "UpperStCharles": {
+    "title": "Upper Saint Charles Avenue",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden", /*MUST MATCH SUBNAV SYNTAX*/
+        "URL": "UpSC0.jpg" 
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"Mcwilliams": {
+    "title": "McWilliams-Simpson Property, Lower Garden dist.",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"StateSt": {
+    "title": "State Street property",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"ThirdSt": {
+    "title": "Third Street property",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"LowerFQ": {
+    "title": "Lower french Quarter Courtyard",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"ColiseumSt": {
+    "title": "Tropical Back Yard installation",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"IonaSt": {
+    "title": "Iona Street expansive landscaping",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"HectorAv": {
+    "title": "Hector Avenue property",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"Spa": {
+    "title": "An In-Ground Spa",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"BurgundySt": {
+    "title": "Burgundy Street Property",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"Mitchell": {
+    "title": "The Mitchell property",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"CBDroof": {
+    "title": "Roof Garden: Central Business District",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"Pond": {
+    "title": "Rustic Pond Installation",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"JeffersonAv": {
+    "title": "Jefferson Avenue property",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"CommBldg": {
+    "title": "Commercial Building landscaping",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"AudubonPl": {
+    "title": "Audubon Place Landscaping",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"EverettPl": {
+    "title": "Everett Place property",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"ColSqPark": {
+    "title": "Coliseum Square drawings",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+},
+"Jeanette": {
+    "title": "Jeanette Street property",
+    "images": {
+      "image0": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image1": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image2": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image3": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image4": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    },
+    "image5": {
+        "meta": "pool court entry atrium comm Garden",
+        "URL": "UpSC0.jpg"
+    }
+}
+}
+}

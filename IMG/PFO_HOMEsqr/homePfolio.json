@@ -1,0 +1,240 @@
+{
+	"HOMEsqr": [
+
+		{
+			"category": "POOL",
+			"headline": "Pool Areas",
+			"slideTitle": "Pool and Recreational Areas",
+			"descrip": "San Francisco tube decay knife geodesic motion rain sign. Pen sensory military-grade camera assault urban weathered ablative. Corrupted physical systemic neural military-grade boat futurity augmented reality denim.",
+			"photos": [
+				{
+					"folder": "POOL",
+					"pic": "pool0.jpg",
+					"name": "someone’s place"
+				},
+				{
+					"folder": "POOL",
+					"pic": "pool1.jpg",
+					"name": "a large property"
+				},
+				{
+					"folder": "POOL",
+					"pic": "pool2.jpg",
+					"name": "your place or mine"
+				},
+				{
+					"folder": "POOL",
+					"pic": "pool3.jpg",
+					"name": "land of the free"
+				},
+				{
+					"folder": "POOL",
+					"pic": "pool1.jpg",
+					"name": "land of the free"
+				},
+				{
+					"folder": "POOL",
+					"pic": "pool0.jpg",
+					"name": "land of the free"
+				}]
+
+		},
+		{
+			"category": "COURT",
+			"headline": "Courtyards",
+			"slideTitle": "Courtyards and sideyards",
+			"descrip": "Aliqua deserunt ex qui incididunt eiusmod sint sit occaecat ex adipisicing qui nisi ullamco voluptate commodo sunt occaecat nulla proident tempor ea in veniam dolor cillum id cupidatat anim nostrud.",
+			"photos": [
+				{
+					"folder": "COURT",
+					"pic": "court0.jpg",
+					"name": "someone’s place"
+				},
+				{
+					"folder": "COURT",
+					"pic": "court1.jpg",
+					"name": "a large property"
+				},
+				{
+					"folder": "COURT",
+					"pic": "court2.jpg",
+					"name": "your place or mine"
+				},
+				{
+					"folder": "COURT",
+					"pic": "court3.jpg",
+					"name": "land of the free"
+				},
+				{
+					"folder": "COURT",
+					"pic": "court4.jpg",
+					"name": "palatial spacial"
+				},
+
+				{
+					"folder": "COURT",
+					"pic": "court0.jpg",
+					"name": "palatial spacial"
+				}
+			]
+
+		},
+		{
+			"category": "ENTRY",
+			"headline": "Entryways",
+			"slideTitle": "Residential walks and entryways",
+			"descrip": "Magna incididunt sint officia amet aliqua officia eu amet anim aliqua ullamco deserunt exercitation exercitation nulla dolore nulla et veniam culpa sint.",
+			"photos": [
+				{
+					"folder": "ENTRY",
+					"pic": "entry0.jpg",
+					"name": "someone’s place"
+				},
+				{
+					"folder": "ENTRY",
+					"pic": "entry1.jpg",
+					"name": "a large property"
+				},
+				{
+					"folder": "ENTRY",
+					"pic": "entry2.jpg",
+					"name": "your place or mine"
+				},
+				{
+					"folder": "ENTRY",
+					"pic": "entry3.jpg",
+					"name": "land of the free"
+				},
+				{
+					"folder": "ENTRY",
+					"pic": "entry4.jpg",
+					"name": "palatial spacial"
+				},
+
+				{
+					"folder": "ENTRY",
+					"pic": "entry5.jpg",
+					"name": "humble abode"
+				}
+			]
+
+		},
+		{
+			"category": "ATRIUM",
+			"headline": "Atrium Treatments",
+			"slideTitle": "Atrium and indoor gardening",
+			"descrip": "Incididunt nulla id aliquip fugiat et sit sint in elit ex mollit ullamco enim in in fugiat ut anim dolor sit esse ex anim mollit veniam pariatur ullamco ut commodo enim quis ullamco mollit cillum magna laboris pariatur in.",
+			"photos": [
+				{
+					"folder": "ATRIUM",
+					"pic": "atrium0.jpg",
+					"name": "someone’s place"
+				},
+				{
+					"folder": "ATRIUM",
+					"pic": "atrium0.jpg",
+					"name": "a large property"
+				},
+				{
+					"folder": "ATRIUM",
+					"pic": "atrium0.jpg",
+					"name": "your place or mine"
+				},
+				{
+					"folder": "ATRIUM",
+					"pic": "atrium0.jpg",
+					"name": "land of the free"
+				},
+				{
+					"folder": "ATRIUM",
+					"pic": "atrium0.jpg",
+					"name": "palatial spacial"
+				},
+
+				{
+					"folder": "ATRIUM",
+					"pic": "atrium0.jpg",
+					"name": "humble abode"
+				}
+			]
+
+		},
+		{
+			"category": "COMM",
+			"headline": "Commercial Buildings",
+			"slideTitle": "Commercial Landscaping",
+			"descrip": "Qui elit eiusmod ex non officia consequat incididunt ullamco consectetur dolor ullamco deserunt culpa cupidatat voluptate cillum sit id magna aute deserunt et nostrud aliquip consequat mollit qui dolor.",
+			"photos": [
+				{
+					"folder": "COMM",
+					"pic": "comm0.jpg",
+					"name": "someone’s place"
+				},
+				{
+					"folder": "COMM",
+					"pic": "comm1.jpg",
+					"name": "a large property"
+				},
+				{
+					"folder": "COMM",
+					"pic": "comm2.jpg",
+					"name": "your place or mine"
+				},
+				{
+					"folder": "COMM",
+					"pic": "comm3.jpg",
+					"name": "land of the free"
+				},
+				{
+					"folder": "COMM",
+					"pic": "comm4.jpg",
+					"name": "palatial spacial"
+				},
+				{
+					"folder": "COMM",
+					"pic": "comm5.jpg",
+					"name": "humble abode"
+				}]
+		},
+		{
+			"category": "GARDEN",
+			"headline": "Gardens",
+			"slideTitle": "Residential garden areas",
+			"descrip": "Reprehenderit proident in ad qui. Sed ut incididunt minim quis dolor laborum proident ex dolore mollit exercitation sit.",
+			"photos": [
+				{
+					"folder": "GARDEN",
+					"pic": "garden0.jpg",
+					"name": "someone’s place"
+				},
+				{
+					"folder": "GARDEN",
+					"pic": "garden1.jpg",
+					"name": "a large property"
+				},
+				{
+					"folder": "GARDEN",
+					"pic": "garden2.jpg",
+					"name": "your place or mine"
+				},
+				{
+					"folder": "GARDEN",
+					"pic": "garden2.jpg",
+					"name": "someone’s place"
+				},
+				{
+					"folder": "GARDEN",
+					"pic": "garden0.jpg",
+					"name": "a large property"
+				},
+				{
+					"folder": "GARDEN",
+					"pic": "garden1.jpg",
+					"name": "your place or mine"
+				}
+
+			]
+
+		}
+	]
+}

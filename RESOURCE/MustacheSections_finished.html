@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mustache Sections Example</title>
+  <link rel="stylesheet" href="../JS_Templating_MARINI/styles.css">
+
+  <!-- JQUERY CDN VI GOOGLE API; feb 2015-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- END: JQUERY API -->
+
+  <!-- MUSTACHE MIN version -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+
+
+  <script type="text/javascript">
+          var toddReq = new XMLHttpRequest();// ALWAYS NEED AN XML request
+          toddReq.open('GET', 'http://localhost/JS_TEMPLATING/MUSTACHE/JSON/employees.json');
+          toddReq.onload = function() {
+            if (toddReq.status >= 200 && toddReq.status < 400) {
+              var myData = JSON.parse(toddReq.makeHTML); //convert to HTML
+              console.log(data); //this is a test script
+              makeHTML(myData);
+            } else {
+              console.log("load problem"); //this else statement can be disabled 
+            }
+          };
+          toddReq.onerror = function() {
+            console.log("Connection error");
+          };
+          toddReq.send(); //send 
+        </script>
+
+        <!-- below is the hypothetical local version -->
+        <script type="text/javascript">
+         $("document").ready(function() {
+          var template = $("#itemTemplate").html();
+          var result = Mustache.render(template, {
+
+           "employees" : [{
+            "name" : "Henry Handsome",
+            "phone" : "+1-212-555-1234",
+            "email" : "pensive@example.com",
+            "title" : "Senior VP of Basketweaving",
+            "fulltime" : true
+          }, {
+            "name" : "Penelope Persistent",
+            "phone" : "+1-212-555-8000",
+            "email" : "truthful@example.com",
+            "title" : "Principal Understudy",
+            "fulltime" : false
+          }, {
+            "name" : "Sam Serendipity",
+            "phone" : "+1-212-555-9876",
+            "email" : "helpful@example.com",
+            "title" : "Chief Cook and Bottle Washer",
+            "fulltime" : true
+          }, {
+            "name" : "Tom Terriffic",
+            "phone" : "+1-212-555-0011",
+            "email" : "grumpy@example.com",
+            "title" : "Janitor",
+            "fulltime" : false
+          }]
+        });
+          $("#container").html(result);
+        });
+      </script>
+    </head>
+    <body>
+      <script type="text/template" id="itemTemplate">
+        {{#employees}}
+        <div class="itemTemplateWrapper">
+          {{! This is a mustache comment and it is totally ignored }}
+          <div>{{name}}</div>
+          <div>{{title}}</div>
+          <div>{{email}}</div>
+          <div>{{phone}}</div>
+        </div>
+        {{/employees}}
+      </script>
+      <h1>Repeating data sections with Mustache</h1>
+      <h3>This example shows how to use Mustache sections</h3>
+
+      <!-- This is the container where the templates will be instantiated -->
+      <div id="container"></div>
+    </body>
+    </html>

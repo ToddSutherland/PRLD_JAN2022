@@ -1,0 +1,56 @@
+/*BACKROUNDS*/
+/*EFFECTS*/
+/*COLORS*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px double #d5ae41;
+  padding: 1px;
+  border: 1px double #d5ae41;
+  padding: 10px;
+  background-color: rgba(228, 239, 255, 0.1);
+  backdrop-filter: blur(10px) opacity(0.2); }
+
+#bigThanks {
+  display: flex;
+  /*height: 220px;*/
+  padding: 40px 20px;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.03); }
+  #bigThanks #coinLogo {
+    display: flex;
+    border: 1px solid #d5ae41;
+    padding: 4px;
+    border-radius: 50%; }
+    #bigThanks #coinLogo img {
+      width: 140px;
+      height: 140px; }
+  #bigThanks button {
+    background-color: rgba(213, 174, 65, 0.1);
+    color: #98a239;
+    transition: all .5s; }
+    #bigThanks button:hover {
+      background-color: rgba(152, 162, 57, 0.7);
+      color: white; }
+    #bigThanks button:active {
+      background-color: rgba(213, 174, 65, 0.7);
+      color: white; }
+  #bigThanks h1, #bigThanks h2, #bigThanks h3 {
+    margin: 0; }
+  #bigThanks h1 {
+    font-family: "Playfair Display", "Droid Serif", serif;
+    font-weight: normal;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 12px; }

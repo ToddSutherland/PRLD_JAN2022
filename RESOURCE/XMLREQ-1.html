@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- DEPENDENCIES: MUSTACHE/JQUERY CDN -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+
+	<!-- LIGHTBOX JS,CSS -->
+	<link href="JS/LIGHTBOX/css/lightbox_MOD1.css" rel="stylesheet" type="text/css">
+	<script src="JS/LIGHTBOX/js/lightbox.min.js"></script>
+
+	<!-- VELOCITY and UI -->
+	<script src="JS/VELOCITY/velocity.min.js"></script>
+	<script src="./JS/VELOCITY/velocity.ui.min.js"></script>
+
+	<!-- EXTRA JS LIBS -->
+	<!-- WOW -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<!-- POPPER -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.2/umd/popper.min.js"></script>
+
+	<!-- USER SCRIPTS -->
+	<script src="./JS/_TODDuser/_CURRENT/USER2020.js"></script>
+
+
+	<!-- MUSTACHE TEMPLATE SYNTAX example-->
+	<!-- Tthis is based on LIGHTBOX.JS -->
+	<script type="text/template" id="dataTemplate">
+		{{#foo}}
+		<div>
+			{{ID}}
+			{{TITLE}}
+			{{TITLEtext}}
+		</div>
+		{{/foo}}
+	</script>
+
+	<script type="text/template" id="imagesTemplate">
+		{{#foo}}
+		<div>
+			{{ID}}
+			{{TITLE}}
+			{{TITLEtext}}
+		</div>
+		{{/foo}}
+	</script>
+
+	<script>
+		$(document).ready(function() {
+			$.getJSON('http://localhost/LSEresp2020_BS4/JSON/PORTFO_SUBNAV.json' ,
+				function(data){
+					var template = $('#dataTemplate').html();
+					var info = Mustache.to_html(template , data);
+					$('#Psubnav').html(info);
+				});	
+
+			$.getJSON('http://localhost/LSEresp2020_BS4/JSON/PORTFO_SUBNAV.json' ,
+				function(data){
+					var template = $('#imagesTemplate').html();
+					var info = Mustache.to_html(template , data);
+					$('#Psubnav').html(info);
+				});
+		});
+	</script>
+</head>
+
+
+
+
+
+<body>
+	<!-- TARGET DIV recieves the compiled HTML from above -->
+	<div id="Psubnav"></div>
+
+</body>
+
+<!-- http://localhost/JS_TEMPLATING/MUSTACHE/VILLALOBOS_YOUTUBE/JSON/PORTFO_SUBNAV.json -->
+</html>	

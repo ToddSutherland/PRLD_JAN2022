@@ -1,0 +1,47 @@
+// THIS IS PERFECT! DON'T TOUCH!
+//FOR THE PORTFOLIO PAGE
+#PF-SHOW {
+
+	#displayBoxes {
+
+		h2 {
+			font-family: $HEADINGstack;
+			font-size: 1.6rem;
+			font-style: italic;
+			font-weight: 400;
+			color: $PRLDgreen;
+			text-align: center;
+			display: block;
+			padding: 10px 0;
+		}
+
+		.hoverbox {
+			// height: 260px !important;
+			overflow: hidden;
+			text-align: center;
+		}
+
+		.hoverLight {
+            // background-color: rgba($greyDark, .2);
+        }
+
+        li {
+        	// max-height: 220px;
+        	overflow: hidden;
+
+        	img {
+        		// min-height: 242px;
+        		width: 100%;
+        	}
+        }
+
+        li:not(:first-child) {
+        	@include mobileOnly {
+        		background-color: pink;
+        		display: none !important;
+        		max-height: 200px;
+        	}
+        }
+
+    }
+}

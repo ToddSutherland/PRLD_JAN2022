@@ -1,0 +1,35 @@
+
+{"pfoNavItems" : [
+	{
+		"category" : "POOL",
+		"headline": "Pool Areas",
+		"slideTitle": "Pool and Recreational Areas",
+		"descrip": "San Francisco tube decay knife geodesic motion rain sign. Pen sensory military-grade camera assault urban weathered ablative. Corrupted physical systemic neural military-grade boat futurity augmented reality denim."
+	},{
+		"category" : "COURT",
+		"headline": "Courtyards",
+		"slideTitle": "Courtyards and sideyards",
+		"descrip": "Aliqua deserunt ex qui incididunt eiusmod sint sit occaecat ex adipisicing qui nisi ullamco voluptate commodo sunt occaecat nulla proident tempor ea in veniam dolor cillum id cupidatat anim nostrud."
+	},{
+		"category" : "ENTRY",
+		"headline": "Entryways",
+		"slideTitle": "Residential walks and entryways",
+		"descrip": "Magna incididunt sint officia amet aliqua officia eu amet anim aliqua ullamco deserunt exercitation exercitation nulla dolore nulla et veniam culpa sint."
+	},{
+		"category" : "ATRIUM",
+		"headline": "Atrium Treatments",
+		"slideTitle": "Atrium and indoor gardening",
+		"descrip": "Incididunt nulla id aliquip fugiat et sit sint in elit ex mollit ullamco enim in in fugiat ut anim dolor sit esse ex anim mollit veniam pariatur ullamco ut commodo enim quis ullamco mollit cillum magna laboris pariatur in."
+	},{
+		"category" : "COMM",
+		"headline": "Commercial Buildings",
+		"slideTitle": "Commercial Landscaping",
+		"descrip": "Qui elit eiusmod ex non officia consequat incididunt ullamco consectetur dolor ullamco deserunt culpa cupidatat voluptate cillum sit id magna aute deserunt et nostrud aliquip consequat mollit qui dolor."
+	},{
+		"category" : "GARDEN",
+		"headline": "Gardens",
+		"slideTitle": "Residential garden areas",
+		"descrip": "Reprehenderit proident in ad qui. Sed ut incididunt minim quis dolor laborum proident ex dolore mollit exercitation sit."
+	}
+
+]}

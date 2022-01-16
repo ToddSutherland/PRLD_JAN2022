@@ -1,0 +1,115 @@
+{ "SUBNAV" : [
+	{
+		"CATEGORY" : "POOLS",
+		"TITLE" : "Pools & Entertainment Areas",
+		"DESCRIP" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar pretium varius. Nulla semper iaculis risus, vel vulputate massa tincidunt quis. Nullam eu sem odio. Sed ligula odio, euismod sit amet mattis ut, mollis dictum lacus. Aenean pulvinar molestie lorem non tincidunt. Aenean tempor velit ac quam faucibus, at elementum ipsum dictum.",
+		
+	},
+	{
+		"ID" : "COURT",
+		"TITLE" : "COURTYARDS",
+		"DESCRIP" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar pretium varius. Nulla semper iaculis risus, vel vulputate massa tincidunt quis. Nullam eu sem odio. Sed ligula odio, euismod sit amet mattis ut, mollis dictum lacus. Aenean pulvinar molestie lorem non tincidunt. Aenean tempor velit ac quam faucibus, at elementum ipsum dictum."
+	},
+	{
+		"ID" : "ENTRY",
+		"TITLE" : "ENTRIES",
+		"DESCRIP" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar pretium varius. Nulla semper iaculis risus, vel vulputate massa tincidunt quis. Nullam eu sem odio. Sed ligula odio, euismod sit amet mattis ut, mollis dictum lacus. Aenean pulvinar molestie lorem non tincidunt. Aenean tempor velit ac quam faucibus, at elementum ipsum dictum."
+	},
+	{
+		"ID" : "ATRIUM",
+		"TITLE" : "ATRIUM AREAS",
+		"DESCRIP" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar pretium varius. Nulla semper iaculis risus, vel vulputate massa tincidunt quis. Nullam eu sem odio. Sed ligula odio, euismod sit amet mattis ut, mollis dictum lacus. Aenean pulvinar molestie lorem non tincidunt. Aenean tempor velit ac quam faucibus, at elementum ipsum dictum."
+	},
+	{
+		"ID" : "COMM",
+		"TITLE" : "COMMERCIAL",
+		"DESCRIP" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar pretium varius. Nulla semper iaculis risus, vel vulputate massa tincidunt quis. Nullam eu sem odio. Sed ligula odio, euismod sit amet mattis ut, mollis dictum lacus. Aenean pulvinar molestie lorem non tincidunt. Aenean tempor velit ac quam faucibus, at elementum ipsum dictum."
+	},
+	{
+		"ID" : "GARDEN",
+		"TITLE" : "GARDENS",
+		"DESCRIP" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar pretium varius. Nulla semper iaculis risus, vel vulputate massa tincidunt quis. Nullam eu sem odio. Sed ligula odio, euismod sit amet mattis ut, mollis dictum lacus. Aenean pulvinar molestie lorem non tincidunt. Aenean tempor velit ac quam faucibus, at elementum ipsum dictum."
+	},
+	{
+		"ID" : "POOLS",
+		"TITLE" : "POOL AREAS",
+		"DESCRIP" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar pretium varius. Nulla semper iaculis risus, vel vulputate massa tincidunt quis. Nullam eu sem odio. Sed ligula odio, euismod sit amet mattis ut, mollis dictum lacus. Aenean pulvinar molestie lorem non tincidunt. Aenean tempor velit ac quam faucibus, at elementum ipsum dictum."
+	}
+]},
+{
+	"PORTFO-HOME" : [
+		{
+			"CATEGORY" : "POOLS",
+			"TITLE" : "Pools & Entertainment Areas",
+			"IMAGES" : [
+				"POOL/pool1.jpg",
+				"POOL/pool2.jpg",
+				"POOL/pool3.jpg",
+				"POOL/pool4.jpg",
+				"POOL/pool5.jpg",
+				"POOL/pool6.jpg",
+			]
+		},
+		{
+			"CATEGORY" : "COURT",
+			"TITLE" : "Courtyard Installations",
+			"IMAGES" : [
+				"COURT/court1.jpg",
+				"COURT/court2.jpg",
+				"COURT/court3.jpg",
+				"COURT/court4.jpg",
+				"COURT/court5.jpg",
+				"COURT/court6.jpg",
+			]
+		},
+		{
+			"CATEGORY" : "ENTRY",
+			"TITLE" : "COURTYARD INSTALLATIONS",
+			"IMAGES" : [
+				"ENTRIES/entry1.jpg",
+				"ENTRIES/entry2.jpg",
+				"ENTRIES/entry3.jpg",
+				"ENTRIES/entry4.jpg",
+				"ENTRIES/entry5.jpg",
+				"ENTRIES/entry6.jpg",
+			]
+		},
+		{
+			"CATEGORY" : "ATRIUM",
+			"TITLE" : "Atrium Treatments",
+			"IMAGES" : [
+				"ATRIUM/atrium1.jpg",
+				"ATRIUM/atrium2.jpg",
+				"ATRIUM/atrium3.jpg",
+				"ATRIUM/atrium4.jpg",
+				"ATRIUM/atrium5.jpg",
+				"ATRIUM/atrium6.jpg",
+			]
+		},
+		{
+			"CATEGORY" : "COMM",
+			"TITLE" : "Commercial Landscaping",
+			"IMAGES" : [
+				"COMMERCIAL/comm1.jpg",
+				"COMMERCIAL/comm2.jpg",
+				"COMMERCIAL/comm3.jpg",
+				"COMMERCIAL/comm4.jpg",
+				"COMMERCIAL/comm5.jpg",
+				"COMMERCIAL/comm6.jpg",
+			]
+		},
+		{
+			"CATEGORY" : "GARDEN",
+			"TITLE" : "Sprawling Gardens",
+			"IMAGES" : [
+				"GARDENS/garden1.jpg",
+				"GARDENS/garden2.jpg",
+				"GARDENS/garden3.jpg",
+				"GARDENS/garden4.jpg",
+				"GARDENS/garden5.jpg",
+				"GARDENS/garden6.jpg",
+			]
+		},
+	]
+}
+

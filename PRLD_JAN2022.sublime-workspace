@@ -1,0 +1,1039 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"just",
+				"justify-content-center "
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"subnav",
+				"JS/_TODDuser/SubNavDropdown.js"
+			],
+			[
+				"dropdown",
+				"dropdown-item"
+			],
+			[
+				"PRLDg",
+				"PRLDgold"
+			],
+			[
+				"align-sel",
+				"align-self-end "
+			],
+			[
+				"P",
+				"PORTFOLIO"
+			],
+			[
+				"prevent",
+				"preventDefault"
+			],
+			[
+				"sub",
+				"subMenuItems"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"_html",
+				"_html5reset.css"
+			],
+			[
+				"justify-content",
+				"justify-content-around \tBootstrap 4.4"
+			],
+			[
+				"colum",
+				"column-count\tproperty"
+			],
+			[
+				"img",
+				"imgHolder"
+			],
+			[
+				"justify-c",
+				"justify-content-between \tBootstrap 4.4"
+			],
+			[
+				"d-",
+				"d-flex \tBootstrap 4.4"
+			],
+			[
+				"flex",
+				"flex-basis\tproperty"
+			],
+			[
+				"ali",
+				"align-self\tproperty"
+			],
+			[
+				"col",
+				"column\tflex-direction"
+			],
+			[
+				"this",
+				"thisClass"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"py",
+				"py-2 \tBootstrap 4.4"
+			],
+			[
+				"back",
+				"background-position\tproperty"
+			],
+			[
+				"dis",
+				"display\tproperty"
+			],
+			[
+				"jpg",
+				"IMG/HERO1200temp/Wtemp.jpg"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"agency",
+				"agency.min.js"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"align-c",
+				"align-content-center \tBootstrap 4.4"
+			],
+			[
+				"justif",
+				"justify-content-center \tBootstrap 4.4"
+			],
+			[
+				"js",
+				"JS/"
+			],
+			[
+				"flex-r",
+				"flex-row-reverse \tBootstrap 4.4"
+			],
+			[
+				"jus",
+				"justify-content\tproperty"
+			],
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
+				"font-st",
+				"font-style\tproperty"
+			],
+			[
+				"hei",
+				"height\tproperty"
+			],
+			[
+				"backgro",
+				"background-image\tproperty"
+			],
+			[
+				"mar",
+				"mar\tCSS - margin: 0;"
+			],
+			[
+				"list-t",
+				"list-style"
+			],
+			[
+				"top",
+				"topOffset"
+			],
+			[
+				"thumb",
+				"thumbHEIGHT"
+			],
+			[
+				"last",
+				"last-of-type"
+			],
+			[
+				"sele",
+				"selectedFrame"
+			],
+			[
+				"rotat",
+				"rotateImages"
+			],
+			[
+				"ro",
+				"rotateImages"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"id",
+				"idName"
+			],
+			[
+				"cur",
+				"CurFrame"
+			],
+			[
+				"th",
+				"thumbSquare"
+			],
+			[
+				"display",
+				"displayBoxes"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"lef",
+				"lef\tCSS - left: 0;"
+			],
+			[
+				"ser",
+				"serif"
+			],
+			[
+				"n",
+				"normal"
+			],
+			[
+				"section",
+				"sectionSpace"
+			],
+			[
+				"backgroun",
+				"background-position"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"wi",
+				"winWidth"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pee",
+				"peepThumbHeight"
+			],
+			[
+				"C",
+				"color"
+			],
+			[
+				"win",
+				"winHeight"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"my",
+				"myWork"
+			],
+			[
+				"cont",
+				"contactForm"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"header",
+				"headerHeight"
+			],
+			[
+				"re",
+				"RENDERED"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"ri",
+				"rig\tCSS - right: 0;"
+			],
+			[
+				"prel",
+				"preloadOffsetY"
+			],
+			[
+				"pre",
+				"preloadOffsetX"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"fon",
+				"fon\tCSS - font: 1em/1.5 sans-serif;"
+			],
+			[
+				"le",
+				"lef\tCSS - left: 0;"
+			],
+			[
+				"ea",
+				"ease-in-out"
+			],
+			[
+				"loo",
+				"loopjs\tjQuery loop function"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"aut",
+				"auto"
+			],
+			[
+				"bg",
+				"background-position"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"htmlboiler",
+				"htmlboiler\thtmlboiler"
+			],
+			[
+				"fan",
+				"fancybox"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"main",
+				"main"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"san",
+				"sans-serif"
+			],
+			[
+				"fr",
+				"FranklinGothicW01-No-2R"
+			],
+			[
+				"San",
+				"sans-serif"
+			],
+			[
+				"li",
+				"lighter"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"info",
+				"infoHeight"
+			],
+			[
+				"nav",
+				"navBtn"
+			],
+			[
+				"wind",
+				"windowWidth"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"sf",
+				"sFontBask\tSerifFont2"
+			],
+			[
+				"ul",
+				"ul\t<ul>"
+			],
+			[
+				"sec",
+				"section\tTag"
+			],
+			[
+				"displ",
+				"displayImages"
+			],
+			[
+				"bol",
+				"bold"
+			],
+			[
+				"fix",
+				"fixed"
+			],
+			[
+				"scri",
+				"script\tTag"
+			],
+			[
+				"capti",
+				"caption\tTag"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"non",
+				"none"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"ss",
+				"ssFontArial\tSansSerifFont2"
+			],
+			[
+				"link",
+				"link\tlink - stylesheet"
+			],
+			[
+				"hr",
+				"href\tAttr"
+			],
+			[
+				"asi",
+				"aside\tTag"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"head",
+				"head\tTag"
+			],
+			[
+				"arti",
+				"article\tTag"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"bl",
+				"block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"wr",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"must",
+				"Snippet: Mustache Comment"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap with Abbreviation"
+			],
+			[
+				"snip boil",
+				"Snippet: BS4boil"
+			],
+			[
+				"Snippet: temp",
+				"Snippet: Template"
+			],
+			[
+				"Snippet: boiler",
+				"Snippet: Simple HTML5 Boilerplate"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"musta",
+				"Snippet: Mustache Comment"
+			],
+			[
+				"lint",
+				"SublimeLinter: Goto Error"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"wrp",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"snip ready",
+				"Snippet: docReady"
+			],
+			[
+				"launch",
+				"Browser Integration: Launch Browser"
+			],
+			[
+				"json",
+				"Snippet: JSONcallJS"
+			],
+			[
+				"insert",
+				"Insert Filepath"
+			],
+			[
+				"url",
+				"FTPSync: Browse from current folder"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"SFTP",
+				"Sublime Files: Open Navigator"
+			],
+			[
+				"FTP",
+				"Sublime Files: Open Navigator"
+			],
+			[
+				"sftp",
+				"Snippet: for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"package control:rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"valid",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"jqu",
+				"Snippet: JQUERYsetup"
+			],
+			[
+				"scroll",
+				"Snippet: listen for scroll evt"
+			],
+			[
+				"rgb",
+				"Snippet: CSS - rgba()"
+			],
+			[
+				"color",
+				"Snippet: CSS - tap-highlight-color: hsla(0,0%,0%,.5);"
+			],
+			[
+				"Snippet: pre",
+				"Snippet: preloadJS"
+			],
+			[
+				"",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: SansSerifFont1"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: style",
+				"Snippet: link - stylesheet"
+			]
+		],
+		"width": 470.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_JAN2022",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_JAN2022/SCSS"
+	],
+	"file_history":
+	[
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_JAN2022/index.html",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_JAN2022/SCSS/home.scss",
+		"/Users/toddsutherland/Library/Application Support/Sublime Text 3/Packages/TerminalView/README.md",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_JAN2022/.gitignore",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_JAN2022/JSON/SERVcontent.json",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_JAN2022/SCSS/_heroCarousel.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_JAN2022/SCSS/_structure.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_JAN2022/JS/scripts.js",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_JAN2022/ftpsync.settings",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/SCSS/_homePFOLIO.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/index_nov2021.html",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/JS/subnav2021.js",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/SCSS/home.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/SCSS/_submenu.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/SCSS/home.css",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/JS/bootstrap/css/bootstrap.css",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/JS/_TODDuser/SubNavDropdown.js",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/JS/MDB/scss/free/_dropdowns.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/TXT/SERVtext.json",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/index1.html",
+		"/Users/toddsutherland/Dropbox/HOST/__TSgrid_simple/IMG/homePfolio.json",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/SCSS/_FORM.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/SCSS/_nav.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/newandNotableSection.html",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/JS/waves.js",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/index.html",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/ftpsync.settings",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/SCSS/_html5reset.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Nov2021/SCSS/_structure.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Jan2021/SCSS/home.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Jan2021/JS/MDB/scss/free/_dropdowns.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSE-NEWSITE/PRLD_Jan2021/SCSS/zzz/_structure.scss",
+		"/Users/toddsutherland/Dropbox/HOST/ToddSutherland.com/index1.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD-backup/PRLD_Jan2021/index.html",
+		"/Users/toddsutherland/Dropbox/HOST/__TSgrid_simple/SCSS/_variables.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_Jan2021/SCSS/_structure.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_Jan2021/SCSS/_footerMain.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_Jan2021/SCSS/home.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_Jan2021/CSS/home.css",
+		"/Users/toddsutherland/Dropbox/HOST/GFX-2021/IMG/RETOUCH/RETOUCH.json",
+		"/Users/toddsutherland/Dropbox/HOST/GFX-2020/SCSS/_html5reset.css",
+		"/Users/toddsutherland/Dropbox/HOST/EMAIL-REDESIGN/convert2.html",
+		"/Users/toddsutherland/Dropbox/My Mac (Sarah-Blaus-MBP.home)/Downloads/Untitled document.rtf",
+		"/Users/toddsutherland/Dropbox/My Mac (Sarah-Blaus-MBP.home)/Downloads/Untitleddocument.html",
+		"/Users/toddsutherland/Dropbox/HOST/GFX-2020/RES_CSS/regular.min.css",
+		"/Users/toddsutherland/Dropbox/HOST/GFX-2020/RES_CSS/resume_DT_20.css",
+		"/Users/toddsutherland/Dropbox/HOST/GFX-2020/RES_CSS/resume_phone_20.css",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/_structure.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/JS/_TODDuser/betterSubnav2020.js",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/home.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/_HOME-PFO.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/JS/_TODDuser/ServAddClass.js",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/_nav.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/index_dropDowns.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/_txtElements.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/TXT/SERVtext.json",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/index.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/index1.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/JS/_TODDuser/cardScript2021.js",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/ABSTRACT/AdaptiveCARDS.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/TXT/services.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/test.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/_structure1-3.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/index_good1-3.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/_mixins.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/ABSTRACT/adaptiveCards.html",
+		"/Users/toddsutherland/Library/Application Support/Sublime Text 3/Packages/User/B4x-boilerplate.sublime-snippet",
+		"/Users/toddsutherland/Library/Application Support/Sublime Text 3/Packages/User/BS4boil.sublime-snippet",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/_footerMain.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/JS/agency.js",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/_FORM.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/_variables.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/Thanks.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/thankYou.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/PORTFOLIO.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/NEWS.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/CSS/Thanks.css",
+		"/Users/toddsutherland/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/Thanks.scss.css",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/JS/_TODDuser/_CURRENT/mobiSplashPreload.js",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/JS/LIGHTBOX/css/lightbox_MOD1.css",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/ABSTRACT/cardExpand.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/SCSS/ABSTRACT/card-expand_sample.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/index_GOODjan1.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/index1a.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec31-2020/CSS/cardExpand.css",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/SCSS/_nav.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/test.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/NEWS.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/index1a.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/SCSS/_subnav.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/SCSS/_WINTOP.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/SCSS/_heroCarousel.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/SCSS/_structure.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/SCSS/_txtElements.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/SCSS/_variables.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/TXT/SERVtext.json",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/PORTFOLIO.html",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/SCSS/_footerMain.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/SCSS/_PORTFOLIOpg.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/JS/_TODDuser/betterSubnav2020.js",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/SCSS/_structure_old.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/JS/_TODDuser/_CURRENT/smthScrll_HMGRN.js",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/JS/agency.js",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/JS/_TODDuser/_CURRENT/ScrolltopTS.js",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/JS/AGENCYtemp/agency.min.js",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/JS/_TODDuser/_CURRENT/bitsAndBobs.js",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/CSS/home.css",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/ftpsync.settings",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/JS/_TODDuser/_CURRENT/PORFOLIOsubnav.js",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/SCSS/home.scss",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/JSON/PORTFO_SUBNAV.json",
+		"/Users/toddsutherland/Dropbox/My Mac (Sarah-Blaus-MBP.home)/Downloads/pure-pure-1c41ee3/README.md",
+		"/Users/toddsutherland/Dropbox/My Mac (Sarah-Blaus-MBP.home)/Downloads/mfglabs-iconset-master/README.md",
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_BS4dec10/JS/_TODDuser/_CURRENT/PORFOLIOsubnav",
+		"/Users/toddsutherland/Dropbox/HOST/LSEresp_BS4 nov12_SAVE/SCSS/_structure.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSEresp20_BS4nov25/JS/_TODDuser/_CURRENT/USER2020old.js",
+		"/Users/toddsutherland/Dropbox/HOST/LSEresp20_BS4nov25/NEWS.html",
+		"/Users/toddsutherland/Dropbox/HOST/LSEresp20_BS4nov25/JSON/PFOnov25.json",
+		"/Users/toddsutherland/Dropbox/HOST/LSEresp20_BS4nov25/SCSS/_txtElements.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSEresp20_BS4nov25/TXT/NEWS.json",
+		"/Users/toddsutherland/Dropbox/HOST/LSEresp20_BS4nov25/index_wrkng3.html",
+		"/Users/toddsutherland/Dropbox/HOST/LSEresp20_BS4nov25/JS/LIGHTBOX/css/lightbox_MOD1.css",
+		"/Users/toddsutherland/Dropbox/HOST/LSEresp20_BS4nov25/SCSS/_WINTOP.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSEresp20_BS4nov25/CSS/home.css",
+		"/Users/toddsutherland/Dropbox/HOST/LSEresp20_BS4nov25/SCSS/_structure.scss",
+		"/Users/toddsutherland/Dropbox/HOST/LSEresp20_BS4nov25/JS/LIGHTBOX/js/lightbox.js",
+		"/Users/toddsutherland/Library/Application Support/Sublime Text 3/Packages/HipsterIpsum/README.mdown"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"agency",
+			"agency.js",
+			"sidenav",
+			"scripts",
+			"agency",
+			"jquery",
+			"hover",
+			"button",
+			"toggle",
+			"hover",
+			"button",
+			"services",
+			"mobi splash",
+			"click to see",
+			"contact",
+			"services",
+			"footer",
+			"container",
+			"section",
+			"button",
+			"contact peter raarup",
+			"section",
+			"footer",
+			"em {",
+			"em",
+			"serv",
+			"waves",
+			"services"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.43156131025,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 255.0
+	},
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "PRLD_JAN2022.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/boilerplate.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/HOST/__TSgrid_simple/TSgrid_1.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

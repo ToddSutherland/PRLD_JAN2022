@@ -1,0 +1,23 @@
+{
+	"SRVcont" : [
+		{	
+			"photo" : "IMG/SERV/design.jpg",
+			"alt" : "This is an image related to Design",
+			"title": "Design",
+			"id" : "DESIGN",
+			"content": "Our Company offers a complete spectrum of design services for all project sizes. We address the functional needs of the client's project while working within the budget. we are AutoCAD equipped to facilitate and expedite cooperation with architects, engineers, and builders. We develop schematics, master plans, and complete construction documents, and provide full color presentation renderings upon request."
+		},{
+			"photo" : "IMG/SERV/install.jpg",
+			"alt" : "This is an image related to Our Services",
+			"title": "Installation",
+			"id": "INSTALL",
+			"content": "Peter Raarup Landscape Design offers total installation services including plant selection and complete soil work. You may also choose to have us coordinate and administer all aspects of construction, ensuring that a project is completed correctly and in a timely manner. We work only with the most reliable contractors to assure the highest quality of all construction materials and methods."
+		},{
+			"photo" : "IMG/SERV/maint.jpg",
+			"alt" : "This is an image related to Our Maintenance Program",
+			"title": "Maintenance",
+			"id": "MAINT",
+			"content": "Our expert landscape maintenance program serves to protect your investment and provide longevity to your landscape. Whether we design and install your landscape, or you have an existing landscape, there are several maintenance options available. You may select a package of services to be delivered on a regularly scheduled basis or simply select specific services as needed."
+		}
+	]
+}

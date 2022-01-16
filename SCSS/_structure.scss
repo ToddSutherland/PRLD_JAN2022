@@ -1,0 +1,294 @@
+body {
+	background-image: url("../IMG/BG/laidPaper.png");
+
+	@include mobileOnly {
+		font-size: 80%;
+	}
+}
+
+.hidden {
+    display: none;
+}
+@include mobileOnly {
+    .hideMobile {
+        display: none;
+    }
+}
+
+.row {
+	box-sizing: border-box;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.wrapper {
+	position: relative;
+    max-resolution: 0;
+    padding-bottom: 100px;
+    padding-top: 140px;
+
+    @include mobileOnly {
+        padding-top: 50px;
+    }
+}
+
+em {
+    color: $PRLDgold;
+}
+
+button {
+    // background-color: rgba(0, 0, 0, .3);
+    // font-family: $HEADINGstack;
+    // color: $PRLDwhite;
+    // box-sizing: border-box;
+    // border: 1px solid #fff;
+    position: relative;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: "Playfair Display", "Droid Serif", serif;
+    color: #e4efff;
+    margin: 30px 0 0;
+    padding: 6px 20px;
+    border: 1px solid $PRLDgold;
+
+    &.NEWS {
+        background-color: white;// $PRLDwhite;
+        color: $PRLDgold;
+        // margin-top: 20px;
+    }
+
+    a,
+    a:hover {
+    	color: inherit;
+    	text-decoration: none;
+    	outline: none;
+    }
+
+    &:hover/*,
+    a:hover */{
+    	// background-color: rgba($PRLDgreen, .7);
+        // color: white; // $PRLDgreen;
+    }
+}
+
+#mobiSplash {
+	background-image: url(../IMG/BG/BOXWOObgMOB1.jpg);
+	background-size: 70%;
+	z-index: 1200;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/* padding: 60px 0; */
+	box-sizing: border-box;
+	border: 12px solid white;
+	overflow: hidden;
+
+
+
+	#coinLogo {
+		box-sizing: border-box;
+        // display: inline-block;
+        // padding: 0 auto;
+
+        img {
+        	width: 220px;
+        	height: 220px;
+        	display: flex;
+        	margin: auto;
+        }
+    }
+
+    h1 {
+    	display: flex;
+        font-family: $HEADINGstack;
+        padding: 10px 0;
+        margin: 1rem auto;
+        box-sizing: border-box;
+        font-size: 1.3em;
+        text-align: center;
+        color: $PRLDwhite;
+        text-shadow: $txtShadow;
+    }
+}
+
+
+
+#HOUZZlogo {
+	position: absolute;
+	top: 30px;
+	right: 0;
+
+	img {
+		width: 80px;
+		height: auto;
+	}
+}
+
+#mainHeader {
+    // position: absolute;
+    top: 135px;
+}
+
+// .tagline {
+    // }
+
+    .testBG {
+        // background-color: #999;
+    }
+
+
+
+    section {
+     position: relative;
+     min-height: 70vh;
+     // padding: 60px 0;
+
+     .container {
+        padding: 60px 0;
+    }
+
+    footer {
+    	position: relative;
+    	height: 30vh;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;
+    	background-image: url(../IMG/BG/BOXWOObgDRKmobi.jpg);
+    	background-attachment: fixed;
+    	box-shadow: $boxShadowInset;
+
+        h2 {
+            font-size: 1.5rem;
+            line-height: 2.2rem;
+
+            @include mobileOnly {
+                font-size: 1rem;
+                line-height: 1.5rem;
+            }
+
+        }
+
+    }
+
+
+    &#SERVICES {
+     display: relative;
+     box-sizing: border-box;
+
+     #servBlockTxt {
+        min-height:180px;
+
+        .copyStuff {
+
+            p {
+
+                @media screen and (min-width: 1024) {
+                    column-count: 2;
+                    column-gap: 12px;  
+                }
+
+            }
+
+        }
+
+    }
+    .heading {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        font-family: $HEADINGstack;
+        line-height: 1;
+        color: #e4efff;
+        padding: .7rem 1.2rem;
+        // border: 1px solid #fff;
+        // transition: all .3s;
+
+        h2 {
+            text-align: right;
+            color: white;
+            // font-family: $NAVstack;
+            // text-transform: uppercase;
+            margin: -3px 0 0;
+        }
+        // &:hover {
+            //     background-color: rgba($PRLDgreen,.5);
+            // }
+
+            &:not {
+
+                &:hover,
+                a,
+                a:hover {
+                    background-color: rgba(0, 0, 0, .5);
+                }
+            }
+
+        }
+
+
+    }
+
+    .hoverbox {
+        text-align: center;
+        overflow: hidden;
+
+        &:hover {
+
+            a {
+                width: inherit;
+                overflow: hidden;
+
+                img{
+                    transition: transform .4s;
+                    transform: scale(1.2);
+                }
+            }
+        }
+
+    }
+
+
+    h1 {
+     position: relative;
+     font-family: $HEADINGstack;
+     font-style: italic;
+     font-weight: 400;
+     display: block;
+     text-align: center;
+     font-size: 2.8rem;
+
+     @include mobileOnly {
+        font-size: 1.5rem;
+        padding: 0;
+        margin: 0;
+    }
+
+
+}
+
+
+
+&#NEWS {
+
+ .blogEntries {
+
+    // border-right: 1px solid $greyDark;
+    @include desktop {
+     border-right: 1px solid $greyDark;
+ }
+}
+
+.hoverbox {
+ text-align: left;
+}
+}
+
+
+}
+
+.container {}
+
+
+

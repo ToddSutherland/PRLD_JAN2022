@@ -1,0 +1,59 @@
+
+
+footer {
+	&#mainFoot {
+		background-image: url("../IMG/BG/BOXWOObgDRKmobi.jpg");
+		background-size: 60% auto;
+		background-position: center center;
+		color: black;
+	}
+}
+
+.contactBtns {
+	position: fixed;
+	box-sizing: border-box;
+	z-index: 100;
+	bottom: 0px;
+	right: 0;
+	left: 0;
+	background-color: white;
+	text-align: center;
+	box-shadow: 1px -1px 22px 20px rgba(255,255,255, 1);
+	-webkit-box-shadow: 1px -1px 22px 20px rgba(255,255,255, 1);
+	-moz-box-shadow: 1px -1px 22px 20px rgba(255,255,255, 1);
+}
+a.button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	// background-color: rgba($PRLDgold, .2);
+	border: 1px solid $PRLDgold;
+	display: inline-block;
+	padding:8px 0 6px;
+	margin: 4px 10px;
+	font-family: 'Font Awesome\ 5 Free';
+	line-height: 1.4;
+	font-size: 1.2em;
+	font-weight: 900;
+	text-decoration: none;
+	text-align: center;
+	underline: none;
+	outline: none;
+	color: $PRLDgold;
+
+	&:hover, &:active, &:focus  {
+		// background-color: $BRITEgreen;
+		background-color: rgba($PRLDgold, .7);
+		color: white;
+	}
+
+	&#phone::before {
+		content: "\f095";
+	}
+	&#text::before {
+		content: "\f7cd";
+	}
+	&#mail::before {
+		content: "\f1d8";
+	}
+}

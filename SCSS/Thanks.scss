@@ -1,0 +1,81 @@
+
+
+
+@import '_variables';
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#wrapper {
+	display: flex;
+	justify-content: center;
+	// height: 70vh;
+	align-items: center;
+	// margin: 30px 30px 0;
+	border: 1px double $PRLDgold;
+	padding: 1px;
+	border: 1px double $PRLDgold;
+	padding: 10px;
+	background-color: rgba($PRLDwhite, .1);
+	backdrop-filter: blur(10px) opacity(0.2);
+}
+
+#bigThanks {
+	display: flex;
+	/*height: 220px;*/
+	// width: 450px;
+	padding: 40px 20px;
+	border-radius: 4px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	// background-color: rgba(0, 0, 0, 0.15);
+	backdrop-filter: blur(10px);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.03);
+
+	#coinLogo {
+		display: flex;
+		border: 1px solid $PRLDgold;
+		padding: 4px;
+		border-radius: 50%;
+
+		img{
+			width: 140px;
+			height: 140px;
+		}
+	}
+	button {
+		background-color: rgba($PRLDgold, .1) ;
+		color: $PRLDgreen;
+		transition: all .5s;
+
+		&:hover {
+			background-color: rgba($PRLDgreen, .7);
+			color: white;
+		}
+		&:active {
+			background-color: rgba($PRLDgold, .7);
+			color: white;
+		}
+	}
+
+	h1, h2, h3 {
+		margin: 0;
+	}
+	h1 {
+		font-family: $HEADINGstack;
+		font-weight: normal;
+		font-size: 1.2rem;
+		text-align: center;
+		margin-top: 12px;
+	}
+	h2 {
+
+	}
+	h3 {
+
+	}
+}

@@ -1,0 +1,94 @@
+/*IMPORT VARIABLES*/
+/*COLORS*/
+/*FONTS*/
+/*BACKROUNDS*/
+/*EFFECTS*/
+/* line 17, ../SCSS/_variables.scss */
+.txtShadow, h3.callout {
+  text-shadow: 3px, 3px, 6px, black; }
+
+/* line 41, ../SCSS/_variables.scss */
+.navText, nav {
+  color: #817d6c; }
+  /* line 42, ../SCSS/_variables.scss */
+  .navText font, nav font {
+    family: "Oswald", Helvetica, sans-serif;
+    weight: 400; }
+  /* line 48, ../SCSS/_variables.scss */
+  .navText.a, nav.a {
+    color: #615c47; }
+  /* line 51, ../SCSS/_variables.scss */
+  .navText.a:hover, nav.a:hover {
+    color: #c8de6d; }
+
+/* line 56, ../SCSS/_variables.scss */
+.carousel-caption {
+  font-family: "Oswald", Helvetica, sans-serif;
+  margin: 40% auto 0;
+  text-align: center;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center; }
+
+/* line 70, ../SCSS/_variables.scss */
+.headings, h3 {
+  font-family: "Playfair Display", "Droid Serif", serif;
+  color: #98a239;
+  line-height: 1.5; }
+
+/* line 76, ../SCSS/_variables.scss */
+.textFont, .text {
+  font-family: "Montserrat", "avenir", "noto", sans-serif;
+  color: #817d6c;
+  line-height: 1.7; }
+
+/* line 82, ../SCSS/_variables.scss */
+.leadIn {
+  font-family: "Montserrat", "avenir", "noto", sans-serif;
+  font-family: #615c47;
+  line-height: 1.5;
+  padding-bottom: 10px; }
+
+/* line 91, ../SCSS/_variables.scss */
+nav.MAINnav {
+  font-size: 24px;
+  line-height: 1;
+  padding: 6px 12px; }
+
+/* line 105, ../SCSS/_variables.scss */
+h1.body font {
+  size: 44px;
+  weight: 500; }
+
+/* line 116, ../SCSS/_variables.scss */
+h2.title font {
+  size: 30px;
+  weight: 400; }
+
+/* line 125, ../SCSS/_variables.scss */
+.text font {
+  size: 16px;
+  weight: 300; }
+/* line 130, ../SCSS/_variables.scss */
+.text.intro font {
+  size: 18px;
+  font-weight: 400; }
+
+/* line 139, ../SCSS/_variables.scss */
+h3.callout {
+  color: #e4efff; }
+  /* line 140, ../SCSS/_variables.scss */
+  h3.callout font {
+    size: 36px;
+    weight: 400; }
+
+/* line 149, ../SCSS/_variables.scss */
+.showTitle {
+  color: #e4efff; }
+  /* line 150, ../SCSS/_variables.scss */
+  .showTitle font {
+    family: "Oswald", Helvetica, sans-serif;
+    size: 22px;
+    font-weight: 400; }

@@ -1,0 +1,17 @@
+{
+	"SRVtxt" : [
+		{
+			"title": "Design",
+			"id" : "DESIGN",
+			"content": "This is the information about DESIGN. Dolore adipisicing pariatur nisi ad in laboris voluptate culpa duis in dolor. Reprehenderit incididunt cupidatat consectetur consequat pariatur qui enim id occaecat non officia voluptate in. Pariatur pariatur ex sint proident quis cillum amet aliqua consectetur officia mollit cupidatat irure ut."
+		},{
+			"title": "Installation",
+			"id": "INSTALL",
+			"content": "This is the information about DESIGN. Dolore adipisicing pariatur nisi ad in laboris voluptate culpa duis in dolor. Reprehenderit incididunt cupidatat consectetur consequat pariatur qui enim id occaecat non officia voluptate in. Pariatur pariatur ex sint proident quis cillum amet aliqua consectetur officia mollit cupidatat irure ut."
+		},{
+			"title": "Maintenance",
+			"id": "MAINT",
+			"content": "This is the information about DESIGN. Dolore adipisicing pariatur nisi ad in laboris voluptate culpa duis in dolor. Reprehenderit incididunt cupidatat consectetur consequat pariatur qui enim id occaecat non officia voluptate in. Pariatur pariatur ex sint proident quis cillum amet aliqua consectetur officia mollit cupidatat irure ut."
+		}
+	]
+}
