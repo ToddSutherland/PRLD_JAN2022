@@ -145,125 +145,162 @@ button {
      // padding: 60px 0;
 
      .container {
-        padding: 60px 0;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+
+
+      @media (min-width: 576px) {
+          .container {
+            max-width: 540px;
+        }
     }
 
-    footer {
-    	position: relative;
-    	height: 30vh;
-    	left: 0;
-    	right: 0;
-    	bottom: 0;
-    	background-image: url(../IMG/BG/BOXWOObgDRKmobi.jpg);
-    	background-attachment: fixed;
-    	box-shadow: $boxShadowInset;
+    @media (min-width: 768px) {
+      .container {
+        max-width: 680px;
+    }
+}
 
-        h2 {
-            font-size: 1.5rem;
-            line-height: 2.2rem;
+@media (min-width: 992px) {
+  .container {
+    max-width: 900px;
+}
+}
 
-            @include mobileOnly {
-                font-size: 1rem;
-                line-height: 1.5rem;
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1040px;
+}
+}
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer {
+ position: relative;
+ height: 30vh;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-image: url(../IMG/BG/BOXWOObgDRKmobi.jpg);
+ background-attachment: fixed;
+ box-shadow: $boxShadowInset;
+
+ h2 {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+
+    @include mobileOnly {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+}
+
+}
+
+
+&#SERVICES {
+ display: relative;
+ box-sizing: border-box;
+
+ #servBlockTxt {
+    min-height:180px;
+
+    .copyStuff {
+
+        p {
+
+            @media screen and (min-width: 1024) {
+                column-count: 2;
+                column-gap: 12px;  
             }
 
         }
 
     }
 
+}
+.heading {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: $HEADINGstack;
+    line-height: 1;
+    color: #e4efff;
 
-    &#SERVICES {
-     display: relative;
-     box-sizing: border-box;
+    h2 {
+        text-align: right;
+        color: white;
+        // font-family: $NAVstack;
+        // text-transform: uppercase;
+        margin: -3px 0 0;
 
-     #servBlockTxt {
-        min-height:180px;
-
-        .copyStuff {
-
-            p {
-
-                @media screen and (min-width: 1024) {
-                    column-count: 2;
-                    column-gap: 12px;  
-                }
-
-            }
-
+        @include mobileOnly {
+            color: $PRLDgreen;
         }
-
     }
-    .heading {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.3);
-        font-family: $HEADINGstack;
-        line-height: 1;
-        color: #e4efff;
-        padding: .7rem 1.2rem;
-        // border: 1px solid #fff;
-        // transition: all .3s;
+    // &:hover {
+        //     background-color: rgba($PRLDgreen,.5);
+        // }
 
-        h2 {
-            text-align: right;
-            color: white;
-            // font-family: $NAVstack;
-            // text-transform: uppercase;
-            margin: -3px 0 0;
-        }
-        // &:hover {
-            //     background-color: rgba($PRLDgreen,.5);
-            // }
+        &:not {
 
-            &:not {
-
-                &:hover,
-                a,
-                a:hover {
-                    background-color: rgba(0, 0, 0, .5);
-                }
-            }
-
-        }
-
-
-    }
-
-    .hoverbox {
-        text-align: center;
-        overflow: hidden;
-
-        &:hover {
-
-            a {
-                width: inherit;
-                overflow: hidden;
-
-                img{
-                    transition: transform .4s;
-                    transform: scale(1.2);
-                }
+            &:hover,
+            a,
+            a:hover {
+                background-color: rgba(0, 0, 0, .5);
             }
         }
 
     }
 
 
-    h1 {
-     position: relative;
-     font-family: $HEADINGstack;
-     font-style: italic;
-     font-weight: 400;
-     display: block;
-     text-align: center;
-     font-size: 2.8rem;
+}
 
-     @include mobileOnly {
-        font-size: 1.5rem;
-        padding: 0;
-        margin: 0;
+.hoverbox {
+    text-align: center;
+    overflow: hidden;
+
+    &:hover {
+
+        a {
+            width: inherit;
+            overflow: hidden;
+
+            img{
+                transition: transform .4s;
+                transform: scale(1.2);
+            }
+        }
     }
+
+}
+
+
+h1 {
+ position: relative;
+ font-family: $HEADINGstack;
+ font-style: italic;
+ font-weight: 400;
+ display: block;
+ text-align: center;
+ font-size: 2.8rem;
+
+ @include mobileOnly {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
 
 
 }

@@ -46,13 +46,14 @@ p {
   font-family: "Montserrat", "avenir", "noto", sans-serif;
   color: #817d6c;
   line-height: 1.5; }
-  p .text {
+  p.text {
     text-align: left;
     font-size: .8rem;
     weight: 300; }
-  p .intro {
-    font-size: 18px;
-    font-weight: 400; }
+  p.intro {
+    font-family: "Noto Serif", "Droid Serif", serif !important;
+    font-size: 1.2rem;
+    color: #98a239; }
   p em {
     font-weight: bold;
     color: #d5ae41; }
@@ -302,7 +303,29 @@ section {
   position: relative;
   min-height: 70vh; }
   section .container {
-    padding: 60px 0; }
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    @media (min-width: 576px) {
+      section .container .container {
+        max-width: 540px; } }
+    @media (min-width: 768px) {
+      section .container .container {
+        max-width: 680px; } }
+    @media (min-width: 992px) {
+      section .container .container {
+        max-width: 900px; } }
+    @media (min-width: 1200px) {
+      section .container .container {
+        max-width: 1040px; } }
+  section .container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto; }
   section footer {
     position: relative;
     height: 30vh;
@@ -332,15 +355,16 @@ section {
       position: absolute;
       bottom: 0;
       width: 100%;
-      background-color: rgba(0, 0, 0, 0.3);
       font-family: "Playfair Display", "Droid Serif", serif;
       line-height: 1;
-      color: #e4efff;
-      padding: .7rem 1.2rem; }
+      color: #e4efff; }
       section#SERVICES .heading h2 {
         text-align: right;
         color: white;
         margin: -3px 0 0; }
+        @media (max-width: 767px) {
+          section#SERVICES .heading h2 {
+            color: #98a239; } }
       section#SERVICES .heading:not:hover,
       section#SERVICES .heading:not a,
       section#SERVICES .heading:not a:hover {

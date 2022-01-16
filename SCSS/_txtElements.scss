@@ -1,18 +1,16 @@
 
- // FONT STYLES
+// FONT STYLES
 
 
- .headings {
- 	font-family: $NAVstack;
- 	color: $PRLDgreen;
- 	line-height: 1.5;
- }
-
- .italHead {
-	// font-family: 
+.headings {
+	font-family: $NAVstack;
+	color: $PRLDgreen;
+	line-height: 1.5;
 }
 
-
+.italHead {
+	// font-family: 
+}
 
 .leadIn {
 	font-family: $TEXTstack;
@@ -61,22 +59,21 @@ p {
 	color: $TXTtone;
 	line-height: 1.5;
 	
-	.text {
+	&.text {
 		text-align: left;
 		font-size: .8rem;
 		weight: 300;
 	}
-	.intro {
-		font-size: 18px;
-		font-weight: 400;
+	&.intro {
+		font-family: $INTROserif !important;
+		font-size: 1.2rem;
+		color: $PRLDgreen;
 	}
 	& em {
 		font-weight: bold;
 		color: $PRLDgold;
 	}
 }
-
-
 
 .showTitle {
 	font {
