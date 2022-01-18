@@ -5,6 +5,12 @@
 $tablet-width: 768px;
 $desktop-width: 1024px;
 
+@mixin belowDesktop {
+	@media (max-width: #{$tablet-width - 1px}) {
+		@content;
+	}
+}
+
 @mixin mobileOnly {
 	@media (max-width: #{$tablet-width - 1px}) {
 		@content;
@@ -49,7 +55,7 @@ $boxShadowInset: inset 2px 2px 3px #666;
 
 /*COLORS*/
 $transBlack: rgba(0, 0, 0, .85);
-$greyDark: rgb(150, 150, 150);
+$greyDark: rgb(60,60,60);
 $PRLDgreen: rgb(152, 162, 57);
 $PRLDgold: rgb(213, 174, 65);
 $PRLDwhite: rgb(228, 239, 255);

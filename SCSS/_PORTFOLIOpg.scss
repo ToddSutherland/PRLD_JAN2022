@@ -2,6 +2,10 @@
 //FOR THE PORTFOLIO PAGE
 #PF-SHOW {
 
+	h1 {
+		padding: 20px 0;
+	}
+
 	#displayBoxes {
 
 		h2 {
@@ -22,26 +26,26 @@
 		}
 
 		.hoverLight {
-            // background-color: rgba($greyDark, .2);
-        }
+			// background-color: rgba($greyDark, .2);
+		}
 
-        li {
-        	// max-height: 220px;
-        	overflow: hidden;
+		li {
+			// max-height: 220px;
+			overflow: hidden;
 
-        	img {
-        		// min-height: 242px;
-        		width: 100%;
-        	}
-        }
+			img {
+				// min-height: 242px;
+				width: 100%;
+			}
+		}
 
-        li:not(:first-child) {
-        	@include mobileOnly {
-        		background-color: pink;
-        		display: none !important;
-        		max-height: 200px;
-        	}
-        }
+		li:not(:first-child) {
+			@include mobileOnly {
+				background-color: pink;
+				display: none !important;
+				max-height: 200px;
+			}
+		}
 
-    }
+	}
 }

@@ -42,8 +42,8 @@
 	<script type="text/javascript" src="JS/_TODDuser/_CURRENT/USER2020.js"></script>
 	<script type="text/template" id="picsTemplate">
 		{{#PFOLIO}}
-		<article class="container col-12 col-lg-10 mt-5 mb-0 mx-auto">
-			<div class="col-12 col-md-10 mt-5 mb-0 mx-auto">
+		<article class="col-12 col-lg-10 mt-5 mb-0 mx-auto">
+			<div class="col mt-5 mb-0 mx-auto">
 				<div class="row justify-content-center">
 					<h2>{{title}}</h2>
 					<div class="col-12 m-auto pb-4 pt-0 ">
@@ -52,7 +52,7 @@
 				</div>
 				<p>{{intro}}</p>
 			</div>
-			<ul class="d-flex flex-wrap col col-md-10 mx-auto justify-content-center">
+			<ul class="d-flex flex-wrap col mx-auto justify-content-center">
 				{{#images}}
 				<li class="{{property}} thumbNail d-inline-flex col-12 col-md-3 hoverbox pr-1 p-0 mx-0 mt-0 mb-1" title="{{title}}">
 					<a href="IMG/PFOLIO/{{BIG}}" class="{{property}}" data-lightbox="{{property}}" data-title="{{title}}">
@@ -75,7 +75,7 @@
                 var template = $('#picsTemplate').html();
                 var info = Mustache.render(template, data);
                 $('#displayBoxes').html(info);
-            });
+              });
         // INVISIBLE ON MOBILE
         // var picBoxes = "#displayBoxes ul li:not(:first-child)"
         // $("#displayBoxes ul li").addClass("DTonly");
@@ -87,46 +87,155 @@
         //     var navstuff = Mustache.render(navtemp , data);
         //     $('#PFOsubNav').html(navstuff);
         //   });
-    });
-</script>
-</head>
+      });
+    </script>
+  </head>
 
-<body>
-	<!-- WINTOP: scroll back to top on click LOAD CORRECT CSS -->
-	<a id="winTop" href="#" class="btn btn-lg rounded-circle" role="button" title="Click to return on the top page"><span class="fas fa-chevron-up"></span></a>
+  <body>
+  	<!-- WINTOP: scroll back to top on click LOAD CORRECT CSS -->
+  	<a id="winTop" href="#" class="btn btn-lg rounded-circle" role="button" title="Click to return on the top page"><span class="fas fa-chevron-up"></span></a>
 
+  	<!-- STATIC FOOTER -->
+  	<div id="staticFoot" class="position-fluid d-none d-md-block">
+  		<div class="row">
+  			<h2>Fine Landscape Design & Architecture in New Orleans, Louisiana. Phone or text <span class="phone">504-810-1822</span></h2>
+  		</div>
+  	</div><!-- END STATIC FOOTER -->
 
-	<!-- Navigation -->
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top px-0" id="mainNav">
-		<div class="container">
-			<a class="navbar-brand js-scroll-trigger col-8 col-lg-8 float-left position-relative d-inline-flex" href="#page-top"></a>
-			<a href="http://www.houzz.com/pro/peterraarup/peter-raarup-landscape-design" id="houzzBtn" class="col-1 d-none d-lg-inline-flex">
-				<img src="IMG/LOGOS/HOUZZ.jpg" alt="houzz influencer" class="img-fluid">
-			</a>
-			<button class="btn-sm navbar-toggler navbar-toggler-right mr-3 my-2 p-1" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-				<i class="fa fa-bars"></i>
-				<!-- <span class="navbar-toggler-icon"></span> -->
-			</button>
-			<div class="collapse navbar-collapse pl-3" id="navbarResponsive">
-				<ul class="navbar-nav justify-content-lg-end">
-					<!-- below modified from agency template -->
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="index.html#page-top">HOME</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="index.html#SERVICES">SERVICES</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="index.html#PORTFOLIO">PORTFOLIO</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="index.html#COMPANY">COMPANY</a>
-					</li>
-					<li class="nav-item">
+  	<!-- Navigation -->
+  	<nav class="navbar navbar-expand-lg navbar-light fixed-top px-0" id="mainNav">
+  		<div class="container">
+  			<a class="navbar-brand js-scroll-trigger col-8 col-lg-8 float-left position-relative d-inline-flex" href="#page-top"></a>
+  			<a href="http://www.houzz.com/pro/peterraarup/peter-raarup-landscape-design" id="houzzBtn" class="col-1 d-none d-lg-inline-flex">
+  				<img src="IMG/LOGOS/HOUZZ.jpg" alt="houzz influencer" class="img-fluid">
+  			</a>
+  			<button class="btn-sm navbar-toggler navbar-toggler-right mr-3 my-2 p-1" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+  				<i class="fa fa-bars"></i>
+  				<!-- <span class="navbar-toggler-icon"></span> -->
+  			</button>
+  			<div class="collapse navbar-collapse pl-3" id="navbarResponsive">
+  				<ul class="d-grid justify-content-center navbar-nav">
+  					<!-- below modified from agency template -->
+  					<li class="nav-item d-grid justify-items-center">
+  						<a class="nav-link js-scroll-trigger" href="index.html#page-top">HOME</a>
+  					</li>
+  					<li class="nav-item">
+  						<a class="nav-link js-scroll-trigger" href="index.html#SERVICES">SERVICES</a>
+  					</li>
+  					<li class="nav-item">
+  						<a class="nav-link js-scroll-trigger" href="index.html#COMPANY">COMPANY</a>
+  					</li>
+  					<li class="nav-item d-flex " id="PORTFOLIO">
+  						<a href="#" class="nav-link  js-scroll-trigger" data-toggle="dropdown">PORTFOLIO</a>
+  						<div class="dropdown-menu hideMobile subMenuItems" id="FOLIO">
+  							<ul class="figureGrid">
+  								<li>
+  									<a href="#" class="dropdown-item">
+  										<figure>
+  											<img src="https://picsum.photos/120/80/?grayscale" alt="pools">
+  											<figcaption> pools </figcaption>
+  										</figure>
+  									</a>
+  								</li>
+  								<li>
+  									<a href="#" class="dropdown-item">
+  										<figure>
+  											<img src="https://picsum.photos/120/80/?grayscale" alt="pools">
+  											<figcaption>patios</figcaption>
+  										</figure>
+  									</a>
+  								</li>
+  								<li>
+  									<a href="#" class="dropdown-item">
+  										<figure>
+  											<img src="https://picsum.photos/120/80/?grayscale" alt="pools">
+  											<figcaption>courtyards</figcaption>
+  										</figure>
+  									</a>
+  								</li>
+  								<li>
+  									<a href="#" class="dropdown-item">
+  										<figure>
+  											<img src="https://picsum.photos/120/80/?grayscale" alt="pools">
+  											<figcaption>plantings</figcaption>
+  										</figure>
+  									</a>
+  								</li>
+  								<li>
+  									<a href="#" class="dropdown-item">
+  										<figure>
+  											<img src="https://picsum.photos/120/80/?grayscale" alt="pools">
+  											<figcaption>entryways</figcaption>
+  										</figure>
+  									</a>
+  								</li>
+  								<li>
+  									<a href="#" class="dropdown-item">
+  										<figure>
+  											<!-- <img src="https://picsum.photos/120/80/nature/6/" alt="pools"> -->
+  											<figcaption>entire <br> portfolio</figcaption>
+  										</figure>
+  									</a>
+  								</li>
+  							</ul>
+  							<!-- end of SUBMENU ITEMS -->
+  						</div>
+  					</li>
+
+					<!-- <li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="NEWS.html">NEW &amp; NOTABLE</a>
-					</li>
-					<li class="nav-item hideMobile">
-						<a class="nav-link js-scroll-trigger" href="index.html#CONTACT">CONTACT</a>
+					</li> -->
+					<li class="nav-item dropdown hideMobile">
+						<a href="#" class="nav-link d-none d-md-flex js-scroll-trigger" data-toggle="dropdown">CONTACT</a>
+						<div class="dropdown-menu subMenuItems" id="CNTCT">
+							<form>
+								<div class="row pb-2">
+									<div class="col px-1">
+										<input type="text" class="form-control" placeholder="First name">
+									</div>
+									<div class="col px-1">
+										<input type="text" class="form-control" placeholder="Last name">
+									</div>
+								</div>
+								<div class="row pb-2">
+									<div class="col px-1">
+										<input type="email" class="form-control" placeholder="Email">
+									</div>
+									<div class="col px-1">
+										<input type="number" class="form-control" placeholder="Phone">
+									</div>
+								</div>
+								<div class="row pb-2">
+									<div class="col px-1">
+										<input type="text" class="form-control" placeholder="city">
+									</div>
+									<div class="col-2 px-1">
+										<input type="text" class="form-control" placeholder="state">
+									</div>
+									<div class="col px-1">
+										<input type="text" class="form-control" placeholder="Zip">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12 px-1">
+										<textarea placeholder="Describe yourself here..." rows="5" style="width: 100%" class="form-control">
+										</textarea>
+									</div>
+									<!-- SUBMIT BUTTON -->
+									<div class="d-flex col-11 m-auto pt-3 justify-content-around align-content-start">
+										<!-- CHECKBOX -->
+										<div class="col-6 col-lg-4">
+											<label class="form-check-label">
+												<input class="form-check-input" type="checkbox"> Remember me
+											</label>
+										</div>
+										<!-- ????????? -->
+										<!-- DOES HREF NEED TO POINT TO CGI? -->
+										<a id="sendBtn" role="button" class="col-7 formBtn btn btn-sm m-0" href="thankYou.html" aria-pressed="true">Send</a>
+									</div>
+								</div>
+							</form>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -136,16 +245,16 @@
 	<!-- SHOWCASE/PORTFOLIO -->
 	<div id="portfolio" class="wrapper">
 		<section id="PF-SHOW">
-			<article class="container col-12 col-md-10">
-				<div class="col-12 col-lg-10 mt-5 mb-0 mx-auto">
+			<div class="container col-12 col-md-10">
+				<div class="col-12 col-lg-10 mt-5 mt-md-0 mb-0 mx-auto">
 					<h1>Our Portfolio</h1>
 					<p class="intro">
 						Dolor enim sed non amet dolor dolore dolore ex commodo velit culpa aliquip fugiat voluptate cupidatat elit mollit dolore enim anim esse nostrud veniam excepteur sint amet sunt. Incididunt irure officia officia ex cillum incididunt nulla esse. Est fugiat adipisicing duis nulla occaecat aliqua enim aliquip duis pariatur incididunt qui deserunt officia sint consectetur labore.
 					</p>
 				</div>
-			</article>
-			<div id="displayBoxes">
-				<!-- HOLDING DIV FOR IMAGES -->
+				<div id="displayBoxes">
+					<!-- HOLDING DIV FOR IMAGES -->
+				</div>
 			</div>
 		</section>
 	</div><!-- END OF WRAPPER -->

@@ -65,6 +65,9 @@ p {
     font-size: .8rem;
     font-weight: 400; }
 
+.js-scroll-trigger.active {
+  background-color: #3c3c3c; }
+
 .navbar-brand {
   height: 70px;
   box-sizing: border-box;
@@ -83,7 +86,7 @@ p {
       background-position: left bottom; } }
 
 .navbar-toggler {
-  border: 1px #969696;
+  border: 1px #3c3c3c;
   outline: none;
   border-radius: 50%;
   padding: 6px 10px;
@@ -145,7 +148,6 @@ p {
     box-sizing: border-box;
     height: auto; }
     #navbarResponsive .navbar-nav {
-      margin-right: 15%;
       flex-wrap: nowrap;
       width: 100%; }
       #navbarResponsive .navbar-nav .nav-item .nav-link {
@@ -222,7 +224,11 @@ body {
 
 @media (max-width: 767px) {
   .hideMobile {
-    display: none; } }
+    display: none; }
+    .hideMobile:hover {
+      display: none; }
+    .hideMobile:click, .hideMobile :tap {
+      display: none; } }
 .row {
   box-sizing: border-box;
   margin-left: 0 !important;
@@ -304,21 +310,21 @@ section {
   min-height: 70vh; }
   section .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 1rem 1rem;
     margin-right: auto;
     margin-left: auto; }
     @media (min-width: 576px) {
-      section .container .container {
+      section .container {
         max-width: 540px; } }
     @media (min-width: 768px) {
-      section .container .container {
+      section .container {
         max-width: 680px; } }
     @media (min-width: 992px) {
-      section .container .container {
-        max-width: 900px; } }
+      section .container {
+        max-width: 900px;
+        padding: 120px 0; } }
     @media (min-width: 1200px) {
-      section .container .container {
+      section .container {
         max-width: 1040px; } }
   section .container-fluid {
     width: 100%;
@@ -393,7 +399,7 @@ section {
         margin: 0; } }
   @media (min-width: 1024px) {
     section#NEWS .blogEntries {
-      border-right: 1px solid #969696; } }
+      border-right: 1px solid #3c3c3c; } }
   section#NEWS .hoverbox {
     text-align: left; }
 
@@ -664,6 +670,8 @@ a.button {
           .subMenuItems#FOLIO ul.figureGrid li a figure figcaption {
             color: PRLDwhite; }
 
+#PF-SHOW h1 {
+  padding: 20px 0; }
 #PF-SHOW #displayBoxes h2 {
   font-family: "Playfair Display", "Droid Serif", serif;
   font-size: 1.6rem;

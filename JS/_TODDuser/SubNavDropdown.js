@@ -1,39 +1,30 @@
-// from CODEPEN by pradip Shrestha
 
-// may need some modification...
+// from "rick" at codepen 2022
 
-jQuery(function($) {
+$("button#mainMenu").on("click", function() {
+	if ($("nav#main-nav").hasClass("nav-fade")) {
+		$("nav#main-nav").removeClass("nav-fade");
+	} else {
+		$("nav#main-nav").addClass("nav-fade");
+	}
+});
 
-	/*BELOW IS A STICKY HEADER SCRIPT...*/
- //    $(window).on('scroll', function() {
-	// 	if ($(this).scrollTop() >= 200) {
-	// 		$('.navbar').addClass('fixed-top');
-	// 	} else if ($(this).scrollTop() == 0) {
-	// 		$('.navbar').removeClass('fixed-top');
-	// 	}
-	// });
-	
-	function adjustNav() {
-		var winWidth = $(window).width(),
-			dropdown = $('.dropdown'),
-			dropdownMenu = $('.dropdown-menu');
-		
-		if (winWidth >= 768) {
-			dropdown.on('mouseenter', function() {
-				$(this).addClass('show')
-					.children(dropdownMenu).addClass('show');
-			});
-			
-			dropdown.on('mouseleave', function() {
-				$(this).removeClass('show')
-					.children(dropdownMenu).removeClass('show');
-			});
-		} else {
-			dropdown.off('mouseenter mouseleave');
+$(".navbar-nav li a").on("click", function() {
+	if (!$(this).hasClass("dropdown-toggle")) {
+		$(".navbar-collapse").collapse("hide");
+		if ($("#main-nav").hasClass("nav-fade")) {
+			$("#main-nav").removeClass("nav-fade");
 		}
 	}
-	
-	$(window).on('resize', adjustNav);
-	
-	adjustNav();
+});
+
+$(document).click(function(e) {
+	if ($("nav#main-nav").hasClass("nav-fade")) {
+		if ($(e.target).closest("nav#main-nav").length === 0) {
+			$("nav#main-nav").removeClass("nav-fade");
+			$(".collapse").collapse("hide");
+		} else {
+			return;
+		}
+	}
 });

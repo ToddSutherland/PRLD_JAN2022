@@ -9,9 +9,16 @@ body {
 .hidden {
     display: none;
 }
-@include mobileOnly {
+@include belowDesktop {
     .hideMobile {
         display: none;
+
+        &:hover {
+            display: none;
+        }
+        &:click, :tap {
+            display: none;
+        }
     }
 }
 
@@ -146,35 +153,28 @@ button {
 
      .container {
       width: 100%;
-      padding-right: 15px;
-      padding-left: 15px;
+      padding: 1rem 1rem;
       margin-right: auto;
       margin-left: auto;
 
 
       @media (min-width: 576px) {
-          .container {
-            max-width: 540px;
-        }
+        max-width: 540px;
     }
 
     @media (min-width: 768px) {
-      .container {
         max-width: 680px;
     }
-}
 
-@media (min-width: 992px) {
-  .container {
-    max-width: 900px;
-}
-}
+    @media (min-width: 992px) {
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1040px;
-}
-}
+        max-width: 900px;
+        padding: 120px 0;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1040px;
+    }
 }
 
 .container-fluid {
