@@ -6,3 +6,6 @@ config.codekit3
 ftpsync.settings
 gulpfile.js
 koala-config.json
+IMG/
+.psd
+.jpg
