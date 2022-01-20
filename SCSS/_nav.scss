@@ -1,5 +1,3 @@
-
-
 // @include tabletOnly {}
 // @include tabletUp {}
 // @include desktop {}
@@ -17,6 +15,7 @@
 	background-size: contain;
 	background-position: left;
 	left: 0;
+	padding: 0 0;
 
 	button {
 		z-index: 800;
@@ -31,25 +30,28 @@
 	}
 
 }
+
 .navbar-toggler {
 	border: 1px $greyDark;
 	outline: none;
 	border-radius: 50%;
-	padding: 6px 10px;
-	background-color:none !important;
+	padding: 0 0;
+	background-color: none !important;
 
 
 
-	&:focus, :active {
+	&:focus,
+	:active {
 		outline: none;
 		text-decoration: none;
 		background-color: none;
-		background-color:none !important;
+		background-color: none !important;
 	}
+
 	&:hover {
-		background-color:none !important;
+		background-color: none !important;
 	}
-	
+
 }
 
 
@@ -65,15 +67,19 @@ color: $PRLDgold;
 		family: $NAVstack;
 		weight: 400;
 	}
+
 	// letter-spacing: .9em;
 	color: $TXTtone;
+
 	&.a {
 		color: $TXTrollo;
 	}
+
 	&.a:hover {
 		// color: $BRITEgreen;
 	}
 }
+
 #mainNav {
 	background-color: white;
 	box-shadow: $boxShadowReg;
@@ -85,7 +91,7 @@ color: $PRLDgold;
 	// background-size: contain;
 	// background-position: left;
 	// .container  {
-		
+
 
 		// }
 
@@ -109,192 +115,196 @@ color: $PRLDgold;
 		// 	right: 20px;
 		// }
 
-		#navbarResponsive  {  /*.collapse.navbar-collapse*/
-			// position: relative;
-			// top: 70px;
-			// background-color: $transBlack;
-			// left: 0;
-			// right:0;
-			// box-sizing: border-box;
-			// padding: 10px;
+	/* #navbarResponsive {
+		// .collapse.navbar-collapse 
+		position: relative;
+		top: 70px;
+		background-color: $transBlack;
+		left: 0;
+		right:0;
+		box-sizing: border-box;
+		padding: 10px;
 
-			.navbar-nav {
-				// margin-right: 15%;
-
-
-				// .nav-item {
-
-					// background-color: rgba(white, .4);
-
-					// 	&:hover {
-						// 		color: $PRLDgreen;
-						// 	};
-
-						// 	&:active {
-							// 		color: $PRLDwhite;
-							// 	};
-
-							// 	.nav-link {
-
-								// 		color: $PRLDgold;
-
-								// 		&:hover {
-									// 			color: $PRLDgreen;
-									// 		};
-
-									// 		&:active {
-										// 			color: $PRLDwhite;
-										// 		};
-
-										// 	}
+		.navbar-nav {
+			margin-right: 15%;
 
 
-										// }
+			.nav-item {
 
-										
-									}
+				background-color: rgba(white, .4);
+
+				&:hover {
+					color: $PRLDgreen;
+				};
+
+				&:active {
+					color: $PRLDwhite;
+				};
+
+				.nav-link {
+
+					color: $PRLDgold;
+
+					&:hover {
+						color: $PRLDgreen;
+					};
+
+					&:active {
+						color: $PRLDwhite;
+					};
+
+				}
+
+
+			}
+
+
+		}
+		} */
+
+
+		@include desktop {
+			#mainNav {
+				height: 100px;
+				// background-image: url('../IMG/LOGOS/logoWIDElockup.jpg');
+				// background-repeat: no-repeat;
+				// background-size: contain;
+				// background-position: left; 
+				// .container {
+
+					// }
+				}
+
+				.navbar-brand {
+					height: 90px;
+					box-sizing: border-box;
+					background-image: url('../IMG/LOGOS/logoWIDElockup.jpg');
+					background-repeat: no-repeat;
+					background-size: contain;
+					background-position: left bottom;
+				}
+
+				#navbarResponsive {
+					/*.collapse.navbar-collapse*/
+					position: absolute;
+					background-color: black;
+					top: 100px;
+					left: 0;
+					right: 0;
+					box-sizing: border-box;
+					height: auto;
+
+					.navbar-nav {
+						flex-wrap: nowrap;
+						width: 100%;
+
+						.nav-item {
+
+							.nav-link {
+
+								color: $PRLDgold;
+								padding: 1rem;
+
+								&:hover {
+									background-color: #98a239;
+									color: $PRLDwhite;
 								}
 
+								;
 
-								@include desktop {
-									#mainNav {
-										height: 100px;
-										// background-image: url('../IMG/LOGOS/logoWIDElockup.jpg');
-										// background-repeat: no-repeat;
-										// background-size: contain;
-										// background-position: left; 
-										// .container {
+								&:active {
+									color: $PRLDwhite;
+								}
 
-											// }
-										}
+								;
 
-										.navbar-brand {
-											height: 90px;
-											box-sizing: border-box;
-											background-image: url('../IMG/LOGOS/logoWIDElockup.jpg');
-											background-repeat: no-repeat;
-											background-size: contain;
-											background-position: left bottom;
-										}
-
-										#navbarResponsive  {  /*.collapse.navbar-collapse*/
-											position: absolute;
-											background-color: black;
-											top: 100px;
-											left: 0;
-											right:0;
-											box-sizing: border-box;
-											height: auto;
-
-											.navbar-nav {
-												flex-wrap: nowrap;
-												width: 100%;
-
-												.nav-item {
-
-													.nav-link {
-														
-														color: $PRLDgold;
-														padding: 1rem;
-
-														&:hover {
-															background-color: #98a239;
-															color: $PRLDwhite;
-														};
-
-														&:active {
-															color: $PRLDwhite;
-														};
-														
-													}
-
-													
-												}
-
-												
-											}
-										}
-									}
+							}
 
 
-									#MDblackbar {
-										position: absolute;
-										display: block;
-										background-color: $transBlack;
-										bottom: -40px;
-										left: 0;
-										right: 0;
-									}
+						}
 
 
-									// #logoLockup {
+					}
+				}
+			}
 
+
+			#MDblackbar {
+				position: absolute;
+				display: block;
+				background-color: $transBlack;
+				bottom: -40px;
+				left: 0;
+				right: 0;
+			}
+
+
+			// #logoLockup {
+
+				// }
+				// #brand-container {
+					// 	height: inherit;
+					// }
+
+					// .navbar-brand {
+						// 	display: inline-block;
+						// 	padding-top: 0.5rem;
+						// 	padding-bottom: 0.0rem; 
+						// 	margin-right: 1rem;
+						// 	font-size: 1.25rem;
+						// 	line-height: inherit;
+						// 	white-space: nowrap;
+						// 	max-height: inherit;
+
+
+						// img {
+							// 	display: inline-block;
+							// 	padding-top: 0.3125rem;
+							// 	padding-bottom: 0.3125rem;
+							// 	margin-right: 1rem;
+							// 	font-size: 1.25rem;
+							// 	line-height: inherit;
+							// 	white-space: nowrap;
+							// 	// max-height: inherit;
+
+							// 	&#urn {
+								// 		padding: 6px 0 0;
+								// 		width: 90px;
+								// 		margin-bottom: 0;
+								// 	}
+
+								// 	#PRLDlogo {
+									// 		background-color: black;
+									// 	}
+
+									// 	#houzz {
+
+										// 	}
 										// }
-										// #brand-container {
-											// 	height: inherit;
-											// }
+										// }
 
-											// .navbar-brand {
-												// 	display: inline-block;
-												// 	padding-top: 0.5rem;
-												// 	padding-bottom: 0.0rem; 
-												// 	margin-right: 1rem;
-												// 	font-size: 1.25rem;
-												// 	line-height: inherit;
-												// 	white-space: nowrap;
-												// 	max-height: inherit;
+										// static footer
+										#staticFoot {
+											position: fixed;
+											z-index: 100;
+											padding: 6px 0;
+											left: 0;
+											right: 0;
+											bottom: 0;
 
+											background-color: #000;
 
-												// img {
-													// 	display: inline-block;
-													// 	padding-top: 0.3125rem;
-													// 	padding-bottom: 0.3125rem;
-													// 	margin-right: 1rem;
-													// 	font-size: 1.25rem;
-													// 	line-height: inherit;
-													// 	white-space: nowrap;
-													// 	// max-height: inherit;
+											h2 {
+												font-size: 90%;
+												padding: 0;
+												margin: 0 auto 6px;
+												color: white;
 
-													// 	&#urn {
-														// 		padding: 6px 0 0;
-														// 		width: 90px;
-														// 		margin-bottom: 0;
-														// 	}
+												&#phone {
+													color: $PRLDwhite;
 
-														// 	#PRLDlogo {
-															// 		background-color: black;
-															// 	}
-
-															// 	#houzz {
-
-																// 	}
-																// }
-																// }
-
-																// static footer
-																#staticFoot {
-																	position: fixed;
-																	z-index: 100;
-																	padding: 6px 0;
-																	left: 0;
-																	right: 0;
-																	bottom: 0;
-
-																	background-color: #000;
-
-																	h2 {
-																		font-size: 90%;
-																		padding: 0;
-																		margin: 0 auto 6px;
-																		color: white;
-
-																		&#phone {
-																			color: $PRLDwhite;
-																			
-																		}
-																	}
-
-																	
-																}
+												}
+											}
 
 
+										}

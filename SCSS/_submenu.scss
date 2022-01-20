@@ -1,30 +1,19 @@
 $grid-gutter-width: 6px;
 
-.dropdown {
-	position: relative;
-	display: flex;
-	justify-content: start;
-	// left: 0;
-	// right: 0;
 
-	& a {
-		// 		position: absolute;
-		display: flex;
-		justify-content: center;
-		// 	top:48px;
-		// 	left: 0;
-		// 	right: 0;
+.dropdown { //SOLUTION FROM ALEX JOLIG-CODEPEN
+	.dropdown-menu {
+		transition: all 0.3s;
+		overflow: hidden;
+		transform-origin: top center;
+		transform: scale(1,0);
+		display: block;
 	}
-
-	// 		& div:hover{
-	// 			position: absolute;
-	// 	display: flex;
-	// 	justify-content: center;
-	// 	top:48px;
-	// 	left: 0;
-	// 	right: 0;
-	// }
-
+	&:hover {
+		.dropdown-menu {
+			transform: scale(1);
+		}
+	}
 }
 
 
@@ -37,7 +26,7 @@ $grid-gutter-width: 6px;
 	margin: 0;
 	padding: 30px;
 	box-sizing: border-box;
-	background-color: rgba($PRLDgreen, .9);
+	background-color: rgba($PRLDgreen, .85);
 	top: 47px;
 
 	&:hover {
@@ -53,13 +42,9 @@ $grid-gutter-width: 6px;
 
 		&:hover {
 			display: flex;
-
 		}
 
-
-
 		form {
-
 			::placeholder {
 				color: white;
 			}
@@ -67,13 +52,18 @@ $grid-gutter-width: 6px;
 			input,
 			#State,
 			textarea {
-				background-color: rgba($PRLDwhite, .15);
+				background-color: rgba($PRLDwhite, .25);
 				color: white;
 				border: none;
+
+				&:hover {
+					background-color: rgba($PRLDwhite, .4);
+				}
 			}
 
 			textarea {
 				max-height: 80px;
+
 			}
 		}
 
@@ -88,14 +78,14 @@ $grid-gutter-width: 6px;
 			transform: all .5s;
 
 			&:hover {
-				background-color: lighten($PRLDgreen, 30%);
-				color: darken($PRLDgold, 30%);
+				background-color: lighten($PRLDgreen, 20%);
+				color: darken($PRLDgreen, 30%);
 			}
 
-			// &:active {
-			// 	background-color: $PRLDgold;
-			// 	color: white;
-			// }
+			&:active {
+				background-color: $PRLDgold;
+				color: white;
+			}
 		}
 	}
 
@@ -108,9 +98,6 @@ $grid-gutter-width: 6px;
 		&:hover {
 			display: grid;
 		}
-		// &:click {
-		// 	display: grid;
-		// }
 
 
 
@@ -125,9 +112,10 @@ $grid-gutter-width: 6px;
 			// background-color: rgba(0, 0, 0, .2);
 
 			li {
-				// padding: 10px;
+				display: flex;
 				box-sizing: border-box;
 				color: $PRLDwhite !important;
+				background-color: rgba($PRLDwhite, .25);
 
 				&:hover {
 					color: $PRLDgold !important;
@@ -135,17 +123,19 @@ $grid-gutter-width: 6px;
 
 
 				a {
-					// @extend .navText;
+					display: flex;
 					padding: 20px;
 					text-decoration: none;
 					font-variant-caps: normal;
 					color: $PRLDwhite; // !important;
-					background-color: rgba($PRLDwhite, .15);
-
+					background-color: rgba($PRLDgreen, .15);
+					height: 100%;
+					align-items: flex-end;
 
 					&:hover {
-						background-color: darken($PRLDgreen, 5%);
-						color: $PRLDwhite; //!important;
+						background-color: rgba($PRLDwhite, .3);
+						color: $transBlack; //!important;
+						// transform: all .5s;
 
 					}
 

@@ -75,7 +75,8 @@ p {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
-  left: 0; }
+  left: 0;
+  padding: 0 0; }
   .navbar-brand button {
     z-index: 800; }
   @media (min-width: 768px) {
@@ -89,9 +90,10 @@ p {
   border: 1px #3c3c3c;
   outline: none;
   border-radius: 50%;
-  padding: 6px 10px;
+  padding: 0 0;
   background-color: none !important; }
-  .navbar-toggler:focus, .navbar-toggler :active {
+  .navbar-toggler:focus,
+  .navbar-toggler :active {
     outline: none;
     text-decoration: none;
     background-color: none;
@@ -123,9 +125,52 @@ p {
     #mainNav li a:hover {
       color: #d5ae41; }
 
-#navbarResponsive {
-  /*.collapse.navbar-collapse*/ }
+	/* #navbarResponsive {
+		// .collapse.navbar-collapse 
+		position: relative;
+		top: 70px;
+		background-color: $transBlack;
+		left: 0;
+		right:0;
+		box-sizing: border-box;
+		padding: 10px;
 
+		.navbar-nav {
+			margin-right: 15%;
+
+
+			.nav-item {
+
+				background-color: rgba(white, .4);
+
+				&:hover {
+					color: $PRLDgreen;
+				};
+
+				&:active {
+					color: $PRLDwhite;
+				};
+
+				.nav-link {
+
+					color: $PRLDgold;
+
+					&:hover {
+						color: $PRLDgreen;
+					};
+
+					&:active {
+						color: $PRLDwhite;
+					};
+
+				}
+
+
+			}
+
+
+		}
+		} */
 @media (min-width: 1024px) {
   #mainNav {
     height: 100px; }
@@ -591,13 +636,14 @@ a.button {
   a.button#mail::before {
     content: "\f1d8"; }
 
-.dropdown {
-  position: relative;
-  display: flex;
-  justify-content: start; }
-  .dropdown a {
-    display: flex;
-    justify-content: center; }
+.dropdown .dropdown-menu {
+  transition: all 0.3s;
+  overflow: hidden;
+  transform-origin: top center;
+  transform: scale(1, 0);
+  display: block; }
+.dropdown:hover .dropdown-menu {
+  transform: scale(1); }
 
 /*SUBMENU ITEMS*/
 .subMenuItems {
@@ -606,7 +652,7 @@ a.button {
   margin: 0;
   padding: 30px;
   box-sizing: border-box;
-  background-color: rgba(152, 162, 57, 0.9);
+  background-color: rgba(152, 162, 57, 0.85);
   top: 47px; }
   .subMenuItems:hover {
     display: grid; }
@@ -621,9 +667,13 @@ a.button {
     .subMenuItems#CNTCT form input,
     .subMenuItems#CNTCT form #State,
     .subMenuItems#CNTCT form textarea {
-      background-color: rgba(228, 239, 255, 0.15);
+      background-color: rgba(228, 239, 255, 0.25);
       color: white;
       border: none; }
+      .subMenuItems#CNTCT form input:hover,
+      .subMenuItems#CNTCT form #State:hover,
+      .subMenuItems#CNTCT form textarea:hover {
+        background-color: rgba(228, 239, 255, 0.4); }
     .subMenuItems#CNTCT form textarea {
       max-height: 80px; }
     .subMenuItems#CNTCT a#sendBtn {
@@ -636,8 +686,11 @@ a.button {
       border-radius: 0;
       transform: all .5s; }
       .subMenuItems#CNTCT a#sendBtn:hover {
-        background-color: #d5db99;
-        color: #665117; }
+        background-color: #c5ce73;
+        color: #2e3111; }
+      .subMenuItems#CNTCT a#sendBtn:active {
+        background-color: #d5ae41;
+        color: white; }
   .subMenuItems#FOLIO {
     position: fixed;
     right: 0;
@@ -654,19 +707,24 @@ a.button {
       grid-gap: 6px;
       padding: 0; }
       .subMenuItems#FOLIO ul.figureGrid li {
+        display: flex;
         box-sizing: border-box;
-        color: #e4efff !important; }
+        color: #e4efff !important;
+        background-color: rgba(228, 239, 255, 0.25); }
         .subMenuItems#FOLIO ul.figureGrid li:hover {
           color: #d5ae41 !important; }
         .subMenuItems#FOLIO ul.figureGrid li a {
+          display: flex;
           padding: 20px;
           text-decoration: none;
           font-variant-caps: normal;
           color: #e4efff;
-          background-color: rgba(228, 239, 255, 0.15); }
+          background-color: rgba(152, 162, 57, 0.15);
+          height: 100%;
+          align-items: flex-end; }
           .subMenuItems#FOLIO ul.figureGrid li a:hover {
-            background-color: #868f32;
-            color: #e4efff; }
+            background-color: rgba(228, 239, 255, 0.3);
+            color: rgba(0, 0, 0, 0.85); }
           .subMenuItems#FOLIO ul.figureGrid li a figure figcaption {
             color: PRLDwhite; }
 

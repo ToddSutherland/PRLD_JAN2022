@@ -171,9 +171,9 @@
           <img src="IMG/LOGOS/HOUZZ.jpg" alt="houzz influencer" class="img-fluid">
         </a>
         <button class="btn-sm navbar-toggler navbar-toggler-right mr-3 my-2" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa fa-bars"></i>
-          <!-- <span class="navbar-toggler-icon"></span> -->
-        </button>
+          <!-- <i class="fa fa-bars"></i> -->
+          <span class="navbar-toggler-icon"></span>
+        </button>     
         <div class="collapse navbar-collapse pl-3" id="navbarResponsive">
           <ul class="d-grid justify-content-center navbar-nav">
             <!-- below modified from agency template -->
@@ -186,62 +186,65 @@
             <li class="nav-item d-flex">
               <a href="#COMPANY" class="nav-link  js-scroll-trigger" href="#COMPANY">COMPANY</a>
             </li>
-            <li class="nav-item d-flex" id="PORTFOLIO">
+            <!-- <li class="nav-item d-flex" id="PORTFOLIO">
               <a href="#" class="nav-link  js-scroll-trigger" data-toggle="dropdown">PORTFOLIO</a>
-              <div class="dropdown-menu subMenuItems" id="FOLIO">
-                <ul class="figureGrid">
-                  <li>
-                    <a href="#" class="dropdown-item">
-                      <figure>
-                        <img src="https://picsum.photos/120/80/?grayscale" alt="pools">
-                        <figcaption> pools </figcaption>
-                      </figure>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown-item">
-                      <figure>
-                        <img src="https://picsum.photos/120/80/?grayscale" alt="pools">
-                        <figcaption>patios</figcaption>
-                      </figure>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown-item">
-                      <figure>
-                        <img src="https://picsum.photos/120/80/?grayscale" alt="pools">
-                        <figcaption>courtyards</figcaption>
-                      </figure>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown-item">
-                      <figure>
-                        <img src="https://picsum.photos/120/80/?grayscale" alt="pools">
-                        <figcaption>plantings</figcaption>
-                      </figure>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown-item">
-                      <figure>
-                        <img src="https://picsum.photos/120/80/?grayscale" alt="pools">
-                        <figcaption>entryways</figcaption>
-                      </figure>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown-item">
-                      <figure>
-                        <!-- <img src="https://picsum.photos/120/80/nature/6/" alt="pools"> -->
-                        <figcaption>entire <br> portfolio</figcaption>
-                      </figure>
-                    </a>
-                  </li>
-                </ul>
-                <!-- end of SUBMENU ITEMS -->
-              </div>
-            </li>
+              <div class="dropdown-menu subMenuItems" id="FOLIO"> -->
+                <li class="nav-item dropdown hideMobile" id="PORTFOLIO">
+                  <a href="#" class="nav-link d-none d-md-flex js-scroll-trigger" data-toggle="dropdown">PORTFOLIO</a>
+                  <div class="dropdown-menu subMenuItems" id="FOLIO">
+                    <ul class="figureGrid">
+                      <li>
+                        <a href="#" class="dropdown-item">
+                          <figure>
+                            <img src="https://picsum.photos/120/80/?grayscale" alt="pools">
+                            <figcaption> pools </figcaption>
+                          </figure>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">
+                          <figure>
+                            <img src="https://picsum.photos/120/80/?grayscale" alt="pools">
+                            <figcaption>patios</figcaption>
+                          </figure>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">
+                          <figure>
+                            <img src="https://picsum.photos/120/80/?grayscale" alt="pools">
+                            <figcaption>courtyards</figcaption>
+                          </figure>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">
+                          <figure>
+                            <img src="https://picsum.photos/120/80/?grayscale" alt="pools">
+                            <figcaption>plantings</figcaption>
+                          </figure>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">
+                          <figure>
+                            <img src="https://picsum.photos/120/80/?grayscale" alt="pools">
+                            <figcaption>entryways</figcaption>
+                          </figure>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">
+                          <figure>
+                            <!-- <img src="https://picsum.photos/120/80/nature/6/" alt="pools"> -->
+                            <figcaption>entire <br> portfolio</figcaption>
+                          </figure>
+                        </a>
+                      </li>
+                    </ul>
+                    <!-- end of SUBMENU ITEMS -->
+                  </div>
+                </li>
           <!-- <li class="nav-item d-flex">
                 <a href="#" class="nav-item nav-link active" href="#NEWS">NEW &amp; NOTABLE</a>
               </li> -->
@@ -262,7 +265,7 @@
                         <input type="email" class="form-control" placeholder="Email">
                       </div>
                       <div class="col px-1">
-                        <input type="number" class="form-control" placeholder="Phone">
+                        <input type="phone" class="form-control" placeholder="Phone">
                       </div>
                     </div>
                     <div class="row pb-2">
@@ -382,7 +385,7 @@
               <div class="col-12 col-md-10 m-0">
                 <div class="row d-flex">
                   <div class="col-md-12">
-                    <h1>Our Company</h1>
+                    <h1>Our Services</h1>
                   </div>
                   <!-- FLOURISH -->
                   <div class="col-12 col-sm-10 mx-auto my-3 pb-2 pb-md-3 pt-0 ">
