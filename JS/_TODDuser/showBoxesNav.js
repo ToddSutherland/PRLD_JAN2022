@@ -13,10 +13,10 @@ function showBoxes(event) {
   $('nav.subNav ul li').removeClass('navActive');
   $(event.target).addClass('navActive');
 
-  // alert(event.target.id);
   var thisItem = (event.target.id);
 
   var descrip = $(event.target).attr("title");
+  
   $('#asideContent p').text(descrip);
 
     var selection = $(event.target).attr('id'); //gets the id selector from the nav items...

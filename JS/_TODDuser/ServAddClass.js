@@ -19,7 +19,7 @@ function servCopy(event){
 	
 	var textHolder = $('#servBlockTxt');
 	
-	copyStuff = $('.copyStuff');//.html();
+	var copyStuff = $('.copyStuff');//.html();
 	// copyStuff.addClass('hidden');
 
 	var descrip = $('.copyStuff.' + servID)//.html();
