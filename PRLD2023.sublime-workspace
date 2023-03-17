@@ -1,0 +1,970 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"text",
+				"text-rendering\tproperty"
+			],
+			[
+				"lsit-s",
+				"list-style\tproperty"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"list-s",
+				"list-style-type\tproperty"
+			],
+			[
+				"htmlboiler",
+				"htmlboiler\thtmlboiler"
+			],
+			[
+				"bsh",
+				"bxsh\tbox-shadow: ${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color};"
+			],
+			[
+				"tr",
+				"transform\tCSS - transform: ;"
+			],
+			[
+				"tra",
+				"translateY"
+			],
+			[
+				"fad",
+				"fadeIn"
+			],
+			[
+				"slide",
+				"slideRightIn"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"ea",
+				"easeOut"
+			],
+			[
+				"sli",
+				"slideLeftIn"
+			],
+			[
+				"mar",
+				"mar\tCSS - margin: 0;"
+			],
+			[
+				"transl",
+				"translateX"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"CHIL",
+				"child1"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"transla",
+				"translateY"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"thi",
+				"thirdFN"
+			],
+			[
+				"secon",
+				"secondFN"
+			],
+			[
+				"sele",
+				"selectedFrame"
+			],
+			[
+				"rotat",
+				"rotateImages"
+			],
+			[
+				"ro",
+				"rotateImages"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"id",
+				"idName"
+			],
+			[
+				"cur",
+				"CurFrame"
+			],
+			[
+				"th",
+				"thumbSquare"
+			],
+			[
+				"display",
+				"displayBoxes"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"lef",
+				"lef\tCSS - left: 0;"
+			],
+			[
+				"ser",
+				"serif"
+			],
+			[
+				"n",
+				"normal"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"section",
+				"sectionSpace"
+			],
+			[
+				"backgroun",
+				"background-position"
+			],
+			[
+				"wi",
+				"winWidth"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"pee",
+				"peepThumbHeight"
+			],
+			[
+				"C",
+				"color"
+			],
+			[
+				"win",
+				"winHeight"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"my",
+				"myWork"
+			],
+			[
+				"cont",
+				"contactForm"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"header",
+				"headerHeight"
+			],
+			[
+				"re",
+				"RENDERED"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"ri",
+				"rig\tCSS - right: 0;"
+			],
+			[
+				"prel",
+				"preloadOffsetY"
+			],
+			[
+				"pre",
+				"preloadOffsetX"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"fon",
+				"fon\tCSS - font: 1em/1.5 sans-serif;"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"le",
+				"lef\tCSS - left: 0;"
+			],
+			[
+				"loo",
+				"loopjs\tjQuery loop function"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"aut",
+				"auto"
+			],
+			[
+				"bg",
+				"background-position"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"fan",
+				"fancybox"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"main",
+				"main"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"san",
+				"sans-serif"
+			],
+			[
+				"fr",
+				"FranklinGothicW01-No-2R"
+			],
+			[
+				"San",
+				"sans-serif"
+			],
+			[
+				"li",
+				"lighter"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"info",
+				"infoHeight"
+			],
+			[
+				"nav",
+				"navBtn"
+			],
+			[
+				"wind",
+				"windowWidth"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"thumb",
+				"thumbWidth"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"sf",
+				"sFontBask\tSerifFont2"
+			],
+			[
+				"ul",
+				"ul\t<ul>"
+			],
+			[
+				"sec",
+				"section\tTag"
+			],
+			[
+				"displ",
+				"displayImages"
+			],
+			[
+				"bol",
+				"bold"
+			],
+			[
+				"fix",
+				"fixed"
+			],
+			[
+				"scri",
+				"script\tTag"
+			],
+			[
+				"capti",
+				"caption\tTag"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"non",
+				"none"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"ss",
+				"ssFontArial\tSansSerifFont2"
+			],
+			[
+				"link",
+				"link\tlink - stylesheet"
+			],
+			[
+				"hr",
+				"href\tAttr"
+			],
+			[
+				"asi",
+				"aside\tTag"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"head",
+				"head\tTag"
+			],
+			[
+				"arti",
+				"article\tTag"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"bl",
+				"block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 32749,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nLiveServer\n----------\n\n  Thank you for installing Live Server! 👋\n\n  For usage instructions, head over to the GitHub repository of this project:\n  https://github.com/molnarmark/sublime-live-server",
+			"settings":
+			{
+				"buffer_size": 246,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"insert",
+					{
+						"characters": "Package Control Messages\n========================\n\nLiveServer\n----------\n\n  Thank you for installing Live Server! 👋\n\n  For usage instructions, head over to the GitHub repository of this project:\n  https://github.com/molnarmark/sublime-live-server"
+					},
+					"EAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAAD0AAAAAAAAAAAAAAD0AAAAAAAAAPgAAAAAAAAAAAAAAPgAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEkAAAAAAAAAAAAAAEkAAAAAAAAASgAAAAAAAAAAAAAASgAAAAAAAABzAAAAAAAAAAAAAABzAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAdQAAAAAAAAAAAAAAdQAAAAAAAADCAAAAAAAAAAAAAADCAAAAAAAAAMMAAAAAAAAAAAAAAMMAAAAAAAAA9gAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"jquery",
+				"Snippet: JQUERYsetup"
+			],
+			[
+				"snipp json",
+				"Snippet: JSONarrayDescend"
+			],
+			[
+				"Snippet: json",
+				"Snippet: JSON-BOILER"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"insert",
+				"Insert Filepath"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"url",
+				"FTPSync: Browse from current folder"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"SFTP",
+				"Sublime Files: Open Navigator"
+			],
+			[
+				"FTP",
+				"Sublime Files: Open Navigator"
+			],
+			[
+				"sftp",
+				"Snippet: for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"package control:rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"valid",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"jqu",
+				"Snippet: JQUERYsetup"
+			],
+			[
+				"scroll",
+				"Snippet: listen for scroll evt"
+			],
+			[
+				"rgb",
+				"Snippet: CSS - rgba()"
+			],
+			[
+				"color",
+				"Snippet: CSS - tap-highlight-color: hsla(0,0%,0%,.5);"
+			],
+			[
+				"Snippet: pre",
+				"Snippet: preloadJS"
+			],
+			[
+				"",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: SansSerifFont1"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: style",
+				"Snippet: link - stylesheet"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/toddsutherland/Dropbox/HOST/PRLD_Feb2023"
+	],
+	"file_history":
+	[
+		"/Users/toddsutherland/Dropbox/HOST/TSX3D/ftpsync.settings",
+		"/Users/toddsutherland/Dropbox/HOST/TSX3D/ScenicResume/cvScenic.html",
+		"/Users/toddsutherland/Dropbox/HOST/INACTIVE/TSX3D/ScenicResume/SASS/cv.scss",
+		"/Users/todd/Sites/_TSX3D/ScenicResume/SASS/cv.scss",
+		"/Users/todd/Sites/_TSX3D/ftpsync.settings",
+		"/Users/todd/Sites/_TSX3D/ScenicResume/SASS/FA-SCSS/_v4-shims.scss",
+		"/Users/todd/Sites/_TSX3D/ScenicResume/SASS/FA-SCSS/_brands.scss",
+		"/Users/todd/Sites/_TSX3D/ScenicResume/SASS/FA-SCSS/_fontawesome.scss",
+		"/Users/todd/Sites/_TSX3D/ScenicResume/SASS/FA-SCSS/_regular.scss",
+		"/Users/todd/Sites/_TSX3D/ScenicResume/SASS/FA-SCSS/_solid.scss",
+		"/Users/todd/Library/Application Support/Sublime Text 3/Packages/User/slideToggle.sublime-snippet",
+		"/Users/todd/Sites/_TSX3D/ScenicResume/cvScenic1.html",
+		"/Users/todd/Sites/_TSX3D/ScenicResume/SASS/scss/_variables.scss",
+		"/Users/todd/Sites/_TSX3D/ScenicResume/CSS/cv.css",
+		"/Users/todd/Sites/_TSX3D/ScenicResume/SASS/_VARIABLES",
+		"/Users/todd/Sites/_TSX3D/ScenicResume/PDF/cvSCENIC_2019.pdf",
+		"/Users/todd/Sites/_TSX3D/BentoBurgerCHIP/.htaccess",
+		"/Users/todd/Sites/_TSX3D/ScenicResume/.htaccess",
+		"/Users/todd/Sites/_toddsutherland.com/index.html",
+		"/Users/todd/Sites/LSE_2019_BS4/gulpfile.js",
+		"/Users/todd/Sites/_LSE_2019/RESOURCE/JSONtest/untitled.json",
+		"/Users/todd/Sites/_LSE_2019/RESOURCE/JSONtest/untitled.html",
+		"/Users/todd/Sites/_LSE_2019/RESOURCE/JSONtest/.json",
+		"/Users/todd/Sites/_LSE_2019/FLASH2HTML.sublime-project",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/PLAYTIME/ARRAYplay.html",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/CSS/BANNERstylesSTRICT5.css",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/VELOCITY/VELOCHAIN_strict5.js",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/VELOCITY/BANNERhtmlSTRICT5.html",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/VELOCITY/TSiframe.html",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/TSiframe.html",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/PLAYTIME/ARRAYtest.js",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/VELOCITY/VELOCHAIN_strict1.js",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/VELOCITY/VELOCHAIN_strict2.js",
+		"/Users/todd/Library/Application Support/Sublime Text 3/Packages/User/loopjs.sublime-snippet",
+		"/Users/todd/Library/Application Support/Sublime Text 3/Packages/User/insetShadow.sublime-snippet",
+		"/Users/todd/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/bannerTest2.html",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/CSS/BANNERstylesSTRICT1.css",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/BANNERstyles.css",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/VELOCITY/BANNERstylesVELO.css",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/bannerTest5.html",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/banner layouts.indd",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/landscape-excellence/index.html",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/HTML5bannerTest/VELOCITY/bannerTestVELOCITY.html",
+		"/Applications/MAMP/htdocs/_LSE_2013/_2013/index.html",
+		"/Applications/MAMP/htdocs/_LSE_2013/_2013/CONTACT_2013.php",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/GSAP/GSAPplay.html",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/VELOCITY/VMDplaytime.html",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/_LSE_2015/_2013/_CSS/_LSE2013_master.css",
+		"/Users/todd/Documents/TODD_files/___WEB_SANDBOX/_LSE_2015/_2013/index2015a.html",
+		"/Applications/MAMP/htdocs/HTML5bannerTest/BANNERstyles5.css",
+		"/Applications/MAMP/htdocs/HTML5bannerTest/bannerTest5.html",
+		"/Applications/MAMP/htdocs/HTML5bannerTest/bannerTest3.html",
+		"/Applications/MAMP/htdocs/_TODDSUTHERLAND2015/index.html",
+		"/Applications/MAMP/htdocs/_TODDSUTHERLAND2015/CSS_sept10/DT_sept10.css",
+		"/Applications/MAMP/htdocs/_TODDSUTHERLAND2015/SCRIPTS/_PORTFOLIO/simpleRotator_sept10.js",
+		"/Applications/MAMP/htdocs/_TODDSUTHERLAND2015/CSS_aug31/DT_aug31.css",
+		"/Applications/MAMP/htdocs/_TODDSUTHERLAND2015/SCRIPTS/_PORTFOLIO/TODD_sept11.js",
+		"/Applications/MAMP/htdocs/_TODDSUTHERLAND2015/index_aug31.html",
+		"/Applications/MAMP/htdocs/_TODDSUTHERLAND2015/SCRIPTS/_PORTFOLIO/TODD_aug31.js",
+		"/Applications/MAMP/htdocs/_TODDSUTHERLAND2015/SCRIPTS/_PORTFOLIO/simpleRotator.js",
+		"/Applications/MAMP/htdocs/_TODDSUTHERLAND2015/SCRIPTS/_PORTFOLIO/simpleRotator_BG.js",
+		"/Applications/MAMP/htdocs/_TODDSUTHERLAND2015/CSS_aug31/DT_july24.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/ftpsync.settings",
+		"/Applications/MAMP/htdocs/TODDS_2015/CONTACT.php",
+		"/Applications/MAMP/htdocs/TODDS_2015/index.html",
+		"/Applications/MAMP/htdocs/TODDS_2015/SCRIPTS/_PORTFOLIO/simpleRotator.js",
+		"/Applications/MAMP/htdocs/TODDS_2015/CSS/DT_july24.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/SCRIPTS/_PORTFOLIO/TODD_v12.js",
+		"/Applications/MAMP/htdocs/TODDS_2015/CSS/phone_aug11.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/CSS/tablet_july24.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/index_x1.html",
+		"/Applications/MAMP/htdocs/TODDS_2015/SCRIPTS/_PORTFOLIO/simpleRotator_x.js",
+		"/Applications/MAMP/htdocs/TODDS_2015/SCRIPTS/_PORTFOLIO/TODD_v13.js",
+		"/Applications/MAMP/htdocs/TODDS_2015/CSS/kickngo_phone_aug11.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/CSS/kickngo_phone_july24.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/MOBILE/index.html",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/MOBILE/MOBILE.html",
+		"/Applications/MAMP/htdocs/TODDS_2015/SCRIPTS/LIGHTBOX/js/lightbox.js",
+		"/Applications/MAMP/htdocs/TODDS_2015/CSS/kickngo_tablet_july24.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/SCRIPTS/LIGHTBOX/css/lightbox_MOD1a.css",
+		"/Users/todd/Desktop/DRIFT/drift.html",
+		"/Applications/MAMP/htdocs/TODDS_2015/index16.html",
+		"/Applications/MAMP/htdocs/TODDS_2015/SCRIPTS/LIGHTBOX/css/lightbox_MOD1.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/CSS/kickngo_DT_july24.css",
+		"/Users/todd/Desktop/mailfooter.html",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/RESUME/index.html",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/RESUME/RES_CSS/resume_tablet_aug3.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/RESUME/RESUME2015a.html",
+		"/Applications/MAMP/htdocs/landscape-excellence/_MOBILE/MOBILE.html",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/RESUME/RES_CSS/resume_DT_jun28.css",
+		"/Users/todd/.Trash/kickngo_phone_jun28.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/RESUME/RES_CSS/resume_phone_jun28.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/index10.html",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/RESUME/RES_CSS/kickngo_phone_jun28.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/RESUME/SCRIPTS/_PORTFOLIO/RES_SCRIPT.js",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/RESUME/RES_CSS/kickngo_DT_jun28.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/RESUME/RES_CSS/kickngo_tablet_jun28.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/RESUME/RES_SCRIPT.js",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/RESUME/SCRIPTS/_PORTFOLIO/TODD_v10.js",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/index9.html",
+		"/Applications/MAMP/htdocs/TODDS_2015/CSS/kickngo_phone_jun28.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/CSS/kickngo_tablet_jun28.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/SCRIPTS/_PORTFOLIO/TODD_v10.js",
+		"/Applications/MAMP/htdocs/TODDS_2015/CSS/kickngo_DT_jun28.css",
+		"/Users/todd/Documents/TODD_files/___EPUBvarious/SAMPLE_BERNSTEIN/For eBook Sample/RENDERED/EPUB/BERNSTEIN_transitions/OEBPS/For_eBook_Sample_TS1-1.xhtml",
+		"/Applications/MAMP/htdocs/TODDS_2015/CSS/__OLD/kickngo_tablet_jun23.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/SCRIPTS/_PORTFOLIO/OLD/TODD_v7.js",
+		"/Applications/MAMP/htdocs/TODD_WORKING/TODDS_2015_x/SCRIPTS/_PORTFOLIO/TODD.js",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/FORM/CSS/FORM_DT.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/HTML/FORM/CSS/FORM_HANDHELD.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/CSS/kickngo_DT_jun23.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/index9.html",
+		"/Applications/MAMP/htdocs/TODDS_2015/SCRIPTS/_PORTFOLIO/TODD_v9.js",
+		"/Applications/MAMP/htdocs/TODDS_2015/CSS/_masterStyles.css",
+		"/Applications/MAMP/htdocs/TODDS_2015/IMG/SOCICONS/SOCICONS_2015-assets/FABOO.png",
+		"/Applications/MAMP/htdocs/TODDS_2015/IMG/SOCICONS/SOCICONS_2015-assets/LINKD.png",
+		"/Applications/MAMP/htdocs/TODDS_2015/IMG/SOCICONS/SOCICONS_2015-assets/PINT.png",
+		"/Applications/MAMP/htdocs/TODDS_2015/IMG/SOCICONS/SOCICONS_2015-assets/TWIT.png",
+		"/Users/todd/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/todd/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/todd/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/todd/Documents/TODD_files/___CURRENT/__NORMAN/ALEPH/HTML/ALEPH.html",
+		"/Applications/MAMP/htdocs/TODDS_2015/SCRIPTS/_PORTFOLIO/TODD_v7 2.js",
+		"/Applications/MAMP/htdocs/TODDS_2015/SCRIPTS/_PORTFOLIO/TODD_scrolltop.js",
+		"/Users/todd/Library/Application Support/Sublime Text 3/Packages/User/_EPUB/fontfaceBlock.sublime-snippet",
+		"/Users/todd/Library/Application Support/Sublime Text 3/Packages/User/_EPUB/CONTENT_OPF_FONTS.sublime-snippet",
+		"/Users/todd/Documents/TODD_files/___EPUBvarious/TUTORIALS/2015/Ex_Files_Id_CC_EPUB/Chapter_01/01_03 inside an epub/History-of-Art/META-INF/encryption.xml"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 32749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1706,
+								1706
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 120.0
+	},
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "PRLD2023.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/boilerplate.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
